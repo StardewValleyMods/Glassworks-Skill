@@ -1,4 +1,6 @@
-﻿using Glassworks.Skills;
+﻿using Glassworks.Patches;
+using Glassworks.Skills;
+using HarmonyLib;
 using SpaceCore;
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
@@ -11,6 +13,9 @@ public class ModEntry : Mod
     public override void Entry(IModHelper helper)
     {
         I18n.Init(helper.Translation);
+
+        Harmony harmony = new(ModManifest.UniqueID);
+        XpPatches.Apply(harmony);
 
         helper.Events.GameLoop.GameLaunched += OnGameLaunched;
 
