@@ -11,11 +11,11 @@ public class MasterpieceProfession : SpaceCore.Skills.Skill.Profession
 
     public override string GetName()
     {
-        return I18n.Profession_Glassworks_ArtistCapstoneB_Name();
+        return I18n.Profession_Glassworks_Masterpiece_Name();
     }
 
     public override string GetDescription()
     {
-        return I18n.Profession_Glassworks_ArtistCapstoneB_Description();
+        return I18n.Profession_Glassworks_Masterpiece_Description();
     }
 }

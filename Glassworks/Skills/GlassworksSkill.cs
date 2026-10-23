@@ -11,10 +11,10 @@ public class GlassworksSkill : SpaceCore.Skills.Skill
 
     private ArtistProfession Artist { get; set; }
     private GlassmithProfession Glassmith { get; set; }
-    private GenerousArtistProfession GenerousArtist { get; set; }
+    private CharitableProfession Charitable { get; set; }
     private MasterpieceProfession Masterpiece { get; set; }
-    private EfficientBladesProfession EfficientBlades { get; set; }
-    private FastForgingProfession FastForging { get; set; }
+    private ResourcefulProfession Resourceful { get; set; }
+    private ProficientProfession Proficient { get; set; }
 
     public GlassworksSkill(IModHelper helper) : base("Ex0dus.GlassworksSkill")
     {
@@ -26,22 +26,22 @@ public class GlassworksSkill : SpaceCore.Skills.Skill
 
         Artist = new ArtistProfession(this);
         Glassmith = new GlassmithProfession(this);
-        GenerousArtist = new GenerousArtistProfession(this);
+        Charitable = new CharitableProfession(this);
         Masterpiece = new MasterpieceProfession(this);
-        EfficientBlades = new EfficientBladesProfession(this);
-        FastForging = new FastForgingProfession(this);
+        Resourceful = new ResourcefulProfession(this);
+        Proficient = new ProficientProfession(this);
 
         Professions.Add(Artist);
         Professions.Add(Glassmith);
         ProfessionsForLevels.Add(new ProfessionPair(5, Artist, Glassmith));
 
-        Professions.Add(GenerousArtist);
+        Professions.Add(Charitable);
         Professions.Add(Masterpiece);
-        ProfessionsForLevels.Add(new ProfessionPair(10, GenerousArtist, Masterpiece, Artist));
+        ProfessionsForLevels.Add(new ProfessionPair(10, Charitable, Masterpiece, Artist));
 
-        Professions.Add(EfficientBlades);
-        Professions.Add(FastForging);
-        ProfessionsForLevels.Add(new ProfessionPair(10, EfficientBlades, FastForging, Glassmith));
+        Professions.Add(Resourceful);
+        Professions.Add(Proficient);
+        ProfessionsForLevels.Add(new ProfessionPair(10, Resourceful, Proficient, Glassmith));
     }
 
     private void GameLoopOnDayStarted(object? sender, DayStartedEventArgs e)
