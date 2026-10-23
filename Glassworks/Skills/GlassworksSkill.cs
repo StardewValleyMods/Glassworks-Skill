@@ -33,7 +33,7 @@ public class GlassworksSkill : SpaceCore.Skills.Skill
 
     public override string GetSkillPageHoverText(int level)
     {
-        return string.Empty;
+        return I18n.Skill_Glassworks_Hover();
     }
 
     public override void DoLevelPerk(int level)
