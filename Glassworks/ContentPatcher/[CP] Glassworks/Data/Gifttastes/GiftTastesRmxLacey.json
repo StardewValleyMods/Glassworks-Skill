@@ -1,0 +1,24 @@
+{
+  "Changes":
+    [
+      {
+	"Action": "EditData", 
+	"Target": "Data/NPCGiftTastes", 
+	"TextOperations":
+	  [
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "ichortower.HatMouseLacey_Lacey", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_ForestGreenChocoboDoll {{ModId}}_NutkinDoll {{ModId}}_CurielCrisps {{ModId}}_ChocoSmoothie {{ModId}}_ChocoClub {{ModId}}_ChocoClubPlus {{ModId}}_ChocoClubDX"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "ichortower.HatMouseLacey_Lacey", 5], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_ChocoboTripleDecker {{ModId}}_IshgardianTea"
+	    }
+	  ]
+      }
+    ]
+}

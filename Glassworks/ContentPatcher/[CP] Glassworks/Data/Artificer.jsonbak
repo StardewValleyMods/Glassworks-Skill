@@ -1,0 +1,4143 @@
+{
+  "Changes": [
+        {
+            "Action": "Load",
+            "Target": "{{ModId}}/ArtificerTextures",
+            "FromFile": "Assets/Machines/Artificer.png"
+        },
+	{	
+	    "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries":	{
+			  "{{ModId}}_Artificer": {
+				"Name": "{{ModId}}_Artificer",
+				"DisplayName": "{{i18n:Glassworks_Artificer_Name}}",
+				"Description": "{{i18n:Glassworks_Artificer_Description}}",
+				"Fragility": 0,
+				"CanBePlacedOutdoors": true,
+				"CanBePlacedIndoors": true,
+				"IsLamp": false,
+				"Texture": "{{ModId}}/ArtificerTextures",
+				"SpriteIndex": 0,
+				"CustomFields": null
+			  }
+              }
+	},
+	{
+    	  "Action": "EditData",
+    	  "Target": "Data/Machines",
+    	  "Entries":   {
+        		"(BC){{ModId}}_Artificer": {
+            			"OutputRules": [
+				{
+                    			"Id": "{{ModId}}_AeriniteSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_AeriniteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AeriniteRadioactiveSword",
+                            		"ItemId": "{{ModId}}_AeriniteRadioactiveSword",
+                            		"CopyQuality":false,
+                   			"DaysUntilReady": 4,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	},
+                       			{
+                            		"Id": "{{ModId}}_AeriniteIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_AeriniteIridiumSwordGilded",
+                            		"CopyQuality":false,
+                   			"DaysUntilReady": 2,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+				},
+                      			{
+                            		"Id": "{{ModId}}_AeriniteIridiumSword",
+                            		"ItemId": "{{ModId}}_AeriniteIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	},
+                       			{
+                            		"Id": "{{ModId}}_AeriniteIronSwordGilded",
+                            		"ItemId": "{{ModId}}_AeriniteIronSwordGilded",
+                            		"CopyQuality":false,
+                   			"DaysUntilReady": 2,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	},
+                       			{
+                            		"Id": "{{ModId}}_AeriniteIronSword",
+                            		"ItemId": "{{ModId}}_AeriniteIronSword",
+                            		"CopyQuality":false,
+                   			"DaysUntilReady": 1,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                		},
+				{
+                    			"Id": "{{ModId}}_AlamiteRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_AlamiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AlamiteRadioactiveSword",
+                            		"ItemId": "{{ModId}}_AlamiteRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_AlamiteIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_AlamiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AlamiteIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_AlamiteIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_AlamiteIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_AlamiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AlamiteIridiumSword",
+                            		"ItemId": "{{ModId}}_AlamiteIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_AlamiteIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_AlamiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AlamiteIronSwordGilded",
+                            		"ItemId": "{{ModId}}_AlamiteIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_AlamiteIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_AlamiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AlamiteIronSword",
+                            		"ItemId": "{{ModId}}_AlamiteIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_BaryteRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_BaryteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_BaryteRadioactiveSword",
+                            		"ItemId": "{{ModId}}_BaryteRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_BaryteIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_BaryteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_BaryteIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_BaryteIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_BaryteIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_BaryteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_BaryteIridiumSword",
+                            		"ItemId": "{{ModId}}_BaryteIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_BaryteIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_BaryteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_BaryteIronSwordGilded",
+                            		"ItemId": "{{ModId}}_BaryteIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_BaryteIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_BaryteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_BaryteIronSword",
+                            		"ItemId": "{{ModId}}_BaryteIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_BixiteRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_BixiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_BixiteRadioactiveSword",
+                            		"ItemId": "{{ModId}}_BixiteRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_BixiteIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_BixiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_BixiteIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_BixiteIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_BixiteIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_BixiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_BixiteIridiumSword",
+                            		"ItemId": "{{ModId}}_BixiteIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_BixiteIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_BixiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_BixiteIronSwordGilded",
+                            		"ItemId": "{{ModId}}_BixiteIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_BixiteIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_BixiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_BixiteIronSword",
+                            		"ItemId": "{{ModId}}_BixiteIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_CelestineRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_CelestineBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_CelestineRadioactiveSword",
+                            		"ItemId": "{{ModId}}_CelestineRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_CelestineIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_CelestineBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_CelestineIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_CelestineIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_CelestineIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_CelestineBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_CelestineIridiumSword",
+                            		"ItemId": "{{ModId}}_CelestineIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_CelestineIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_CelestineBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_CelestineIronSwordGilded",
+                            		"ItemId": "{{ModId}}_CelestineIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_CelestineIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_CelestineBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_CelestineIronSword",
+                            		"ItemId": "{{ModId}}_CelestineIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_DolomiteRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_DolomiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_DolomiteRadioactiveSword",
+                            		"ItemId": "{{ModId}}_DolomiteRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_DolomiteIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_DolomiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_DolomiteIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_DolomiteIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_DolomiteIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_DolomiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_DolomiteIridiumSword",
+                            		"ItemId": "{{ModId}}_DolomiteIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_DolomiteIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_DolomiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_DolomiteIronSwordGilded",
+                            		"ItemId": "{{ModId}}_DolomiteIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_DolomiteIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_DolomiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_DolomiteIronSword",
+                            		"ItemId": "{{ModId}}_DolomiteIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_EsperiteRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_EsperiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_EsperiteRadioactiveSword",
+                            		"ItemId": "{{ModId}}_EsperiteRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_EsperiteIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_EsperiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_EsperiteIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_EsperiteIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_EsperiteIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_EsperiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_EsperiteIridiumSword",
+                            		"ItemId": "{{ModId}}_EsperiteIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_EsperiteIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_EsperiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_EsperiteIronSwordGilded",
+                            		"ItemId": "{{ModId}}_EsperiteIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_EsperiteIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_EsperiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_EsperiteIronSword",
+                            		"ItemId": "{{ModId}}_EsperiteIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_FairyStoneRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_FairyStoneBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FairyStoneRadioactiveSword",
+                            		"ItemId": "{{ModId}}_FairyStoneRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_FairyStoneIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_FairyStoneBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FairyStoneIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_FairyStoneIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_FairyStoneIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_FairyStoneBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FairyStoneIridiumSword",
+                            		"ItemId": "{{ModId}}_FairyStoneIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_FairyStoneIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_FairyStoneBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FairyStoneIronSwordGilded",
+                            		"ItemId": "{{ModId}}_FairyStoneIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_FairyStoneIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_FairyStoneBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FairyStoneIronSword",
+                            		"ItemId": "{{ModId}}_FairyStoneIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_FireOpalRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_FireOpalBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FireOpalRadioactiveSword",
+                            		"ItemId": "{{ModId}}_FireOpalRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_FireOpalIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_FireOpalBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FireOpalIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_FireOpalIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_FireOpalIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_FireOpalBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FireOpalIridiumSword",
+                            		"ItemId": "{{ModId}}_FireOpalIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_FireOpalIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_FireOpalBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FireOpalIronSwordGilded",
+                            		"ItemId": "{{ModId}}_FireOpalIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_FireOpalIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_FireOpalBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FireOpalIronSword",
+                            		"ItemId": "{{ModId}}_FireOpalIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_FluorapatiteRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_FluorapatiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FluorapatiteRadioactiveSword",
+                            		"ItemId": "{{ModId}}_FluorapatiteRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_FluorapatiteIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_FluorapatiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FluorapatiteIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_FluorapatiteIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_FluorapatiteIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_FluorapatiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FluorapatiteIridiumSword",
+                            		"ItemId": "{{ModId}}_FluorapatiteIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_FluorapatiteIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_FluorapatiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FluorapatiteIronSwordGilded",
+                            		"ItemId": "{{ModId}}_FluorapatiteIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_FluorapatiteIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_FluorapatiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FluorapatiteIronSword",
+                            		"ItemId": "{{ModId}}_FluorapatiteIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_GeminiteRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_GeminiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_GeminiteRadioactiveSword",
+                            		"ItemId": "{{ModId}}_GeminiteRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_GeminiteIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_GeminiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_GeminiteIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_GeminiteIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_GeminiteIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_GeminiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_GeminiteIridiumSword",
+                            		"ItemId": "{{ModId}}_GeminiteIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_GeminiteIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_GeminiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_GeminiteIronSwordGilded",
+                            		"ItemId": "{{ModId}}_GeminiteIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_GeminiteIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_GeminiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_GeminiteIronSword",
+                            		"ItemId": "{{ModId}}_GeminiteIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_GhostCrystalRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_GhostCrystalBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_GhostCrystalRadioactiveSword",
+                            		"ItemId": "{{ModId}}_GhostCrystalRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_GhostCrystalIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_GhostCrystalBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_GhostCrystalIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_GhostCrystalIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_GhostCrystalIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_GhostCrystalBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_GhostCrystalIridiumSword",
+                            		"ItemId": "{{ModId}}_GhostCrystalIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_GhostCrystalIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_GhostCrystalBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_GhostCrystalIronSwordGilded",
+                            		"ItemId": "{{ModId}}_GhostCrystalIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_GhostCrystalIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_GhostCrystalBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_GhostCrystalIronSword",
+                            		"ItemId": "{{ModId}}_GhostCrystalIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_HelviteRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_HelviteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_HelviteRadioactiveSword",
+                            		"ItemId": "{{ModId}}_HelviteRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_HelviteIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_HelviteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_HelviteIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_HelviteIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_HelviteIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_HelviteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_HelviteIridiumSword",
+                            		"ItemId": "{{ModId}}_HelviteIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_HelviteIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_HelviteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_HelviteIronSwordGilded",
+                            		"ItemId": "{{ModId}}_HelviteIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_HelviteIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_HelviteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_HelviteIronSword",
+                            		"ItemId": "{{ModId}}_HelviteIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_HematiteRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_HematiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_HematiteRadioactiveSword",
+                            		"ItemId": "{{ModId}}_HematiteRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_HematiteIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_HematiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_HematiteIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_HematiteIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_HematiteIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_HematiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_HematiteIridiumSword",
+                            		"ItemId": "{{ModId}}_HematiteIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_HematiteIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_HematiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_HematiteIronSwordGilded",
+                            		"ItemId": "{{ModId}}_HematiteIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_HematiteIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_HematiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_HematiteIronSword",
+                            		"ItemId": "{{ModId}}_HematiteIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_JamboriteRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_JamboriteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_JamboriteRadioactiveSword",
+                            		"ItemId": "{{ModId}}_JamboriteRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_JamboriteIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_JamboriteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_JamboriteIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_JamboriteIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_JamboriteIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_JamboriteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_JamboriteIridiumSword",
+                            		"ItemId": "{{ModId}}_JamboriteIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_JamboriteIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_JamboriteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_JamboriteIronSwordGilded",
+                            		"ItemId": "{{ModId}}_JamboriteIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_JamboriteIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_JamboriteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_JamboriteIronSword",
+                            		"ItemId": "{{ModId}}_JamboriteIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_JasperRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_JasperBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_JasperRadioactiveSword",
+                            		"ItemId": "{{ModId}}_JasperRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_JasperIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_JasperBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_JasperIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_JasperIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_JasperIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_JasperBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_JasperIridiumSword",
+                            		"ItemId": "{{ModId}}_JasperIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_JasperIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_JasperBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_JasperIronSwordGilded",
+                            		"ItemId": "{{ModId}}_JasperIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_JasperIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_JasperBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_JasperIronSword",
+                            		"ItemId": "{{ModId}}_JasperIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_KyaniteRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_KyaniteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_KyaniteRadioactiveSword",
+                            		"ItemId": "{{ModId}}_KyaniteRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_KyaniteIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_KyaniteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_KyaniteIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_KyaniteIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_KyaniteIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_KyaniteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_KyaniteIridiumSword",
+                            		"ItemId": "{{ModId}}_KyaniteIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_KyaniteIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_KyaniteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_KyaniteIronSwordGilded",
+                            		"ItemId": "{{ModId}}_KyaniteIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_KyaniteIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_KyaniteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_KyaniteIronSword",
+                            		"ItemId": "{{ModId}}_KyaniteIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_LemonStoneRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_LemonStoneBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_LemonStoneRadioactiveSword",
+                            		"ItemId": "{{ModId}}_LemonStoneRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_LemonStoneIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_LemonStoneBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_LemonStoneIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_LemonStoneIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_LemonStoneIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_LemonStoneBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_LemonStoneIridiumSword",
+                            		"ItemId": "{{ModId}}_LemonStoneIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_LemonStoneIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_LemonStoneBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_LemonStoneIronSwordGilded",
+                            		"ItemId": "{{ModId}}_LemonStoneIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_LemonStoneIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_LemonStoneBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_LemonStoneIronSword",
+                            		"ItemId": "{{ModId}}_LemonStoneIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_MalachiteRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_MalachiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_MalachiteRadioactiveSword",
+                            		"ItemId": "{{ModId}}_MalachiteRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_MalachiteIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_MalachiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_MalachiteIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_MalachiteIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_MalachiteIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_MalachiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_MalachiteIridiumSword",
+                            		"ItemId": "{{ModId}}_MalachiteIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_MalachiteIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_MalachiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_MalachiteIronSwordGilded",
+                            		"ItemId": "{{ModId}}_MalachiteIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_MalachiteIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_MalachiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_MalachiteIronSword",
+                            		"ItemId": "{{ModId}}_MalachiteIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_NekoiteRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_NekoiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NekoiteRadioactiveSword",
+                            		"ItemId": "{{ModId}}_NekoiteRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_NekoiteIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_NekoiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NekoiteIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_NekoiteIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_NekoiteIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_NekoiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NekoiteIridiumSword",
+                            		"ItemId": "{{ModId}}_NekoiteIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_NekoiteIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_NekoiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NekoiteIronSwordGilded",
+                            		"ItemId": "{{ModId}}_NekoiteIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_NekoiteIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_NekoiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NekoiteIronSword",
+                            		"ItemId": "{{ModId}}_NekoiteIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_NeptuniteRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_NeptuniteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NeptuniteRadioactiveSword",
+                            		"ItemId": "{{ModId}}_NeptuniteRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_NeptuniteIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_NeptuniteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NeptuniteIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_NeptuniteIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_NeptuniteIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_NeptuniteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NeptuniteIridiumSword",
+                            		"ItemId": "{{ModId}}_NeptuniteIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_NeptuniteIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_NeptuniteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NeptuniteIronSwordGilded",
+                            		"ItemId": "{{ModId}}_NeptuniteIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_NeptuniteIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_NeptuniteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NeptuniteIronSword",
+                            		"ItemId": "{{ModId}}_NeptuniteIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_ObsidianRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_ObsidianBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_ObsidianRadioactiveSword",
+                            		"ItemId": "{{ModId}}_ObsidianRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_ObsidianIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_ObsidianBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_ObsidianIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_ObsidianIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_ObsidianIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_ObsidianBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_ObsidianIridiumSword",
+                            		"ItemId": "{{ModId}}_ObsidianIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_ObsidianIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_ObsidianBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_ObsidianIronSwordGilded",
+                            		"ItemId": "{{ModId}}_ObsidianIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_ObsidianIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_ObsidianBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_ObsidianIronSword",
+                            		"ItemId": "{{ModId}}_ObsidianIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_OceanStoneRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_OceanStoneBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OceanStoneRadioactiveSword",
+                            		"ItemId": "{{ModId}}_OceanStoneRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_OceanStoneIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_OceanStoneBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OceanStoneIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_OceanStoneIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_OceanStoneIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_OceanStoneBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OceanStoneIridiumSword",
+                            		"ItemId": "{{ModId}}_OceanStoneIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_OceanStoneIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_OceanStoneBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OceanStoneIronSwordGilded",
+                            		"ItemId": "{{ModId}}_OceanStoneIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_OceanStoneIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_OceanStoneBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OceanStoneIronSword",
+                            		"ItemId": "{{ModId}}_OceanStoneIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_OpalRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_OpalBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OpalRadioactiveSword",
+                            		"ItemId": "{{ModId}}_OpalRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_OpalIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_OpalBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OpalIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_OpalIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_OpalIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_OpalBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OpalIridiumSword",
+                            		"ItemId": "{{ModId}}_OpalIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_OpalIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_OpalBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OpalIronSwordGilded",
+                            		"ItemId": "{{ModId}}_OpalIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_OpalIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_OpalBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OpalIronSword",
+                            		"ItemId": "{{ModId}}_OpalIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_OrpimentRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_OrpimentBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OrpimentRadioactiveSword",
+                            		"ItemId": "{{ModId}}_OrpimentRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_OrpimentIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_OrpimentBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OrpimentIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_OrpimentIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_OrpimentIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_OrpimentBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OrpimentIridiumSword",
+                            		"ItemId": "{{ModId}}_OrpimentIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_OrpimentIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_OrpimentBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OrpimentIronSwordGilded",
+                            		"ItemId": "{{ModId}}_OrpimentIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_OrpimentIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_OrpimentBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OrpimentIronSword",
+                            		"ItemId": "{{ModId}}_OrpimentIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_PetrifiedSlimeRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_PetrifiedSlimeBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_PetrifiedSlimeRadioactiveSword",
+                            		"ItemId": "{{ModId}}_PetrifiedSlimeRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_PetrifiedSlimeIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_PetrifiedSlimeBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_PetrifiedSlimeIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_PetrifiedSlimeIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_PetrifiedSlimeIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_PetrifiedSlimeBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_PetrifiedSlimeIridiumSword",
+                            		"ItemId": "{{ModId}}_PetrifiedSlimeIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_PetrifiedSlimeIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_PetrifiedSlimeBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_PetrifiedSlimeIronSwordGilded",
+                            		"ItemId": "{{ModId}}_PetrifiedSlimeIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_PetrifiedSlimeIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_PetrifiedSlimeBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_PetrifiedSlimeIronSword",
+                            		"ItemId": "{{ModId}}_PetrifiedSlimeIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_PyriteRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_PyriteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_PyriteRadioactiveSword",
+                            		"ItemId": "{{ModId}}_PyriteRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_PyriteIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_PyriteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_PyriteIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_PyriteIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_PyriteIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_PyriteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_PyriteIridiumSword",
+                            		"ItemId": "{{ModId}}_PyriteIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_PyriteIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_PyriteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_PyriteIronSwordGilded",
+                            		"ItemId": "{{ModId}}_PyriteIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_PyriteIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_PyriteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_PyriteIronSword",
+                            		"ItemId": "{{ModId}}_PyriteIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_StarShardsRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_StarShardsBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_StarShardsRadioactiveSword",
+                            		"ItemId": "{{ModId}}_StarShardsRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_StarShardsIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_StarShardsBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_StarShardsIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_StarShardsIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_StarShardsIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_StarShardsBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_StarShardsIridiumSword",
+                            		"ItemId": "{{ModId}}_StarShardsIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_StarShardsIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_StarShardsBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_StarShardsIronSwordGilded",
+                            		"ItemId": "{{ModId}}_StarShardsIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_StarShardsIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_StarShardsBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_StarShardsIronSword",
+                            		"ItemId": "{{ModId}}_StarShardsIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_ThunderEggRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_ThunderEggBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_ThunderEggRadioactiveSword",
+                            		"ItemId": "{{ModId}}_ThunderEggRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_ThunderEggIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_ThunderEggBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_ThunderEggIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_ThunderEggIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_ThunderEggIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_ThunderEggBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_ThunderEggIridiumSword",
+                            		"ItemId": "{{ModId}}_ThunderEggIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_ThunderEggIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_ThunderEggBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_ThunderEggIronSwordGilded",
+                            		"ItemId": "{{ModId}}_ThunderEggIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_ThunderEggIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_ThunderEggBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_ThunderEggIronSword",
+                            		"ItemId": "{{ModId}}_ThunderEggIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_TigerseyeRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_TigerseyeBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_TigerseyeRadioactiveSword",
+                            		"ItemId": "{{ModId}}_TigerseyeRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+				{
+                    			"Id": "{{ModId}}_TigerseyeIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_TigerseyeBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_TigerseyeIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_TigerseyeIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_TigerseyeIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_TigerseyeBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_TigerseyeIridiumSword",
+                            		"ItemId": "{{ModId}}_TigerseyeIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_TigerseyeIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_TigerseyeBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_TigerseyeIronSwordGilded",
+                            		"ItemId": "{{ModId}}_TigerseyeIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_TigerseyeIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_TigerseyeBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_TigerseyeIronSword",
+                            		"ItemId": "{{ModId}}_TigerseyeIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_RadioactiveHilt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "910",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_RadioactiveHilt",
+                            		"ItemId": "{{ModId}}_RadioactiveHilt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+                    		"MinutesUntilReady": 360
+                		},
+				{
+                    			"Id": "{{ModId}}_GildedIridiumHilt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_IridiumHilt",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_GildedIridiumHilt",
+                            		"ItemId": "{{ModId}}_GildedIridiumHilt",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)336",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidGildedIridiumHilt}}"
+					}
+                        	}
+                   		],
+                    		"MinutesUntilReady": 360
+                		},
+				{
+                    			"Id": "{{ModId}}_IridiumHilt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "337",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_IridiumHilt",
+                            		"ItemId": "{{ModId}}_IridiumHilt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+                    		"MinutesUntilReady": 360
+                		},
+				{
+                    			"Id": "{{ModId}}_GildedIronHilt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_IronHilt",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_GildedIronHilt",
+                            		"ItemId": "{{ModId}}_GildedIronHilt",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidGildedIronHilt}}"
+					}
+                        	}
+                   		],
+                    		"MinutesUntilReady": 360
+                		},
+				{
+                    			"Id": "{{ModId}}_IronHilt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "335",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_IronHilt",
+                            		"ItemId": "{{ModId}}_IronHilt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+                    		"MinutesUntilReady": 360
+                		}
+            			],
+            			"AdditionalConsumedItems":[
+                			{
+                    			"ItemId":"768",
+                    			"RequiredCount":1,
+                    			"InvalidCountMessage":"{{i18n:Glassworks_Artificer_Fuel}}"
+                			}
+           			],
+            			"InvalidItemMessage":"{{i18n:Glassworks_Artificer_WrongIngredient}}",
+            			"ShowNextIndexWhileWorking":false,
+            			"ShowNextIndexWhenReady":false,
+            			"WobbleWhileWorking":false
+        		}
+	}
+    }
+  ]
+}

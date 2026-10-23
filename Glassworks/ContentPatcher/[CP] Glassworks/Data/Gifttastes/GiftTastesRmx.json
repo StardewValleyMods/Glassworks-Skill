@@ -1,0 +1,288 @@
+{
+  "Changes":
+    [
+      {
+	"Action": "EditData", 
+	"Target": "Data/NPCGiftTastes", 
+	"TextOperations":
+	  [
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Entries", "Universal_Love"], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_PrismaticChocoboDoll"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Entries", "Universal_Like"], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_PrismaticCactuarDoll"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Abigail", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_MimettCupcake {{ModId}}_BabyBehemothDoll {{ModId}}_PurpleChocoboDoll {{ModId}}_DragonClaw"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Caroline", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_GreenChocoboDoll {{ModId}}_Starblossom {{ModId}}_OrichalcumPendant {{ModId}}_IshgardianTea {{ModId}}_GysahlTea {{ModId}}_StarblossomTea {{ModId}}_MoogleCharm"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Clint", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_OrichalcumOrb"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Dwarf", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_MoogleDoll {{ModId}}_GoldMoogleDoll {{ModId}}_AdamantiteBell"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Emily", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_TantalFries {{ModId}}_CarbuncleDoll {{ModId}}_ChocoboTripleDecker"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Evelyn", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_Moonblossom {{ModId}}_MoonblossomSeeds {{ModId}}_Starblossom {{ModId}}_StarblossomSeeds {{ModId}}_AdamantiteHairpin {{ModId}}_StarblossomTea"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "George", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_ChocoStew"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "George", 3], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_Moonblossom"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Gus", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_ChocoboTripleDecker"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Haley", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_MythrilBangle {{ModId}}_AdamantiteHairpin {{ModId}}_ChocoSmoothie"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Harvey", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_ChocoStew {{ModId}}_CurielCrisps {{ModId}}_StarblossomTea"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Harvey", 5], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_TantalFries {{ModId}}_MimettCupcake {{ModId}}_ChocoboTripleDecker"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Jas", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_MimettCupcake {{ModId}}_PurpleChocoboDoll {{ModId}}_PinkChocoboDoll {{ModId}}_YanDoll {{ModId}}_NutkinDoll {{ModId}}_MoombaDoll {{ModId}}_CarbuncleDoll {{ModId}}_ChocoSmoothie {{ModId}}_ChocoPillowAqua {{ModId}}_ChocoPillowBlue {{ModId}}_ChocoPillowForestGreen {{ModId}}_ChocoPillowGray {{ModId}}_ChocoPillowGreen {{ModId}}_ChocoPillowPink {{ModId}}_ChocoPillowPurple {{ModId}}_ChocoPillowRed {{ModId}}_ChocoPillowYellow {{ModId}}_CatHood {{ModId}}_MoogleCharm"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Jas", 3], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_YellowChocoboDoll {{ModId}}_GreenChocoboDoll {{ModId}}_RedChocoboDoll {{ModId}}_BlueChocoboDoll {{ModId}}_ForestGreenChocoboDoll {{ModId}}_MoogleDoll {{ModId}}_MoogleIvaliceDoll {{ModId}}_MiniMoogleDoll {{ModId}}_GoldMoogleDoll {{ModId}}_MysticWand {{ModId}}_OrichalcumPendant {{ModId}}_AdamantiteBell {{ModId}}_AdamantiteHairpin"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Jas", 7], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_ChocoClub {{ModId}}_ChocoClubDX {{ModId}}_ChocoClubPlus"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Jodi", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_MimettCupcake {{ModId}}_AdamantiteHairpin {{ModId}}_MoogleCharm"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Kent", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_StarblossomTea"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Kent", 7], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_IshgardianTea"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Krobus", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_TonberryDoll {{ModId}}_TonberryMasterDoll {{ModId}}_TonberryKingDoll {{ModId}}_BlackMageDoll {{ModId}}_DragonClaw"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Krobus", 3], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_ChimeraBone"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Leah", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_GysahlSalad {{ModId}}_ForestGreenChocoboDoll {{ModId}}_ChocoSmoothie"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Leo", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_YellowChocoboDoll {{ModId}}_GreenChocoboDoll {{ModId}}_RedChocoboDoll {{ModId}}_BlueChocoboDoll {{ModId}}_PurpleChocoboDoll {{ModId}}_ForestGreenChocoboDoll {{ModId}}_PinkChocoboDoll {{ModId}}_NutkinDoll {{ModId}}_MoombaDoll"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Lewis", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_GysahlTea {{ModId}}_StarblossomTea"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Lewis", 5], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_IshgardianTea"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Linus", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_ChocoStew {{ModId}}_ChocoSmoothie"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Marnie", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_YellowChocoboDoll {{ModId}}_MoogleIvaliceDoll {{ModId}}_MiniMoogleDoll {{ModId}}_CatHood"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Maru", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_BangleKit {{ModId}}_WandKit {{ModId}}_OrbKit {{ModId}}_PendantKit {{ModId}}_BellKit {{ModId}}_HairpinKit {{ModId}}_StaffKit {{ModId}}_CharmKit {{ModId}}_HoodKit {{ModId}}_CommonPillowKit {{ModId}}_UncommonPillowKit {{ModId}}_RarePillowKit"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Penny", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_MoombaDoll"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Pierre", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_AdamantiteBell"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Robin", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_MoonblossomFlower {{ModId}}_AdamantiteHairpin {{ModId}}_StarblossomTea"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Robin", 3], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_BangleKit {{ModId}}_WandKit {{ModId}}_OrbKit {{ModId}}_PendantKit {{ModId}}_BellKit {{ModId}}_HairpinKit {{ModId}}_StaffKit {{ModId}}_RarePillowKit {{ModId}}_UncommonPillowKit {{ModId}}_CommonPillowKit {{ModId}}_HoodKit {{ModId}}_CharmKit"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Sam", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_TantalFries {{ModId}}_CapedCactuarDoll {{ModId}}_GoldCactuarDoll {{ModId}}_PrismaticCactuarDoll"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Sam", 7], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_ChocoClub {{ModId}}_ChocoClubDX {{ModId}}_ChocoClubPlus"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Sandy", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_RedChocoboDoll {{ModId}}_MoombaDoll {{ModId}}_MoonblossomFlower {{ModId}}_AdamantiteHairpin"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Sebastian", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_MysticWand {{ModId}}_AdamantiteStaff"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Sebastian", 3], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_BlackMageDoll {{ModId}}_ChimeraBone"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Sebastian", 7], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_ChocoClub {{ModId}}_ChocoClubDX {{ModId}}_ChocoClubPlus"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Shane", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_BlueChocoboDoll"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Vincent", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_MimmettCupcake {{ModId}}_BabyBehemothDoll {{ModId}}_NutkinDoll {{ModId}}_MysticWand {{ModId}}_ChocoSmoothie"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Vincent", 3], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_CapedCactuarDoll {{ModId}}_TonberryDoll {{ModId}}_TonberryMasterDoll {{ModId}}_YellowChocoboDoll {{ModId}}_GreenChocoboDoll {{ModId}}_RedChocoboDoll {{ModId}}_BlueChocoboDoll {{ModId}}_PurpleChocoboDoll {{ModId}}_ForestGreenChocoboDoll {{ModId}}_PinkChocoboDoll {{ModId}}_MoogleDoll {{ModId}}_YanDoll {{ModId}}_MoogleIvaliceDoll {{ModId}}_MiniMoogleDoll {{ModId}}_TonberryKingDoll {{ModId}}_MoombaDoll {{ModId}}_CarbuncleDoll {{ModId}}_BlackMageDoll {{ModId}}_GoldMoogleDoll {{ModId}}_ChocoPillowYellow {{ModId}}_ChocoPillowRed {{ModId}}_ChocoPillowPurple {{ModId}}_ChocoPillowPink {{ModId}}_ChocoPillowGreen {{ModId}}_ChocoPillowGray {{ModId}}_ChocoPillowForestGreen {{ModId}}_ChocoPillowBlue {{ModId}}_ChocoPillowAqua {{ModId}}_CatHood"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Vincent", 5], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_GysahlSalad"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Vincent", 7], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_GysahlSalad {{ModId}}_ChocoClub {{ModId}}_ChocoClubDX {{ModId}}_ChocoClubPlus"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Willy", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_AdamantiteBell"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Wizard", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_BlackMageDoll {{ModId}}_ChimeraBone {{ModId}}_MysticWand {{ModId}}_OrichalcumOrb {{ModId}}_OrichalcumPendant {{ModId}}_AdamantiteStaff"
+	    }
+	  ]
+      }
+    ]
+}

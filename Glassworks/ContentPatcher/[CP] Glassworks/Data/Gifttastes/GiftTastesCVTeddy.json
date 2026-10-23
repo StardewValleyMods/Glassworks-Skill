@@ -1,0 +1,24 @@
+{
+  "Changes":
+    [
+      {
+	"Action": "EditData", 
+	"Target": "Data/NPCGiftTastes", 
+	"TextOperations":
+	  [
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "sugarsbt.teddy_Teddy", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_ChocoboFeatherCommon Kitsutsune.Chocobovalley_ChocoboFeatherUncommon Kitsutsune.Chocobovalley_ChocoboFeatherRare"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "sugarsbt.teddy_Teddy", 3], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Flutegrass"
+	    }
+	  ]
+      }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+  "Changes":
+    [
+      {
+	"Action": "EditData", 
+	"Target": "Data/NPCGiftTastes", 
+	"TextOperations":
+	  [
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "sugarsbt.teddy_Teddy", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_YellowChocoboDoll {{ModId}}_GreenChocoboDoll {{ModId}}_RedChocoboDoll {{ModId}}_BlueChocoboDoll {{ModId}}_PurpleChocoboDoll {{ModId}}_ForestGreenChocoboDoll {{ModId}}_PinkChocoboDoll {{ModId}}_NutkinDoll {{ModId}}_MoogleIvaliceDoll {{ModId}}_ChocoPillowAqua {{ModId}}_ChocoPillowBlue {{ModId}}_ChocoPillowForestGreen {{ModId}}_ChocoPillowGray {{ModId}}_ChocoPillowGreen {{ModId}}_ChocoPillowPink {{ModId}}_ChocoPillowPurple {{ModId}}_ChocoPillowRed {{ModId}}_ChocoPillowYellow {{ModId}}_CatHood"
+	    }
+	  ]
+      }
+    ]
+}

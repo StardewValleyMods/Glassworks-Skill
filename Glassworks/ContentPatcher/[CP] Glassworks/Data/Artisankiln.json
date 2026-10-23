@@ -1,0 +1,618 @@
+{
+  "Changes": [
+        {
+            "Action": "Load",
+            "Target": "{{ModId}}/DeluxeKilnTextures",
+            "FromFile": "Assets/Machines/DeluxeKiln.png"
+        },
+	{	
+	    "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries":	{
+			  "{{ModId}}_Deluxe_Kiln": {
+				"Name": "{{ModId}}_Deluxe_Kiln",
+				"DisplayName": "{{i18n:Glassworks_Deluxe_Kiln_Name}}",
+				"Description": "{{i18n:Glassworks_Deluxe_Kiln_Description}}",
+				"Fragility": 0,
+				"CanBePlacedOutdoors": true,
+				"CanBePlacedIndoors": true,
+				"IsLamp": false,
+				"Texture": "{{ModId}}/DeluxeKilnTextures",
+				"SpriteIndex": 0,
+				"CustomFields": null
+			  }
+              }
+	},
+	{
+    	  "Action": "EditData",
+    	  "Target": "Data/Machines",
+    	  "Entries":   {
+        		"(BC){{ModId}}_Deluxe_Kiln": {
+            			"OutputRules": [
+				{
+                    			"Id": "{{ModId}}_AeriniteDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "541",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AeriniteDeluxeArt",
+                            		"ItemId": "{{ModId}}_AeriniteDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+				},
+				{
+                    			"Id": "{{ModId}}_AlamiteDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "538",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AlamiteDeluxeArt",
+                            		"ItemId": "{{ModId}}_AlamiteDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_BaryteDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "540",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_BaryteDeluxeArt",
+                            		"ItemId": "{{ModId}}_BaryteDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_BixiteDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "539",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_BixiteDeluxeArt",
+                            		"ItemId": "{{ModId}}_BixiteDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_CelestineDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "566",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_CelestineDeluxeArt",
+                            		"ItemId": "{{ModId}}_CelestineDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_DolomiteDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "543",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_DolomiteDeluxeArt",
+                            		"ItemId": "{{ModId}}_DolomiteDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_EsperiteDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "544",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_EsperiteDeluxeArt",
+                            		"ItemId": "{{ModId}}_EsperiteDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_FairyStoneDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "577",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FairyStoneDeluxeArt",
+                            		"ItemId": "{{ModId}}_FairyStoneDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_FireOpalDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "565",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FireOpalDeluxeArt",
+                            		"ItemId": "{{ModId}}_FireOpalDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_FluorapatiteDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "545",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FluorapatiteDeluxeArt",
+                            		"ItemId": "{{ModId}}_FluorapatiteDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_GeminiteDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "546",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_GeminiteDeluxeArt",
+                            		"ItemId": "{{ModId}}_GeminiteDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_GhostCrystalDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "561",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_GhostCrystalDeluxeArt",
+                            		"ItemId": "{{ModId}}_GhostCrystalDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_HelviteDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "547",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_HelviteDeluxeArt",
+                            		"ItemId": "{{ModId}}_HelviteDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_HematiteDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "573",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_HematiteDeluxeArt",
+                            		"ItemId": "{{ModId}}_HematiteDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_JamboriteDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "548",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_JamboriteDeluxeArt",
+                            		"ItemId": "{{ModId}}_JamboriteDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_JasperDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "563",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_JasperDeluxeArt",
+                            		"ItemId": "{{ModId}}_JasperDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_KyaniteDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "550",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_KyaniteDeluxeArt",
+                            		"ItemId": "{{ModId}}_KyaniteDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_LemonStoneDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "554",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_LemonStoneDeluxeArt",
+                            		"ItemId": "{{ModId}}_LemonStoneDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_MalachiteDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "552",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_MalachiteDeluxeArt",
+                            		"ItemId": "{{ModId}}_MalachiteDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_NekoiteDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "555",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NekoiteDeluxeArt",
+                            		"ItemId": "{{ModId}}_NekoiteDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_NeptuniteDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "553",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NeptuniteDeluxeArt",
+                            		"ItemId": "{{ModId}}_NeptuniteDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_ObsidianDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "575",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_ObsidianDeluxeArt",
+                            		"ItemId": "{{ModId}}_ObsidianDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_OceanStoneDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "560",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OceanStoneDeluxeArt",
+                            		"ItemId": "{{ModId}}_OceanStoneDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_OpalDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "564",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OpalDeluxeArt",
+                            		"ItemId": "{{ModId}}_OpalDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_OrpimentDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "556",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OrpimentDeluxeArt",
+                            		"ItemId": "{{ModId}}_OrpimentDeluxeArt",
+                            		"CopyQuality":false
+				}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_PetrifiedSlimeDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "557",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_PetrifiedSlimeDeluxeArt",
+                            		"ItemId": "{{ModId}}_PetrifiedSlimeDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_PyriteDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "559",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_PyriteDeluxeArt",
+                            		"ItemId": "{{ModId}}_PyriteDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_StarShardsDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "578",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_StarShardsDeluxeArt",
+                            		"ItemId": "{{ModId}}_StarShardsDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_ThunderEggDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "558",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_ThunderEggDeluxeArt",
+                            		"ItemId": "{{ModId}}_ThunderEggDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+				{
+                    			"Id": "{{ModId}}_TigerseyeDeluxeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "562",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_TigerseyeDeluxeArt",
+                            		"ItemId": "{{ModId}}_TigerseyeDeluxeArt",
+                            		"CopyQuality":false
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		}
+            			],
+            			"AdditionalConsumedItems":[
+                			{
+                    			"ItemId":"(O){{ModId}}_MixedMediaSupplies",
+                    			"RequiredCount":1,
+                    			"InvalidCountMessage":"{{i18n:Glassworks_Deluxe_Kiln_Fuel}}"
+                			}
+           			],
+            			"InvalidItemMessage":"{{i18n:Glassworks_Deluxe_Kiln_WrongIngredient}}",
+            			"ShowNextIndexWhileWorking":true,
+            			"ShowNextIndexWhenReady":false,
+            			"WobbleWhileWorking":false
+        		}
+	}
+    }
+  ]
+}

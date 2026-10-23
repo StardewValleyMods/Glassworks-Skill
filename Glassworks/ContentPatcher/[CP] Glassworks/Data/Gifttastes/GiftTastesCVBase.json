@@ -1,0 +1,240 @@
+{
+  "Changes":
+    [
+      {
+	"Action": "EditData", 
+	"Target": "Data/NPCGiftTastes", 
+	"TextOperations":
+	  [
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Abigail", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Whisperweed"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Abigail", 3], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Flutegrass Kitsutsune.Chocobovalley_MimettGourd"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Alex", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_PepioNuts"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Caroline", 5], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_ChocoboMayonnaiseCommon Kitsutsune.Chocobovalley_ChocoboMayonnaiseUncommon Kitsutsune.Chocobovalley_ChocoboMayonnaiseRare"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Clint", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_MythrilBar Kitsutsune.Chocobovalley_OrichalcumBar Kitsutsune.Chocobovalley_AdamantiteBar"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Demetrius", 3], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_TomestonePoetics Kitsutsune.Chocobovalley_TomestoneLore"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Dwarf", 5], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Nethicite"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Elliott", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_ChocoboFeatherCommon Kitsutsune.Chocobovalley_ChocoboFeatherUncommon Kitsutsune.Chocobovalley_ChocoboFeatherRare"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Emily", 3], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Wyrmtwig"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Emily", 5], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Nethicite"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Evelyn", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Whisperweed Kitsutsune.Chocobovalley_Sylleblossom"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "George", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_KrakkaRoot Kitsutsune.Chocobovalley_CurielRoot"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Gus", 3], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Goldcap"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Haley", 3], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_MimettGourd"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Harvey", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_DriedGoldcap Kitsutsune.Chocobovalley_ChocoboFeatherRare"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Harvey", 3], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Goldcap Kitsutsune.Chocobovalley_ChocoboFeatherCommon Kitsutsune.Chocobovalley_ChocoboFeatherUncommon"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Jas", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Whisperweed Kitsutsune.Chocobovalley_MimettGourd"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Jodi", 3], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_PepioNuts"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Kent", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_PepioNuts"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Krobus", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Nethicite Kitsutsune.Chocobovalley_OrichalcumBar Kitsutsune.Chocobovalley_AdamantiteBar"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Leah", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Goldcap"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Leo", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Flutegrass Kitsutsune.Chocobovalley_Whisperweed Kitsutsune.Chocobovalley_ChocoboFeatherCommon Kitsutsune.Chocobovalley_ChocoboFeatherUncommon Kitsutsune.Chocobovalley_ChocoboFeatherRare"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Lewis", 3], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_PepioNuts"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Linus", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Goldcap Kitsutsune.Chocobovalley_SylkisBud"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Linus", 3], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_PepioNuts"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Marnie", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_PepioNuts"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Maru", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_TomestonePoetics Kitsutsune.Chocobovalley_TomestoneLore Kitsutsune.Chocobovalley_AetheryteShards Kitsutsune.Chocobovalley_MythrilBar Kitsutsune.Chocobovalley_OrichalcumBar Kitsutsune.Chocobovalley_AdamantiteBar"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Maru", 3], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Goldcap"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Robin", 3], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_PepioNuts"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Sam", 3], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_MimettGourd"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Sam", 5], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_ChocoboMayonnaiseCommon Kitsutsune.Chocobovalley_ChocoboMayonnaiseUncommon Kitsutsune.Chocobovalley_ChocoboMayonnaiseRare"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Sandy", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Sylleblossom"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Sandy", 3], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_PepioNuts"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Sebastian", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Nethicite"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Vincent", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Whisperweed Kitsutsune.Chocobovalley_MimettGourd"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Willy", 3], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Wyrmtwig Kitsutsune.Chocobovalley_MythrilBar Kitsutsune.Chocobovalley_OrichalcumBar Kitsutsune.Chocobovalley_AdamantiteBar"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Wizard", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_TomestonePoetics Kitsutsune.Chocobovalley_TomestoneLore Kitsutsune.Chocobovalley_AetheryteShards Kitsutsune.Chocobovalley_Nethicite Kitsutsune.Chocobovalley_Auracite Kitsutsune.Chocobovalley_OrichalcumBar"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Wizard", 3], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Wyrmtwig"
+	    }
+	  ]
+      }
+    ]
+}

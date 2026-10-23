@@ -1,0 +1,24 @@
+{
+  "Changes":
+    [
+      {
+	"Action": "EditData", 
+	"Target": "Data/NPCGiftTastes", 
+	"TextOperations":
+	  [
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "totsFleurine", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_IshgardianTea {{ModId}}_StarblossomTea {{ModId}}_GysahlTea {{ModId}}_MythrilBangle {{ModId}}_AdamantiteHairpin {{ModId}}_MysticWand {{ModId}}_OrichalcumPendant {{ModId}}_AdamantiteStaff {{ModId}}_OrichalcumOrb {{ModId}}_Moonblossom {{ModId}}_Starblossom {{ModId}}_MimettCupcake {{ModId}}_PinkChocoboDoll"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "totsFleurine", 7], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_GysahlSalad {{ModId}}_ChocoStew {{ModId}}_CactuarDoll {{ModId}}_GoldCactuarDoll {{ModId}}_CapedCactuarDoll {{ModId}}_PrismaticCactuarDoll {{ModId}}_TonberryDoll {{ModId}}_TonberryMasterDoll {{ModId}}_TonberryKingDoll"
+	    }
+	  ]
+      }
+    ]
+}

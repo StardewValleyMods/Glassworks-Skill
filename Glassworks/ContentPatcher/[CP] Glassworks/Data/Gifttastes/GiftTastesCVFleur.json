@@ -1,0 +1,30 @@
+{
+  "Changes":
+    [
+      {
+	"Action": "EditData", 
+	"Target": "Data/NPCGiftTastes", 
+	"TextOperations":
+	  [
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "totsFleurine", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Whisperweed Kitsutsune.Chocobovalley_Sylleblossom"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "totsFleurine", 3], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_TomestonePoetics"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "totsFleurine", 7], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_KrakkaRoot Kitsutsune.Chocobovalley_CurielRoot Kitsutsune.Chocobovalley_SylkisBulb Kitsutsune.Chocobovalley_GysahlGreens"
+	    }
+	  ]
+      }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+  "Changes":
+    [
+      {
+	"Action": "EditData", 
+	"Target": "Data/NPCGiftTastes", 
+	"TextOperations":
+	  [
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Aimon111.WitchSwampOverhaulCP_GoblinZic", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_BabyBehemothDoll {{ModId}}_TonberryDoll {{ModId}}_TonberryMasterDoll {{ModId}}_TonberryKingDoll"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Aimon111.WitchSwampOverhaulCP_GoblinZic", 3], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_ChimeraBone {{ModId}}_DragonClaw"
+	    }
+	  ]
+      }
+    ]
+}

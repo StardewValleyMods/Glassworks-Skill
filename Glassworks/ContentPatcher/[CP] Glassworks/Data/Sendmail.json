@@ -1,0 +1,27 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": 
+		{
+                "{{ModId}}_Leah_Kiln_Mail": {
+                    "Id": "{{ModId}}_Leah_Kiln_Mail",
+                    "Trigger": "DayEnding",
+                    "Condition": "MINE_LOWEST_LEVEL_REACHED 15",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Leah_Kiln_Mail"
+                    ],
+                },
+                "{{ModId}}_Wizard_Artificer_Mail": {
+                    "Id": "{{ModId}}_Wizard_Artificer_Mail",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HEARTS Current Wizard 3",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Wizard_Artificer_Mail"
+                    ],
+                }
+            }
+        }
+    ]
+}

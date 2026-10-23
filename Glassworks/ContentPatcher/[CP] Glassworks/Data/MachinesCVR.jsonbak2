@@ -1,0 +1,2972 @@
+{
+  "Changes": [
+	{	
+		"LogName": "Auracite and Nethicite Art and Blades",
+		"Action": "EditData",
+		"Target": "Data/Machines",
+		"TargetField": [ "{{ModId}}_Kiln", "OutputRules" ],
+		"Entries": {
+					"{{ModId}}_NethiciteBlade": {
+                    			"Id": "{{ModId}}_NethiciteBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "Kitsutsune.Chocobovalley_Nethicite",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NethiciteBlade",
+                            		"ItemId": "{{ModId}}_NethiciteBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+					"{{ModId}}_NethiciteArt": {
+                    			"Id": "{{ModId}}_NethiciteArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "Kitsutsune.Chocobovalley_Nethicite",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NethiciteArt",
+                            		"ItemId": "{{ModId}}_NethiciteArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+					"{{ModId}}_AuraciteBlade": {
+                    			"Id": "{{ModId}}_AuraciteBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "Kitsutsune.Chocobovalley_Auracite",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AuraciteBlade",
+                            		"ItemId": "{{ModId}}_AuraciteBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+					"{{ModId}}_AuraciteArt": {
+                    			"Id": "{{ModId}}_AuraciteArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "Kitsutsune.Chocobovalley_Auracite",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AuraciteArt",
+                            		"ItemId": "{{ModId}}_AuraciteArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		}
+
+
+              }
+	},
+
+	{
+		"LogName": "Auracite and Nethicite Swords of all tiers",
+		"Action": "EditData",
+		"Target": "Data/Machines",
+		"TargetField": [ "{{ModId}}_Artificer", "OutputRules" ],
+		"Entries": {
+					"{{ModId}}_NethiciteAdamantineSword": {
+                    			"Id": "{{ModId}}_NethiciteAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_NethiciteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NethiciteAdamantineSword",
+                            		"ItemId": "{{ModId}}_NethiciteAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_NethiciteRadioactiveSword": {
+                    			"Id": "{{ModId}}_NethiciteRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_NethiciteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NethiciteRadioactiveSword",
+                            		"ItemId": "{{ModId}}_NethiciteRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_NethiciteOrichalcumSword": {
+                    			"Id": "{{ModId}}_NethiciteOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_NethiciteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NethiciteOrichalcumSword",
+                            		"ItemId": "{{ModId}}_NethiciteOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_NethiciteIridiumSwordGilded": {
+                    			"Id": "{{ModId}}_NethiciteIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_NethiciteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NethiciteIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_NethiciteIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_NethiciteMythrilSword": {
+                    			"Id": "{{ModId}}_NethiciteMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_NethiciteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NethiciteMythrilSword",
+                            		"ItemId": "{{ModId}}_NethiciteMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_NethiciteIridiumSword": {
+                    			"Id": "{{ModId}}_NethiciteIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_NethiciteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NethiciteIridiumSword",
+                            		"ItemId": "{{ModId}}_NethiciteIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_NethiciteIronSwordGilded": {
+                    			"Id": "{{ModId}}_NethiciteIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_NethiciteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NethiciteIronSwordGilded",
+                            		"ItemId": "{{ModId}}_NethiciteIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+					"{{ModId}}_NethiciteIronSword": {
+                    			"Id": "{{ModId}}_NethiciteIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_NethiciteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NethiciteIronSword",
+                            		"ItemId": "{{ModId}}_NethiciteIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+					"{{ModId}}_AuraciteAdamantineSword": {
+                    			"Id": "{{ModId}}_AuraciteAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_AuraciteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AuraciteAdamantineSword",
+                            		"ItemId": "{{ModId}}_AuraciteAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_AuraciteRadioactiveSword": {
+                    			"Id": "{{ModId}}_AuraciteRadioactiveSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_AuraciteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AuraciteRadioactiveSword",
+                            		"ItemId": "{{ModId}}_AuraciteRadioactiveSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_RadioactiveHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_AuraciteOrichalcumSword": {
+                    			"Id": "{{ModId}}_AuraciteOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_AuraciteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AuraciteOrichalcumSword",
+                            		"ItemId": "{{ModId}}_AuraciteOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_AuraciteIridiumSwordGilded": {
+                    			"Id": "{{ModId}}_AuraciteIridiumSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_AuraciteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AuraciteIridiumSwordGilded",
+                            		"ItemId": "{{ModId}}_AuraciteIridiumSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_AuraciteMythrilSword": {
+                    			"Id": "{{ModId}}_AuraciteMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_AuraciteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AuraciteMythrilSword",
+                            		"ItemId": "{{ModId}}_AuraciteMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_AuraciteIridiumSword": {
+                    			"Id": "{{ModId}}_AuraciteIridiumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_AuraciteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AuraciteIridiumSword",
+                            		"ItemId": "{{ModId}}_AuraciteIridiumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IridiumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_AuraciteIronSwordGilded": {
+                    			"Id": "{{ModId}}_AuraciteIronSwordGilded",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_AuraciteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AuraciteIronSwordGilded",
+                            		"ItemId": "{{ModId}}_AuraciteIronSwordGilded",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_GildedIronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+					"{{ModId}}_AuraciteIronSword": {
+                    			"Id": "{{ModId}}_AuraciteIronSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_AuraciteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AuraciteIronSword",
+                            		"ItemId": "{{ModId}}_AuraciteIronSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_IronHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		}
+              }
+	},
+
+	{
+		"LogName": "Adamantite, Orichalcum and Mythril Blades for Base Minerals",
+		"Action": "EditData",
+		"Target": "Data/Machines",
+		"TargetField": [ "{{ModId}}_Artificer", "OutputRules" ],
+		"Entries": {
+
+					"{{ModId}}_AeriniteAdamantineSword": {
+                    			"Id": "{{ModId}}_AeriniteAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_AeriniteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AeriniteAdamantineSword",
+                            		"ItemId": "{{ModId}}_AeriniteAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_AeriniteOrichalcumSword": {
+                    			"Id": "{{ModId}}_AeriniteOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_AeriniteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AeriniteOrichalcumSword",
+                            		"ItemId": "{{ModId}}_AeriniteOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_AeriniteMythrilSword": {
+                    			"Id": "{{ModId}}_AeriniteMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_AeriniteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AeriniteMythrilSword",
+                            		"ItemId": "{{ModId}}_AeriniteMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_AlamiteAdamantineSword": {
+                    			"Id": "{{ModId}}_AlamiteAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_AlamiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AlamiteAdamantineSword",
+                            		"ItemId": "{{ModId}}_AlamiteAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_AlamiteOrichalcumSword": {
+                    			"Id": "{{ModId}}_AlamiteOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_AlamiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AlamiteOrichalcumSword",
+                            		"ItemId": "{{ModId}}_AlamiteOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_AlamiteMythrilSword": {
+                    			"Id": "{{ModId}}_AlamiteMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_AlamiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AlamiteMythrilSword",
+                            		"ItemId": "{{ModId}}_AlamiteMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_BaryteAdamantineSword": {
+                    			"Id": "{{ModId}}_BaryteAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_BaryteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_BaryteAdamantineSword",
+                            		"ItemId": "{{ModId}}_BaryteAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_BaryteOrichalcumSword": {
+                    			"Id": "{{ModId}}_BaryteOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_BaryteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_BaryteOrichalcumSword",
+                            		"ItemId": "{{ModId}}_BaryteOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_BaryteMythrilSword": {
+                    			"Id": "{{ModId}}_BaryteMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_BaryteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_BaryteMythrilSword",
+                            		"ItemId": "{{ModId}}_BaryteMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_BixiteAdamantineSword": {
+                    			"Id": "{{ModId}}_BixiteAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_BixiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_BixiteAdamantineSword",
+                            		"ItemId": "{{ModId}}_BixiteAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_BixiteOrichalcumSword": {
+                    			"Id": "{{ModId}}_BixiteOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_BixiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_BixiteOrichalcumSword",
+                            		"ItemId": "{{ModId}}_BixiteOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_BixiteMythrilSword": {
+                    			"Id": "{{ModId}}_BixiteMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_BixiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_BixiteMythrilSword",
+                            		"ItemId": "{{ModId}}_BixiteMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_CelestineAdamantineSword": {
+                    			"Id": "{{ModId}}_CelestineAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_CelestineBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_CelestineAdamantineSword",
+                            		"ItemId": "{{ModId}}_CelestineAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_CelestineOrichalcumSword": {
+                    			"Id": "{{ModId}}_CelestineOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_CelestineBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_CelestineOrichalcumSword",
+                            		"ItemId": "{{ModId}}_CelestineOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_CelestineMythrilSword": {
+                    			"Id": "{{ModId}}_CelestineMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_CelestineBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_CelestineMythrilSword",
+                            		"ItemId": "{{ModId}}_CelestineMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_DolomiteAdamantineSword": {
+                    			"Id": "{{ModId}}_DolomiteAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_DolomiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_DolomiteAdamantineSword",
+                            		"ItemId": "{{ModId}}_DolomiteAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_DolomiteOrichalcumSword": {
+                    			"Id": "{{ModId}}_DolomiteOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_DolomiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_DolomiteOrichalcumSword",
+                            		"ItemId": "{{ModId}}_DolomiteOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_DolomiteMythrilSword": {
+                    			"Id": "{{ModId}}_DolomiteMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_DolomiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_DolomiteMythrilSword",
+                            		"ItemId": "{{ModId}}_DolomiteMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_EsperiteAdamantineSword": {
+                    			"Id": "{{ModId}}_EsperiteAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_EsperiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_EsperiteAdamantineSword",
+                            		"ItemId": "{{ModId}}_EsperiteAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_EsperiteOrichalcumSword": {
+                    			"Id": "{{ModId}}_EsperiteOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_EsperiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_EsperiteOrichalcumSword",
+                            		"ItemId": "{{ModId}}_EsperiteOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_EsperiteMythrilSword": {
+                    			"Id": "{{ModId}}_EsperiteMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_EsperiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_EsperiteMythrilSword",
+                            		"ItemId": "{{ModId}}_EsperiteMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_FairyStoneAdamantineSword": {
+                    			"Id": "{{ModId}}_FairyStoneAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_FairyStoneBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FairyStoneAdamantineSword",
+                            		"ItemId": "{{ModId}}_FairyStoneAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_FairyStoneOrichalcumSword": {
+                    			"Id": "{{ModId}}_FairyStoneOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_FairyStoneBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FairyStoneOrichalcumSword",
+                            		"ItemId": "{{ModId}}_FairyStoneOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_FairyStoneMythrilSword": {
+                    			"Id": "{{ModId}}_FairyStoneMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_FairyStoneBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FairyStoneMythrilSword",
+                            		"ItemId": "{{ModId}}_FairyStoneMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_FireOpalAdamantineSword": {
+                    			"Id": "{{ModId}}_FireOpalAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_FireOpalBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FireOpalAdamantineSword",
+                            		"ItemId": "{{ModId}}_FireOpalAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_FireOpalOrichalcumSword": {
+                    			"Id": "{{ModId}}_FireOpalOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_FireOpalBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FireOpalOrichalcumSword",
+                            		"ItemId": "{{ModId}}_FireOpalOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_FireOpalMythrilSword": {
+                    			"Id": "{{ModId}}_FireOpalMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_FireOpalBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FireOpalMythrilSword",
+                            		"ItemId": "{{ModId}}_FireOpalMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_FluorapatiteAdamantineSword": {
+                    			"Id": "{{ModId}}_FluorapatiteAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_FluorapatiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FluorapatiteAdamantineSword",
+                            		"ItemId": "{{ModId}}_FluorapatiteAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_FluorapatiteOrichalcumSword": {
+                    			"Id": "{{ModId}}_FluorapatiteOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_FluorapatiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FluorapatiteOrichalcumSword",
+                            		"ItemId": "{{ModId}}_FluorapatiteOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_FluorapatiteMythrilSword": {
+                    			"Id": "{{ModId}}_FluorapatiteMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_FluorapatiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FluorapatiteMythrilSword",
+                            		"ItemId": "{{ModId}}_FluorapatiteMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_GeminiteAdamantineSword": {
+                    			"Id": "{{ModId}}_GeminiteAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_GeminiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_GeminiteAdamantineSword",
+                            		"ItemId": "{{ModId}}_GeminiteAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_GeminiteOrichalcumSword": {
+                    			"Id": "{{ModId}}_GeminiteOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_GeminiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_GeminiteOrichalcumSword",
+                            		"ItemId": "{{ModId}}_GeminiteOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_GeminiteMythrilSword": {
+                    			"Id": "{{ModId}}_GeminiteMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_GeminiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_GeminiteMythrilSword",
+                            		"ItemId": "{{ModId}}_GeminiteMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_GhostCrystalAdamantineSword": {
+                    			"Id": "{{ModId}}_GhostCrystalAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_GhostCrystalBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_GhostCrystalAdamantineSword",
+                            		"ItemId": "{{ModId}}_GhostCrystalAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_GhostCrystalOrichalcumSword": {
+                    			"Id": "{{ModId}}_GhostCrystalOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_GhostCrystalBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_GhostCrystalOrichalcumSword",
+                            		"ItemId": "{{ModId}}_GhostCrystalOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_GhostCrystalMythrilSword": {
+                    			"Id": "{{ModId}}_GhostCrystalMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_GhostCrystalBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_GhostCrystalMythrilSword",
+                            		"ItemId": "{{ModId}}_GhostCrystalMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_HelviteAdamantineSword": {
+                    			"Id": "{{ModId}}_HelviteAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_HelviteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_HelviteAdamantineSword",
+                            		"ItemId": "{{ModId}}_HelviteAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_HelviteOrichalcumSword": {
+                    			"Id": "{{ModId}}_HelviteOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_HelviteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_HelviteOrichalcumSword",
+                            		"ItemId": "{{ModId}}_HelviteOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_HelviteMythrilSword": {
+                    			"Id": "{{ModId}}_HelviteMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_HelviteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_HelviteMythrilSword",
+                            		"ItemId": "{{ModId}}_HelviteMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_HematiteAdamantineSword": {
+                    			"Id": "{{ModId}}_HematiteAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_HematiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_HematiteAdamantineSword",
+                            		"ItemId": "{{ModId}}_HematiteAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_HematiteOrichalcumSword": {
+                    			"Id": "{{ModId}}_HematiteOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_HematiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_HematiteOrichalcumSword",
+                            		"ItemId": "{{ModId}}_HematiteOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_HematiteMythrilSword": {
+                    			"Id": "{{ModId}}_HematiteMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_HematiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_HematiteMythrilSword",
+                            		"ItemId": "{{ModId}}_HematiteMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_JamboriteAdamantineSword": {
+                    			"Id": "{{ModId}}_JamboriteAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_JamboriteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_JamboriteAdamantineSword",
+                            		"ItemId": "{{ModId}}_JamboriteAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_JamboriteOrichalcumSword": {
+                    			"Id": "{{ModId}}_JamboriteOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_JamboriteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_JamboriteOrichalcumSword",
+                            		"ItemId": "{{ModId}}_JamboriteOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_JamboriteMythrilSword": {
+                    			"Id": "{{ModId}}_JamboriteMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_JamboriteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_JamboriteMythrilSword",
+                            		"ItemId": "{{ModId}}_JamboriteMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_JasperAdamantineSword": {
+                    			"Id": "{{ModId}}_JasperAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_JasperBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_JasperAdamantineSword",
+                            		"ItemId": "{{ModId}}_JasperAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_JasperOrichalcumSword": {
+                    			"Id": "{{ModId}}_JasperOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_JasperBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_JasperOrichalcumSword",
+                            		"ItemId": "{{ModId}}_JasperOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_JasperMythrilSword": {
+                    			"Id": "{{ModId}}_JasperMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_JasperBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_JasperMythrilSword",
+                            		"ItemId": "{{ModId}}_JasperMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_KyaniteAdamantineSword": {
+                    			"Id": "{{ModId}}_KyaniteAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_KyaniteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_KyaniteAdamantineSword",
+                            		"ItemId": "{{ModId}}_KyaniteAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_KyaniteOrichalcumSword": {
+                    			"Id": "{{ModId}}_KyaniteOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_KyaniteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_KyaniteOrichalcumSword",
+                            		"ItemId": "{{ModId}}_KyaniteOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_KyaniteMythrilSword": {
+                    			"Id": "{{ModId}}_KyaniteMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_KyaniteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_KyaniteMythrilSword",
+                            		"ItemId": "{{ModId}}_KyaniteMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_LemonStoneAdamantineSword": {
+                    			"Id": "{{ModId}}_LemonStoneAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_LemonStoneBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_LemonStoneAdamantineSword",
+                            		"ItemId": "{{ModId}}_LemonStoneAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_LemonStoneOrichalcumSword": {
+                    			"Id": "{{ModId}}_LemonStoneOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_LemonStoneBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_LemonStoneOrichalcumSword",
+                            		"ItemId": "{{ModId}}_LemonStoneOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_LemonStoneMythrilSword": {
+                    			"Id": "{{ModId}}_LemonStoneMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_LemonStoneBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_LemonStoneMythrilSword",
+                            		"ItemId": "{{ModId}}_LemonStoneMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_MalachiteAdamantineSword": {
+                    			"Id": "{{ModId}}_MalachiteAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_MalachiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_MalachiteAdamantineSword",
+                            		"ItemId": "{{ModId}}_MalachiteAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_MalachiteOrichalcumSword": {
+                    			"Id": "{{ModId}}_MalachiteOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_MalachiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_MalachiteOrichalcumSword",
+                            		"ItemId": "{{ModId}}_MalachiteOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_MalachiteMythrilSword": {
+                    			"Id": "{{ModId}}_MalachiteMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_MalachiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_MalachiteMythrilSword",
+                            		"ItemId": "{{ModId}}_MalachiteMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_NekoiteAdamantineSword": {
+                    			"Id": "{{ModId}}_NekoiteAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_NekoiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NekoiteAdamantineSword",
+                            		"ItemId": "{{ModId}}_NekoiteAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_NekoiteOrichalcumSword": {
+                    			"Id": "{{ModId}}_NekoiteOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_NekoiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NekoiteOrichalcumSword",
+                            		"ItemId": "{{ModId}}_NekoiteOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_NekoiteMythrilSword": {
+                    			"Id": "{{ModId}}_NekoiteMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_NekoiteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NekoiteMythrilSword",
+                            		"ItemId": "{{ModId}}_NekoiteMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_NeptuniteAdamantineSword": {
+                    			"Id": "{{ModId}}_NeptuniteAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_NeptuniteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NeptuniteAdamantineSword",
+                            		"ItemId": "{{ModId}}_NeptuniteAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_NeptuniteOrichalcumSword": {
+                    			"Id": "{{ModId}}_NeptuniteOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_NeptuniteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NeptuniteOrichalcumSword",
+                            		"ItemId": "{{ModId}}_NeptuniteOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_NeptuniteMythrilSword": {
+                    			"Id": "{{ModId}}_NeptuniteMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_NeptuniteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NeptuniteMythrilSword",
+                            		"ItemId": "{{ModId}}_NeptuniteMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_ObsidianAdamantineSword": {
+                    			"Id": "{{ModId}}_ObsidianAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_ObsidianBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_ObsidianAdamantineSword",
+                            		"ItemId": "{{ModId}}_ObsidianAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_ObsidianOrichalcumSword": {
+                    			"Id": "{{ModId}}_ObsidianOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_ObsidianBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_ObsidianOrichalcumSword",
+                            		"ItemId": "{{ModId}}_ObsidianOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_ObsidianMythrilSword": {
+                    			"Id": "{{ModId}}_ObsidianMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_ObsidianBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_ObsidianMythrilSword",
+                            		"ItemId": "{{ModId}}_ObsidianMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_OceanStoneAdamantineSword": {
+                    			"Id": "{{ModId}}_OceanStoneAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_OceanStoneBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OceanStoneAdamantineSword",
+                            		"ItemId": "{{ModId}}_OceanStoneAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_OceanStoneOrichalcumSword": {
+                    			"Id": "{{ModId}}_OceanStoneOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_OceanStoneBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OceanStoneOrichalcumSword",
+                            		"ItemId": "{{ModId}}_OceanStoneOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_OceanStoneMythrilSword": {
+                    			"Id": "{{ModId}}_OceanStoneMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_OceanStoneBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OceanStoneMythrilSword",
+                            		"ItemId": "{{ModId}}_OceanStoneMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_OpalAdamantineSword": {
+                    			"Id": "{{ModId}}_OpalAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_OpalBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OpalAdamantineSword",
+                            		"ItemId": "{{ModId}}_OpalAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_OpalOrichalcumSword": {
+                    			"Id": "{{ModId}}_OpalOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_OpalBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OpalOrichalcumSword",
+                            		"ItemId": "{{ModId}}_OpalOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_OpalMythrilSword": {
+                    			"Id": "{{ModId}}_OpalMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_OpalBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OpalMythrilSword",
+                            		"ItemId": "{{ModId}}_OpalMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_OrpimentAdamantineSword": {
+                    			"Id": "{{ModId}}_OrpimentAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_OrpimentBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OrpimentAdamantineSword",
+                            		"ItemId": "{{ModId}}_OrpimentAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_OrpimentOrichalcumSword": {
+                    			"Id": "{{ModId}}_OrpimentOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_OrpimentBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OrpimentOrichalcumSword",
+                            		"ItemId": "{{ModId}}_OrpimentOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_OrpimentMythrilSword": {
+                    			"Id": "{{ModId}}_OrpimentMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_OrpimentBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OrpimentMythrilSword",
+                            		"ItemId": "{{ModId}}_OrpimentMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_PetrifiedSlimeAdamantineSword": {
+                    			"Id": "{{ModId}}_PetrifiedSlimeAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_PetrifiedSlimeBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_PetrifiedSlimeAdamantineSword",
+                            		"ItemId": "{{ModId}}_PetrifiedSlimeAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_PetrifiedSlimeOrichalcumSword": {
+                    			"Id": "{{ModId}}_PetrifiedSlimeOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_PetrifiedSlimeBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_PetrifiedSlimeOrichalcumSword",
+                            		"ItemId": "{{ModId}}_PetrifiedSlimeOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_PetrifiedSlimeMythrilSword": {
+                    			"Id": "{{ModId}}_PetrifiedSlimeMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_PetrifiedSlimeBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_PetrifiedSlimeMythrilSword",
+                            		"ItemId": "{{ModId}}_PetrifiedSlimeMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_PyriteAdamantineSword": {
+                    			"Id": "{{ModId}}_PyriteAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_PyriteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_PyriteAdamantineSword",
+                            		"ItemId": "{{ModId}}_PyriteAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_PyriteOrichalcumSword": {
+                    			"Id": "{{ModId}}_PyriteOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_PyriteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_PyriteOrichalcumSword",
+                            		"ItemId": "{{ModId}}_PyriteOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_PyriteMythrilSword": {
+                    			"Id": "{{ModId}}_PyriteMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_PyriteBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_PyriteMythrilSword",
+                            		"ItemId": "{{ModId}}_PyriteMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_StarShardsAdamantineSword": {
+                    			"Id": "{{ModId}}_StarShardsAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_StarShardsBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_StarShardsAdamantineSword",
+                            		"ItemId": "{{ModId}}_StarShardsAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_StarShardsOrichalcumSword": {
+                    			"Id": "{{ModId}}_StarShardsOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_StarShardsBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_StarShardsOrichalcumSword",
+                            		"ItemId": "{{ModId}}_StarShardsOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_StarShardsMythrilSword": {
+                    			"Id": "{{ModId}}_StarShardsMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_StarShardsBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_StarShardsMythrilSword",
+                            		"ItemId": "{{ModId}}_StarShardsMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_ThunderEggAdamantineSword": {
+                    			"Id": "{{ModId}}_ThunderEggAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_ThunderEggBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_ThunderEggAdamantineSword",
+                            		"ItemId": "{{ModId}}_ThunderEggAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_ThunderEggOrichalcumSword": {
+                    			"Id": "{{ModId}}_ThunderEggOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_ThunderEggBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_ThunderEggOrichalcumSword",
+                            		"ItemId": "{{ModId}}_ThunderEggOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_ThunderEggMythrilSword": {
+                    			"Id": "{{ModId}}_ThunderEggMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_ThunderEggBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_ThunderEggMythrilSword",
+                            		"ItemId": "{{ModId}}_ThunderEggMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		},
+					"{{ModId}}_TigerseyeAdamantineSword": {
+                    			"Id": "{{ModId}}_TigerseyeAdamantineSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_TigerseyeBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_TigerseyeAdamantineSword",
+                            		"ItemId": "{{ModId}}_TigerseyeAdamantineSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_AdamantineHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 4
+                		},
+					"{{ModId}}_TigerseyeOrichalcumSword": {
+                    			"Id": "{{ModId}}_TigerseyeOrichalcumSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_TigerseyeBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_TigerseyeOrichalcumSword",
+                            		"ItemId": "{{ModId}}_TigerseyeOrichalcumSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_OrichalcumHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 3
+                		},
+					"{{ModId}}_TigerseyeMythrilSword": {
+                    			"Id": "{{ModId}}_TigerseyeMythrilSword",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "{{ModId}}_TigerseyeBlade",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_TigerseyeMythrilSword",
+                            		"ItemId": "{{ModId}}_TigerseyeMythrilSword",
+                            		"CopyQuality":false,
+		      	    	"CustomData": 
+					{
+			  		"selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_MythrilHilt",
+			  		"selph.ExtraMachineConfig.RequirementCount.1": 1,
+			  		"selph.ExtraMachineConfig.RequirementId.2": "(O)769",
+			  		"selph.ExtraMachineConfig.RequirementCount.2": 1,
+			 		"selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Glassworks.InvalidSword}}"
+					}
+                        	}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 2
+                		}
+              }
+	}
+  ]
+}

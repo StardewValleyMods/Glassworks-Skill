@@ -1,0 +1,4963 @@
+{
+	"Changes": [
+		//Art
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AeriniteArt": {
+					"Name": "{{ModId}}_AeriniteArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 455,
+					"Texture": "{{InternalAssetKey: Assets/Art/Aerinite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AlamiteArt": {
+					"Name": "{{ModId}}_AlamiteArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 423,
+					"Texture": "{{InternalAssetKey: Assets/Art/Alamite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_BaryteArt": {
+					"Name": "{{ModId}}_BaryteArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 553,
+					"Texture": "{{InternalAssetKey: Assets/Art/Baryte.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_BixiteArt": {
+					"Name": "{{ModId}}_BixiteArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 780,
+					"Texture": "{{InternalAssetKey: Assets/Art/Bixite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_CelestineArt": {
+					"Name": "{{ModId}}_CelestineArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 520,
+					"Texture": "{{InternalAssetKey: Assets/Art/Celestine.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_DolomiteArt": {
+					"Name": "{{ModId}}_DolomiteArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 813,
+					"Texture": "{{InternalAssetKey: Assets/Art/Dolomite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_EsperiteArt": {
+					"Name": "{{ModId}}_EsperiteArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 488,
+					"Texture": "{{InternalAssetKey: Assets/Art/Esperite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FairyStoneArt": {
+					"Name": "{{ModId}}_FairyStoneArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 618,
+					"Texture": "{{InternalAssetKey: Assets/Art/FairyStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FireOpalArt": {
+					"Name": "{{ModId}}_FireOpalArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 845,
+					"Texture": "{{InternalAssetKey: Assets/Art/FireOpal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FluorapatiteArt": {
+					"Name": "{{ModId}}_FluorapatiteArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 585,
+					"Texture": "{{InternalAssetKey: Assets/Art/Fluorapatite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_GeminiteArt": {
+					"Name": "{{ModId}}_GeminiteArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 488,
+					"Texture": "{{InternalAssetKey: Assets/Art/Geminite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_GhostCrystalArt": {
+					"Name": "{{ModId}}_GhostCrystalArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 585,
+					"Texture": "{{InternalAssetKey: Assets/Art/GhostCrystal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_HelviteArt": {
+					"Name": "{{ModId}}_HelviteArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 975,
+					"Texture": "{{InternalAssetKey: Assets/Art/Helvite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_HematiteArt": {
+					"Name": "{{ModId}}_HematiteArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 488,
+					"Texture": "{{InternalAssetKey: Assets/Art/Hematite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_JamboriteArt": {
+					"Name": "{{ModId}}_JamboriteArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 423,
+					"Texture": "{{InternalAssetKey: Assets/Art/Jamborite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_JasperArt": {
+					"Name": "{{ModId}}_JasperArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 585,
+					"Texture": "{{InternalAssetKey: Assets/Art/Jasper.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_KyaniteArt": {
+					"Name": "{{ModId}}_KyaniteArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 683,
+					"Texture": "{{InternalAssetKey: Assets/Art/Kyanite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_LemonStoneArt": {
+					"Name": "{{ModId}}_LemonStoneArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 650,
+					"Texture": "{{InternalAssetKey: Assets/Art/LemonStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_MalachiteArt": {
+					"Name": "{{ModId}}_MalachiteArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 423,
+					"Texture": "{{InternalAssetKey: Assets/Art/Malachite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NekoiteArt": {
+					"Name": "{{ModId}}_NekoiteArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 332,
+					"Texture": "{{InternalAssetKey: Assets/Art/Nekoite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NeptuniteArt": {
+					"Name": "{{ModId}}_NeptuniteArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 910,
+					"Texture": "{{InternalAssetKey: Assets/Art/Neptunite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_ObsidianArt": {
+					"Name": "{{ModId}}_ObsidianArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 650,
+					"Texture": "{{InternalAssetKey: Assets/Art/Obsidian.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OceanStoneArt": {
+					"Name": "{{ModId}}_OceanStoneArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 579,
+					"Texture": "{{InternalAssetKey: Assets/Art/OceanStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OpalArt": {
+					"Name": "{{ModId}}_OpalArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 520,
+					"Texture": "{{InternalAssetKey: Assets/Art/Opal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OrpimentArt": {
+					"Name": "{{ModId}}_OrpimentArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 384,
+					"Texture": "{{InternalAssetKey: Assets/Art/Orpiment.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_PetrifiedSlimeArt": {
+					"Name": "{{ModId}}_PetrifiedSlimeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 384,
+					"Texture": "{{InternalAssetKey: Assets/Art/PetrifiedSlime.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_PyriteArt": {
+					"Name": "{{ModId}}_PyriteArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 449,
+					"Texture": "{{InternalAssetKey: Assets/Art/Pyrite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_StarShardsArt": {
+					"Name": "{{ModId}}_StarShardsArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 1040,
+					"Texture": "{{InternalAssetKey: Assets/Art/StarShards.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_ThunderEggArt": {
+					"Name": "{{ModId}}_ThunderEggArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 358,
+					"Texture": "{{InternalAssetKey: Assets/Art/ThunderEgg.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_brown"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_TigerseyeArt": {
+					"Name": "{{ModId}}_TigerseyeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 748,
+					"Texture": "{{InternalAssetKey: Assets/Art/Tigerseye.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		//Mixed Media Supplies
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_MixedMediaSupplies": {
+					"Name": "{{ModId}}_MixedMediaSupplies",
+					"DisplayName": "{{i18n: Glassworks_MixedMediaSupplies_Name}}",
+					"Description": "{{i18n: Glassworks_MixedMediaSupplies_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 300,
+					"Texture": "{{InternalAssetKey: Assets/MixedMediaSupplies.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"color_brown"
+					]
+				}
+			}
+		},
+		//Deluxe Art
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AeriniteDeluxeArt": {
+					"Name": "{{ModId}}_AeriniteDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2471,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/Aerinite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AlamiteDeluxeArt": {
+					"Name": "{{ModId}}_AlamiteDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2335,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/Alamite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_BaryteDeluxeArt": {
+					"Name": "{{ModId}}_BaryteDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2881,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/Baryte.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_BixiteDeluxeArt": {
+					"Name": "{{ModId}}_BixiteDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 3836,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/Bixite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_CelestineDeluxeArt": {
+					"Name": "{{ModId}}_CelestineDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2744,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/Celestine.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_DolomiteDeluxeArt": {
+					"Name": "{{ModId}}_DolomiteDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 3973,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/Dolomite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_EsperiteDeluxeArt": {
+					"Name": "{{ModId}}_EsperiteDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2608,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/Esperite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FairyStoneDeluxeArt": {
+					"Name": "{{ModId}}_FairyStoneDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 3154,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/FairyStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FireOpalDeluxeArt": {
+					"Name": "{{ModId}}_FireOpalDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 4109,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/FireOpal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FluorapatiteDeluxeArt": {
+					"Name": "{{ModId}}_FluorapatiteDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 3017,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/Fluorapatite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_GeminiteDeluxeArt": {
+					"Name": "{{ModId}}_GeminiteDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2608,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/Geminite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_GhostCrystalDeluxeArt": {
+					"Name": "{{ModId}}_GhostCrystalDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 3017,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/GhostCrystal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_HelviteDeluxeArt": {
+					"Name": "{{ModId}}_HelviteDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 3427,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/Helvite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_HematiteDeluxeArt": {
+					"Name": "{{ModId}}_HematiteDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 3290,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/Hematite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_JamboriteDeluxeArt": {
+					"Name": "{{ModId}}_JamboriteDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2335,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/Jamborite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_JasperDeluxeArt": {
+					"Name": "{{ModId}}_JasperDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 3017,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/Jasper.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_KyaniteDeluxeArt": {
+					"Name": "{{ModId}}_KyaniteDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 3427,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/Kyanite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_LemonStoneDeluxeArt": {
+					"Name": "{{ModId}}_LemonStoneDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 3290,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/LemonStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_MalachiteDeluxeArt": {
+					"Name": "{{ModId}}_MalachiteDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2335,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/Malachite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NekoiteDeluxeArt": {
+					"Name": "{{ModId}}_NekoiteDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 1953,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/Nekoite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NeptuniteDeluxeArt": {
+					"Name": "{{ModId}}_NeptuniteDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 4382,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/Neptunite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_ObsidianDeluxeArt": {
+					"Name": "{{ModId}}_ObsidianDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 3290,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/Obsidian.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OceanStoneDeluxeArt": {
+					"Name": "{{ModId}}_OceanStoneDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2990,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/OceanStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OpalDeluxeArt": {
+					"Name": "{{ModId}}_OpalDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2744,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/Opal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OrpimentDeluxeArt": {
+					"Name": "{{ModId}}_OrpimentDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2171,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/Orpiment.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_PetrifiedSlimeDeluxeArt": {
+					"Name": "{{ModId}}_PetrifiedSlimeDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2171,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/PetrifiedSlime.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_PyriteDeluxeArt": {
+					"Name": "{{ModId}}_PyriteDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2444,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/Pyrite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_StarShardsDeluxeArt": {
+					"Name": "{{ModId}}_StarShardsDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 4928,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/StarShards.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_ThunderEggDeluxeArt": {
+					"Name": "{{ModId}}_ThunderEggDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2062,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/ThunderEgg.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_brown"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_TigerseyeDeluxeArt": {
+					"Name": "{{ModId}}_TigerseyeDeluxeArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksDeluxeArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksDeluxeArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 3700,
+					"Texture": "{{InternalAssetKey: Assets/DeluxeArt/Tigerseye.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"glassworks_deluxe_art_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		//Hilts
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_IronHilt": {
+					"Name": "{{ModId}}_IronHilt",
+					"DisplayName": "{{i18n: Glassworks_IronHilt_Name}}",
+					"Description": "{{i18n: Glassworks_IronHilt_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 200,
+					"Texture": "{{InternalAssetKey: Assets/Hilts/Iron.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_hilt_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_GildedIronHilt": {
+					"Name": "{{ModId}}_GildedIronHilt",
+					"DisplayName": "{{i18n: Glassworks_GildedIronHilt_Name}}",
+					"Description": "{{i18n: Glassworks_GildedIronHilt_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 600,
+					"Texture": "{{InternalAssetKey: Assets/Hilts/IronGilded.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_hilt_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_IridiumHilt": {
+					"Name": "{{ModId}}_IridiumHilt",
+					"DisplayName": "{{i18n: Glassworks_IridiumHilt_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumHilt_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 1200,
+					"Texture": "{{InternalAssetKey: Assets/Hilts/Iridium.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_hilt_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_GildedIridiumHilt": {
+					"Name": "{{ModId}}_GildedIridiumHilt",
+					"DisplayName": "{{i18n: Glassworks_GildedIridiumHilt_Name}}",
+					"Description": "{{i18n: Glassworks_GildedIridiumHilt_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 600,
+					"Texture": "{{InternalAssetKey: Assets/Hilts/IridiumGilded.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_hilt_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_RadioactiveHilt": {
+					"Name": "{{ModId}}_RadioactiveHilt",
+					"DisplayName": "{{i18n: Glassworks_RadioactiveHilt_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveHilt_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 1200,
+					"Texture": "{{InternalAssetKey: Assets/Hilts/Radioactive.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_hilt_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		//Blades
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AeriniteBlade": {
+					"Name": "{{ModId}}_AeriniteBlade",
+					"DisplayName": "{{i18n: Glassworks_AeriniteBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 840,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladeAqua.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AlamiteBlade": {
+					"Name": "{{ModId}}_AlamiteBlade",
+					"DisplayName": "{{i18n: Glassworks_AlamiteBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 780,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladeAqua.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_BaryteBlade": {
+					"Name": "{{ModId}}_BaryteBlade",
+					"DisplayName": "{{i18n: Glassworks_BaryteBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 1020,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladeOrange.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_BixiteBlade": {
+					"Name": "{{ModId}}_BixiteBlade",
+					"DisplayName": "{{i18n: Glassworks_BixiteBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 1440,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladeBlack.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_CelestineBlade": {
+					"Name": "{{ModId}}_CelestineBlade",
+					"DisplayName": "{{i18n: Glassworks_CelestineBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 960,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladeBlue.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_DolomiteBlade": {
+					"Name": "{{ModId}}_DolomiteBlade",
+					"DisplayName": "{{i18n: Glassworks_DolomiteBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 1500,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladePink.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_EsperiteBlade": {
+					"Name": "{{ModId}}_EsperiteBlade",
+					"DisplayName": "{{i18n: Glassworks_EsperiteBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 900,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladeWhite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FairyStoneBlade": {
+					"Name": "{{ModId}}_FairyStoneBlade",
+					"DisplayName": "{{i18n: Glassworks_FairyStoneBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 1140,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladePurple.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FireOpalBlade": {
+					"Name": "{{ModId}}_FireOpalBlade",
+					"DisplayName": "{{i18n: Glassworks_FireOpalBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 1560,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladeRed.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FluorapatiteBlade": {
+					"Name": "{{ModId}}_FluorapatiteBlade",
+					"DisplayName": "{{i18n: Glassworks_FluorapatiteBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 1080,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladePurple.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_GeminiteBlade": {
+					"Name": "{{ModId}}_GeminiteBlade",
+					"DisplayName": "{{i18n: Glassworks_GeminiteBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 900,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladeGreen.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_GhostCrystalBlade": {
+					"Name": "{{ModId}}_GhostCrystalBlade",
+					"DisplayName": "{{i18n: Glassworks_GhostCrystalBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 1080,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladeBlue.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_HelviteBlade": {
+					"Name": "{{ModId}}_HelviteBlade",
+					"DisplayName": "{{i18n: Glassworks_HelviteBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 1800,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladeRed.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_HematiteBlade": {
+					"Name": "{{ModId}}_HematiteBlade",
+					"DisplayName": "{{i18n: Glassworks_HematiteBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 900,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladeYellow.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_JamboriteBlade": {
+					"Name": "{{ModId}}_JamboriteBlade",
+					"DisplayName": "{{i18n: Glassworks_JamboriteBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 780,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladeGreen.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_JasperBlade": {
+					"Name": "{{ModId}}_JasperBlade",
+					"DisplayName": "{{i18n: Glassworks_JasperBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 1080,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladeRed.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_KyaniteBlade": {
+					"Name": "{{ModId}}_KyaniteBlade",
+					"DisplayName": "{{i18n: Glassworks_KyaniteBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 1260,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladeBlue.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_LemonStoneBlade": {
+					"Name": "{{ModId}}_LemonStoneBlade",
+					"DisplayName": "{{i18n: Glassworks_LemonStoneBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 1200,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladeYellow.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_MalachiteBlade": {
+					"Name": "{{ModId}}_MalachiteBlade",
+					"DisplayName": "{{i18n: Glassworks_MalachiteBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 780,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladeGreen.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NekoiteBlade": {
+					"Name": "{{ModId}}_NekoiteBlade",
+					"DisplayName": "{{i18n: Glassworks_NekoiteBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 612,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladePurple.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NeptuniteBlade": {
+					"Name": "{{ModId}}_NeptuniteBlade",
+					"DisplayName": "{{i18n: Glassworks_NeptuniteBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 1680,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladeBlack.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_ObsidianBlade": {
+					"Name": "{{ModId}}_ObsidianBlade",
+					"DisplayName": "{{i18n: Glassworks_ObsidianBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 1200,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladeBlack.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OceanStoneBlade": {
+					"Name": "{{ModId}}_OceanStoneBlade",
+					"DisplayName": "{{i18n: Glassworks_OceanStoneBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 1070,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladeAqua.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OpalBlade": {
+					"Name": "{{ModId}}_OpalBlade",
+					"DisplayName": "{{i18n: Glassworks_OpalBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 960,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladeWhite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OrpimentBlade": {
+					"Name": "{{ModId}}_OrpimentBlade",
+					"DisplayName": "{{i18n: Glassworks_OrpimentBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 708,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladeOrange.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_PetrifiedSlimeBlade": {
+					"Name": "{{ModId}}_PetrifiedSlimeBlade",
+					"DisplayName": "{{i18n: Glassworks_PetrifiedSlimeBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 708,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladeWhite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_PyriteBlade": {
+					"Name": "{{ModId}}_PyriteBlade",
+					"DisplayName": "{{i18n: Glassworks_PyriteBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 828,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladeYellow.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_StarShardsBlade": {
+					"Name": "{{ModId}}_StarShardsBlade",
+					"DisplayName": "{{i18n: Glassworks_StarShardsBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 1920,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladePink.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_ThunderEggBlade": {
+					"Name": "{{ModId}}_ThunderEggBlade",
+					"DisplayName": "{{i18n: Glassworks_ThunderEggBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 660,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladePink.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_brown"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_TigerseyeBlade": {
+					"Name": "{{ModId}}_TigerseyeBlade",
+					"DisplayName": "{{i18n: Glassworks_TigerseyeBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 1380,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladeOrange.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		//Iron Swords
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AeriniteIronSword": {
+					"Name": "{{ModId}}_AeriniteIronSword",
+					"DisplayName": "{{i18n: Glassworks_AeriniteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 1456,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Aerinite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AlamiteIronSword": {
+					"Name": "{{ModId}}_AlamiteIronSword",
+					"DisplayName": "{{i18n: Glassworks_AlamiteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 1372,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Alamite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_BaryteIronSword": {
+					"Name": "{{ModId}}_BaryteIronSword",
+					"DisplayName": "{{i18n: Glassworks_BaryteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 1708,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Baryte.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_BixiteIronSword": {
+					"Name": "{{ModId}}_BixiteIronSword",
+					"DisplayName": "{{i18n: Glassworks_BixiteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2296,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Bixite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_CelestineIronSword": {
+					"Name": "{{ModId}}_CelestineIronSword",
+					"DisplayName": "{{i18n: Glassworks_CelestineIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 1624,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Celestine.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_DolomiteIronSword": {
+					"Name": "{{ModId}}_DolomiteIronSword",
+					"DisplayName": "{{i18n: Glassworks_DolomiteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2380,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Dolomite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_EsperiteIronSword": {
+					"Name": "{{ModId}}_EsperiteIronSword",
+					"DisplayName": "{{i18n: Glassworks_EsperiteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 1540,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Esperite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FairyStoneIronSword": {
+					"Name": "{{ModId}}_FairyStoneIronSword",
+					"DisplayName": "{{i18n: Glassworks_FairyStoneIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 1876,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/FairyStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FireOpalIronSword": {
+					"Name": "{{ModId}}_FireOpalIronSword",
+					"DisplayName": "{{i18n: Glassworks_FireOpalIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2464,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/FireOpal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FluorapatiteIronSword": {
+					"Name": "{{ModId}}_FluorapatiteIronSword",
+					"DisplayName": "{{i18n: Glassworks_FluorapatiteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 1792,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Fluorapatite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_GeminiteIronSword": {
+					"Name": "{{ModId}}_GeminiteIronSword",
+					"DisplayName": "{{i18n: Glassworks_GeminiteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 1540,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Geminite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_GhostCrystalIronSword": {
+					"Name": "{{ModId}}_GhostCrystalIronSword",
+					"DisplayName": "{{i18n: Glassworks_GhostCrystalIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 1792,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/GhostCrystal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_HelviteIronSword": {
+					"Name": "{{ModId}}_HelviteIronSword",
+					"DisplayName": "{{i18n: Glassworks_HelviteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2800,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Helvite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_HematiteIronSword": {
+					"Name": "{{ModId}}_HematiteIronSword",
+					"DisplayName": "{{i18n: Glassworks_HematiteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 1540,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Hematite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_JamboriteIronSword": {
+					"Name": "{{ModId}}_JamboriteIronSword",
+					"DisplayName": "{{i18n: Glassworks_JamboriteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 1372,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Jamborite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_JasperIronSword": {
+					"Name": "{{ModId}}_JasperIronSword",
+					"DisplayName": "{{i18n: Glassworks_JasperIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 1792,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Jasper.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_KyaniteIronSword": {
+					"Name": "{{ModId}}_KyaniteIronSword",
+					"DisplayName": "{{i18n: Glassworks_KyaniteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2044,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Kyanite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_LemonStoneIronSword": {
+					"Name": "{{ModId}}_LemonStoneIronSword",
+					"DisplayName": "{{i18n: Glassworks_LemonStoneIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 1960,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/LemonStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_MalachiteIronSword": {
+					"Name": "{{ModId}}_MalachiteIronSword",
+					"DisplayName": "{{i18n: Glassworks_MalachiteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 1372,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Malachite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NekoiteIronSword": {
+					"Name": "{{ModId}}_NekoiteIronSword",
+					"DisplayName": "{{i18n: Glassworks_NekoiteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 1137,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Nekoite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NeptuniteIronSword": {
+					"Name": "{{ModId}}_NeptuniteIronSword",
+					"DisplayName": "{{i18n: Glassworks_NeptuniteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2632,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Neptunite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_ObsidianIronSword": {
+					"Name": "{{ModId}}_ObsidianIronSword",
+					"DisplayName": "{{i18n: Glassworks_ObsidianIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 1960,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Obsidian.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OceanStoneIronSword": {
+					"Name": "{{ModId}}_OceanStoneIronSword",
+					"DisplayName": "{{i18n: Glassworks_OceanStoneIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 1776,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/OceanStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OpalIronSword": {
+					"Name": "{{ModId}}_OpalIronSword",
+					"DisplayName": "{{i18n: Glassworks_OpalIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 1624,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Opal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OrpimentIronSword": {
+					"Name": "{{ModId}}_OrpimentIronSword",
+					"DisplayName": "{{i18n: Glassworks_OrpimentIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 1272,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Orpiment.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_PetrifiedSlimeIronSword": {
+					"Name": "{{ModId}}_PetrifiedSlimeIronSword",
+					"DisplayName": "{{i18n: Glassworks_PetrifiedSlimeIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 1272,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/PetrifiedSlime.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_PyriteIronSword": {
+					"Name": "{{ModId}}_PyriteIronSword",
+					"DisplayName": "{{i18n: Glassworks_PyriteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 1440,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Pyrite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_StarShardsIronSword": {
+					"Name": "{{ModId}}_StarShardsIronSword",
+					"DisplayName": "{{i18n: Glassworks_StarShardsIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2968,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/StarShards.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_ThunderEggIronSword": {
+					"Name": "{{ModId}}_ThunderEggIronSword",
+					"DisplayName": "{{i18n: Glassworks_ThunderEggIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 1204,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/ThunderEgg.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_brown"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_TigerseyeIronSword": {
+					"Name": "{{ModId}}_TigerseyeIronSword",
+					"DisplayName": "{{i18n: Glassworks_TigerseyeIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2212,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Tigerseye.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		//Gilded Iron Swords
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AeriniteIronSwordGilded": {
+					"Name": "{{ModId}}_AeriniteIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_AeriniteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2304,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/Aerinite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AlamiteIronSwordGilded": {
+					"Name": "{{ModId}}_AlamiteIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_AlamiteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2208,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/Alamite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_BaryteIronSwordGilded": {
+					"Name": "{{ModId}}_BaryteIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_BaryteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2592,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/Baryte.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_BixiteIronSwordGilded": {
+					"Name": "{{ModId}}_BixiteIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_BixiteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 3264,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/Bixite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_CelestineIronSwordGilded": {
+					"Name": "{{ModId}}_CelestineIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_CelestineIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2496,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/Celestine.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_DolomiteIronSwordGilded": {
+					"Name": "{{ModId}}_DolomiteIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_DolomiteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 3360,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/Dolomite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_EsperiteIronSwordGilded": {
+					"Name": "{{ModId}}_EsperiteIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_EsperiteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2400,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/Esperite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FairyStoneIronSwordGilded": {
+					"Name": "{{ModId}}_FairyStoneIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_FairyStoneIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2784,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/FairyStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FireOpalIronSwordGilded": {
+					"Name": "{{ModId}}_FireOpalIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_FireOpalIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 3456,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/FireOpal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FluorapatiteIronSwordGilded": {
+					"Name": "{{ModId}}_FluorapatiteIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_FluorapatiteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2688,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/Fluorapatite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_GeminiteIronSwordGilded": {
+					"Name": "{{ModId}}_GeminiteIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_GeminiteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2400,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/Geminite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_GhostCrystalIronSwordGilded": {
+					"Name": "{{ModId}}_GhostCrystalIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_GhostCrystalIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2688,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/GhostCrystal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_HelviteIronSwordGilded": {
+					"Name": "{{ModId}}_HelviteIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_HelviteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 3840,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/Helvite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_HematiteIronSwordGilded": {
+					"Name": "{{ModId}}_HematiteIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_HematiteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2400,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/Hematite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_JamboriteIronSwordGilded": {
+					"Name": "{{ModId}}_JamboriteIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_JamboriteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2208,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/Jamborite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_JasperIronSwordGilded": {
+					"Name": "{{ModId}}_JasperIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_JasperIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2688,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/Jasper.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_KyaniteIronSwordGilded": {
+					"Name": "{{ModId}}_KyaniteIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_KyaniteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2976,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/Kyanite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_LemonStoneIronSwordGilded": {
+					"Name": "{{ModId}}_LemonStoneIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_LemonStoneIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2880,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/LemonStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_MalachiteIronSwordGilded": {
+					"Name": "{{ModId}}_MalachiteIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_MalachiteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2208,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/Malachite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NekoiteIronSwordGilded": {
+					"Name": "{{ModId}}_NekoiteIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_NekoiteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 1940,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/Nekoite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NeptuniteIronSwordGilded": {
+					"Name": "{{ModId}}_NeptuniteIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_NeptuniteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 3648,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/Neptunite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_ObsidianIronSwordGilded": {
+					"Name": "{{ModId}}_ObsidianIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_ObsidianIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2880,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/Obsidian.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OceanStoneIronSwordGilded": {
+					"Name": "{{ModId}}_OceanStoneIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_OceanStoneIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2669,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/OceanStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OpalIronSwordGilded": {
+					"Name": "{{ModId}}_OpalIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_OpalIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2496,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/Opal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OrpimentIronSwordGilded": {
+					"Name": "{{ModId}}_OrpimentIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_OrpimentIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2093,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/Orpiment.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_PetrifiedSlimeIronSwordGilded": {
+					"Name": "{{ModId}}_PetrifiedSlimeIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_PetrifiedSlimeIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2093,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/PetrifiedSlime.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_PyriteIronSwordGilded": {
+					"Name": "{{ModId}}_PyriteIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_PyriteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2285,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/Pyrite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_StarShardsIronSwordGilded": {
+					"Name": "{{ModId}}_StarShardsIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_StarShardsIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 4032,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/StarShards.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_ThunderEggIronSwordGilded": {
+					"Name": "{{ModId}}_ThunderEggIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_ThunderEggIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2016,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/ThunderEgg.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_brown"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_TigerseyeIronSwordGilded": {
+					"Name": "{{ModId}}_TigerseyeIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_TigerseyeIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 3168,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/Tigerseye.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		//Iridium Swords
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AeriniteIridiumSword": {
+					"Name": "{{ModId}}_AeriniteIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_AeriniteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 4620,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Aerinite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AlamiteIridiumSword": {
+					"Name": "{{ModId}}_AlamiteIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_AlamiteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 4410,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Alamite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_BaryteIridiumSword": {
+					"Name": "{{ModId}}_BaryteIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_BaryteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 5250,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Baryte.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_BixiteIridiumSword": {
+					"Name": "{{ModId}}_BixiteIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_BixiteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6720,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Bixite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_CelestineIridiumSword": {
+					"Name": "{{ModId}}_CelestineIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_CelestineIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 5040,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Celestine.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_DolomiteIridiumSword": {
+					"Name": "{{ModId}}_DolomiteIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_DolomiteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6930,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Dolomite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_EsperiteIridiumSword": {
+					"Name": "{{ModId}}_EsperiteIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_EsperiteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 4830,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Esperite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FairyStoneIridiumSword": {
+					"Name": "{{ModId}}_FairyStoneIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_FairyStoneIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 5670,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/FairyStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FireOpalIridiumSword": {
+					"Name": "{{ModId}}_FireOpalIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_FireOpalIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 7140,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/FireOpal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FluorapatiteIridiumSword": {
+					"Name": "{{ModId}}_FluorapatiteIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_FluorapatiteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 5460,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Fluorapatite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_GeminiteIridiumSword": {
+					"Name": "{{ModId}}_GeminiteIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_GeminiteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 4830,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Geminite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_GhostCrystalIridiumSword": {
+					"Name": "{{ModId}}_GhostCrystalIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_GhostCrystalIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 5460,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/GhostCrystal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_HelviteIridiumSword": {
+					"Name": "{{ModId}}_HelviteIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_HelviteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 7980,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Helvite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_HematiteIridiumSword": {
+					"Name": "{{ModId}}_HematiteIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_HematiteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 4830,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Hematite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_JamboriteIridiumSword": {
+					"Name": "{{ModId}}_JamboriteIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_JamboriteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 4410,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Jamborite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_JasperIridiumSword": {
+					"Name": "{{ModId}}_JasperIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_JasperIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 5460,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Jasper.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_KyaniteIridiumSword": {
+					"Name": "{{ModId}}_KyaniteIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_KyaniteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6090,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Kyanite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_LemonStoneIridiumSword": {
+					"Name": "{{ModId}}_LemonStoneIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_LemonStoneIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 5880,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/LemonStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_MalachiteIridiumSword": {
+					"Name": "{{ModId}}_MalachiteIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_MalachiteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 4410,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Malachite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NekoiteIridiumSword": {
+					"Name": "{{ModId}}_NekoiteIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_NekoiteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 3822,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Nekoite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NeptuniteIridiumSword": {
+					"Name": "{{ModId}}_NeptuniteIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_NeptuniteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 7560,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Neptunite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_ObsidianIridiumSword": {
+					"Name": "{{ModId}}_ObsidianIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_ObsidianIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 5880,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Obsidian.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OceanStoneIridiumSword": {
+					"Name": "{{ModId}}_OceanStoneIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_OceanStoneIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 5418,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/OceanStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OpalIridiumSword": {
+					"Name": "{{ModId}}_OpalIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_OpalIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 5040,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Opal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OrpimentIridiumSword": {
+					"Name": "{{ModId}}_OrpimentIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_OrpimentIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 4158,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Orpiment.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_PetrifiedSlimeIridiumSword": {
+					"Name": "{{ModId}}_PetrifiedSlimeIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_PetrifiedSlimeIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 4158,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/PetrifiedSlime.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_PyriteIridiumSword": {
+					"Name": "{{ModId}}_PyriteIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_PyriteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 4578,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Pyrite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_StarShardsIridiumSword": {
+					"Name": "{{ModId}}_StarShardsIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_StarShardsIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8400,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/StarShards.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_ThunderEggIridiumSword": {
+					"Name": "{{ModId}}_ThunderEggIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_ThunderEggIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 3990,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/ThunderEgg.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_brown"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_TigerseyeIridiumSword": {
+					"Name": "{{ModId}}_TigerseyeIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_TigerseyeIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6510,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Tigerseye.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		//Gilded Iridium Swords
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AeriniteIridiumSwordGilded": {
+					"Name": "{{ModId}}_AeriniteIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_AeriniteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6240,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/Aerinite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AlamiteIridiumSwordGilded": {
+					"Name": "{{ModId}}_AlamiteIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_AlamiteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6000,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/Alamite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_BaryteIridiumSwordGilded": {
+					"Name": "{{ModId}}_BaryteIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_BaryteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6960,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/Baryte.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_BixiteIridiumSwordGilded": {
+					"Name": "{{ModId}}_BixiteIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_BixiteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8640,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/Bixite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_CelestineIridiumSwordGilded": {
+					"Name": "{{ModId}}_CelestineIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_IridiumSwordGilded_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6720,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/Celestine.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_DolomiteIridiumSwordGilded": {
+					"Name": "{{ModId}}_DolomiteIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_DolomiteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8880,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/Dolomite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_EsperiteIridiumSwordGilded": {
+					"Name": "{{ModId}}_EsperiteIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_EsperiteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6480,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/Esperite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FairyStoneIridiumSwordGilded": {
+					"Name": "{{ModId}}_FairyStoneIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_FairyStoneIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 7440,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/FairyStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FireOpalIridiumSwordGilded": {
+					"Name": "{{ModId}}_FireOpalIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_FireOpalIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 9120,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/FireOpal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FluorapatiteIridiumSwordGilded": {
+					"Name": "{{ModId}}_FluorapatiteIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_FluorapatiteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 7200,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/Fluorapatite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_GeminiteIridiumSwordGilded": {
+					"Name": "{{ModId}}_GeminiteIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_GeminiteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6480,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/Geminite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_GhostCrystalIridiumSwordGilded": {
+					"Name": "{{ModId}}_GhostCrystalIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_GhostCrystalIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 7200,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/GhostCrystal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_HelviteIridiumSwordGilded": {
+					"Name": "{{ModId}}_HelviteIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_HelviteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 10080,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/Helvite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_HematiteIridiumSwordGilded": {
+					"Name": "{{ModId}}_HematiteIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_HematiteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6480,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/Hematite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_JamboriteIridiumSwordGilded": {
+					"Name": "{{ModId}}_JamboriteIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_JamboriteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6000,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/Jamborite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_JasperIridiumSwordGilded": {
+					"Name": "{{ModId}}_JasperIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_JasperIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 7200,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/Jasper.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_KyaniteIridiumSwordGilded": {
+					"Name": "{{ModId}}_KyaniteIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_KyaniteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 7920,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/Kyanite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_LemonStoneIridiumSwordGilded": {
+					"Name": "{{ModId}}_LemonStoneIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_LemonStoneIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 7680,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/LemonStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_MalachiteIridiumSwordGilded": {
+					"Name": "{{ModId}}_MalachiteIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_MalachiteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6000,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/Malachite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NekoiteIridiumSwordGilded": {
+					"Name": "{{ModId}}_NekoiteIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_NekoiteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 5328,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/Nekoite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NeptuniteIridiumSwordGilded": {
+					"Name": "{{ModId}}_NeptuniteIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_NeptuniteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 9600,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/Neptunite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_ObsidianIridiumSwordGilded": {
+					"Name": "{{ModId}}_ObsidianIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_ObsidianIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 7680,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/Obsidian.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OceanStoneIridiumSwordGilded": {
+					"Name": "{{ModId}}_OceanStoneIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_OceanStoneIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 7152,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/OceanStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OpalIridiumSwordGilded": {
+					"Name": "{{ModId}}_OpalIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_OpalIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6720,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/Opal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OrpimentIridiumSwordGilded": {
+					"Name": "{{ModId}}_OrpimentIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_OrpimentIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 5712,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/Orpiment.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_PetrifiedSlimeIridiumSwordGilded": {
+					"Name": "{{ModId}}_PetrifiedSlimeIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_PetrifiedSlimeIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 5712,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/PetrifiedSlime.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_PyriteIridiumSwordGilded": {
+					"Name": "{{ModId}}_PyriteIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_PyriteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6192,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/Pyrite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_StarShardsIridiumSwordGilded": {
+					"Name": "{{ModId}}_StarShardsIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_StarShardsIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 10560,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/StarShards.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_ThunderEggIridiumSwordGilded": {
+					"Name": "{{ModId}}_ThunderEggIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_ThunderEggIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 5520,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/ThunderEgg.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_brown"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_TigerseyeIridiumSwordGilded": {
+					"Name": "{{ModId}}_TigerseyeIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_TigerseyeIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8400,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/Tigerseye.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		//Radioactive Swords
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AeriniteRadioactiveSword": {
+					"Name": "{{ModId}}_AeriniteRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_AeriniteRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 9324,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/Aerinite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AlamiteRadioactiveSword": {
+					"Name": "{{ModId}}_AlamiteRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_AlamiteRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8988,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/Alamite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_BaryteRadioactiveSword": {
+					"Name": "{{ModId}}_BaryteRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_BaryteRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 10332,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/Baryte.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_BixiteRadioactiveSword": {
+					"Name": "{{ModId}}_BixiteRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_BixiteRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 12684,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/Bixite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_CelestineRadioactiveSword": {
+					"Name": "{{ModId}}_CelestineRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_CelestineRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 9996,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/Celestine.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_DolomiteRadioactiveSword": {
+					"Name": "{{ModId}}_DolomiteRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_DolomiteRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 13020,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/Dolomite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_EsperiteRadioactiveSword": {
+					"Name": "{{ModId}}_EsperiteRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_EsperiteRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 9660,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/Esperite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FairyStoneRadioactiveSword": {
+					"Name": "{{ModId}}_FairyStoneRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_FairyStoneRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 11004,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/FairyStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FireOpalRadioactiveSword": {
+					"Name": "{{ModId}}_FireOpalRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_FireOpalRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 13356,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/FireOpal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FluorapatiteRadioactiveSword": {
+					"Name": "{{ModId}}_FluorapatiteRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_FluorapatiteRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 10668,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/Fluorapatite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_GeminiteRadioactiveSword": {
+					"Name": "{{ModId}}_GeminiteRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_GeminiteRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 9660,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/Geminite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_GhostCrystalRadioactiveSword": {
+					"Name": "{{ModId}}_GhostCrystalRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_GhostCrystalRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 10668,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/GhostCrystal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_HelviteRadioactiveSword": {
+					"Name": "{{ModId}}_HelviteRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_HelviteRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 14700,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/Helvite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_HematiteRadioactiveSword": {
+					"Name": "{{ModId}}_HematiteRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_HematiteRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 9660,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/Hematite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_JamboriteRadioactiveSword": {
+					"Name": "{{ModId}}_JamboriteRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_JamboriteRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8988,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/Jamborite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_JasperRadioactiveSword": {
+					"Name": "{{ModId}}_JasperRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_JasperRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 10668,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/Jasper.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_KyaniteRadioactiveSword": {
+					"Name": "{{ModId}}_KyaniteRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_KyaniteRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 11676,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/Kyanite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_LemonStoneRadioactiveSword": {
+					"Name": "{{ModId}}_LemonStoneRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_LemonStoneRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 11340,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/LemonStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_MalachiteRadioactiveSword": {
+					"Name": "{{ModId}}_MalachiteRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_MalachiteRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8988,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/Malachite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NekoiteRadioactiveSword": {
+					"Name": "{{ModId}}_NekoiteRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_NekoiteRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8048,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/Nekoite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NeptuniteRadioactiveSword": {
+					"Name": "{{ModId}}_NeptuniteRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_NeptuniteRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 14028,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/Neptunite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_ObsidianRadioactiveSword": {
+					"Name": "{{ModId}}_ObsidianRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_ObsidianRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 11340,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/Obsidian.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OceanStoneRadioactiveSword": {
+					"Name": "{{ModId}}_OceanStoneRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_OceanStoneRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 10600,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/OceanStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OpalRadioactiveSword": {
+					"Name": "{{ModId}}_OpalRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_OpalRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 9996,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/Opal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OrpimentRadioactiveSword": {
+					"Name": "{{ModId}}_OrpimentRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_OrpimentRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8585,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/Orpiment.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_PetrifiedSlimeRadioactiveSword": {
+					"Name": "{{ModId}}_PetrifiedSlimeRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_PetrifiedSlimeRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8585,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/PetrifiedSlime.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_PyriteRadioactiveSword": {
+					"Name": "{{ModId}}_PyriteRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_PyriteRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 9257,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/Pyrite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_StarShardsRadioactiveSword": {
+					"Name": "{{ModId}}_StarShardsRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_StarShardsRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 15372,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/StarShards.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_ThunderEggRadioactiveSword": {
+					"Name": "{{ModId}}_ThunderEggRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_ThunderEggRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8316,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/ThunderEgg.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_brown"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_TigerseyeRadioactiveSword": {
+					"Name": "{{ModId}}_TigerseyeRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_TigerseyeRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 12348,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/Tigerseye.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_orange"
+					]
+				}
+			}
+		}
+	]
+}

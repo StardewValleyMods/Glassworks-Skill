@@ -1,0 +1,138 @@
+{
+  "Changes":
+    [
+      {
+	"Action": "EditData", 
+	"Target": "Data/NPCGiftTastes", 
+	"TextOperations":
+	  [
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Aideen", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Sylleblossom"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "CorwinLK", 3], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Goldcap"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Jacob", 7], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_GysahlGreens"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "JadeMalic", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Auracite"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "JadeMalic", 3], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_TomestonePoetics Kitsutsune.Chocobovalley_TomestoneLore"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Jasper", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_TomestonePoetics Kitsutsune.Chocobovalley_TomestoneLore"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Jasper", 3], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_PepioNuts"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Jessie", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Goldcap Kitsutsune.Chocobovalley_DriedGoldcap Kitsutsune.Chocobovalley_MimettGourd"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Jessie", 5], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_ChocoboMayonnaiseCommon Kitsutsune.Chocobovalley_ChocoboMayonnaiseUncommon Kitsutsune.Chocobovalley_ChocoboMayonnaiseRare"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Juliet", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Nethicite"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "KeanuAvis", 3], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Goldcap"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Leximonster", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_MimettGourd"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "LumaJunimo", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Auracite"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "LumaJunimo", 3], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_MimettGourd"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "LumaJunimo", 7], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Goldcap Kitsutsune.Chocobovalley_DriedGoldcap"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "MichaelHart", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_AetheryteShards"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "MichaelHart", 3], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_PepioNuts"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "OliverK", 3], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Wyrmtwig"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "OliverK", 7], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_MimettGourd"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Rosa", 3], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_MimettGourd"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Rosa", 7], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Nethicite"
+	    }
+	  ]
+      }
+    ]
+}

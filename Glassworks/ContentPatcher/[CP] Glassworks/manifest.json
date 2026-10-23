@@ -1,0 +1,63 @@
+{
+    "Name": "[CP] Glassworks",
+    "Author": "Ex0dus",
+    "Version": "1.0.0",
+    "Description": "Adds as full glassmaking skill and glass objects to make",
+    "UniqueID": "Ex0dus.Glassworks",
+    "UpdateKeys": [  ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+   {
+      "UniqueID": "selph.ExtraMachineConfig",
+      "MinimumVersion": "1.6.0",	
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "Kitsutsune.Chocobovalley",
+      "MinimumVersion": "1.0.3",	
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "Nom0ri.RomRas",
+      "MinimumVersion": "3.5.0",	
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "MinimumVersion": "1.15.11",	
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "bigsquishy97.Daulton",
+      "MinimumVersion": "1.0.31",	
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "tottlesfarm.fleurine",
+      "MinimumVersion": "2.1.0",	
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "ichortower.HatMouseLacey",
+      "MinimumVersion": "1.6.2",	
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "sugarsbt.teddy",
+      "MinimumVersion": "1.0.3",	
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "Aimon111.WitchSwampOverhaulCP",
+      "MinimumVersion": "2.2.9",	
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "Lemurkat.EastScarpNPCs",
+      "MinimumVersion": "3.0.9",
+      "IsRequired": false
+   }
+]
+}

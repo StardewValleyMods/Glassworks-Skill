@@ -1,0 +1,42 @@
+{
+  "Changes":
+    [
+      {
+	"Action": "EditData", 
+	"Target": "Data/NPCGiftTastes", 
+	"TextOperations":
+	  [
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Daulton", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_DragonClaw {{ModId}}_MoogleIvaliceDoll"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Daulton", 5], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_BabyBehemothDoll {{ModId}}_CactuarDoll {{ModId}}_GoldCactuarDoll {{ModId}}_CapedCactuarDoll {{ModId}}_TonberryDoll {{ModId}}_TonberryMasterDoll {{ModId}}_YellowChocoboDoll {{ModId}}_GreenChocoboDoll {{ModId}}_RedChocoboDoll {{ModId}}_BlueChocoboDoll {{ModId}}_PurpleChocoboDoll {{ModId}}_ForestGreenChocoboDoll {{ModId}}_PinkChocoboDoll {{ModId}}_MoogleDoll {{ModId}}_YanDoll {{ModId}}_NutkinDoll {{ModId}}_PrismaticCactuarDoll {{ModId}}_PrismaticChocoboDoll {{ModId}}_MiniMoogleDoll {{ModId}}_TonberryKingDoll {{ModId}}_MoombaDoll {{ModId}}_CarbuncleDoll {{ModId}}_BlackMageDoll {{ModId}}_GoldMoogleDoll"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Daulton", 7], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_IshgardianTea {{ModId}}_StarblossomTea {{ModId}}_GysahlTea {{ModId}}_ChocoClub {{ModId}}_ChocoClubPlus {{ModId}}_ChocoClubDX"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Maple", 1], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_Moonblossom {{ModId}}_MoonblossomSeeds {{ModId}}_Starblossom {{ModId}}_StarblossomSeeds"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Maple", 7], 
+	      "Delimiter": " ",
+	      "Value": "{{ModId}}_CactuarDoll {{ModId}}_GoldCactuarDoll {{ModId}}_CapedCactuarDoll {{ModId}}_PrismaticCactuarDoll {{ModId}}_TonberryDoll {{ModId}}_TonberryMasterDoll {{ModId}}_TonberryKingDoll {{ModId}}_ChocoClub {{ModId}}_ChocoClubPlus {{ModId}}_ChocoClubDX {{ModId}}_ChocoboTripleDecker {{ModId}}_DragonClaw {{ModId}}_ChimeraBone {{ModId}}_MythrilBangle {{ModId}}_AdamantiteHairpin {{ModId}}_MysticWand {{ModId}}_OrichalcumPendant {{ModId}}_AdamantiteBell {{ModId}}_AdamantiteStaff {{ModId}}_OrichalcumOrb"
+	    }
+	  ]
+      }
+    ]
+}

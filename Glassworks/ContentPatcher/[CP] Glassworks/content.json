@@ -1,0 +1,69 @@
+{
+    "Format": "2.9.0",
+    "Changes": [ 
+        {
+            "Action": "Include",
+            "FromFile": "Data/Artificer.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "Data/Artisankiln.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "Data/Buildings.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "Data/Craftingrecipes.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "Data/Kiln.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "Data/Objects.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "Data/Sendmail.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "Data/Shop.json"
+        },
+	{
+	    "LogName": "Load Chocobo Valley Objects if installed",
+	    "Action": "Include",
+	    "FromFile": "Data/ObjectsCVR.json",
+	    "When": {
+		    "HasMod|contains=Kitsutsune.Chocobovalley": true
+		    }
+	},
+	{
+	    "LogName": "Load Chocobo Valley Machine Additions if installed",
+	    "Action": "Include",
+	    "FromFile": "Data/MachinesCVR.json",
+	    "When": {
+		    "HasMod|contains=Kitsutsune.Chocobovalley": true
+		    }
+	},
+	{
+	    "LogName": "Load Rasmodius mail if Romanceable Rasmodia is not installed",
+	    "Action": "Include",
+	    "FromFile": "Data/Mail.json",
+	    "When": {
+		    "HasMod|contains=Nom0ri.RomRas": false
+		    }
+	},
+	{
+	    "LogName": "Load Rasmodia mail if installed",
+	    "Action": "Include",
+	    "FromFile": "Data/MailRR.json",
+	    "When": {
+		    "HasMod|contains=Nom0ri.RomRas": true
+		    }
+	}
+    ]
+}

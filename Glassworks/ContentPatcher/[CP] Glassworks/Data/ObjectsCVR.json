@@ -1,0 +1,2278 @@
+{
+	"Changes": [
+		//Art
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NethiciteArt": {
+					"Name": "{{ModId}}_NethiciteArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 813,
+					"Texture": "{{InternalAssetKey: Assets/Art/Nethicite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AuraciteArt": {
+					"Name": "{{ModId}}_AuraciteArt",
+					"DisplayName": "{{i18n: Glassworks_GlassworksArt_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksArt_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 1008,
+					"Texture": "{{InternalAssetKey: Assets/Art/Auracite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_art_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		//Hilts
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_MythrilHilt": {
+					"Name": "{{ModId}}_MythrilHilt",
+					"DisplayName": "{{i18n: Glassworks_MythrilHilt_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilHilt_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 1600,
+					"Texture": "{{InternalAssetKey: Assets/Hilts/Mythril.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_hilt_item",
+						"color_silver"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OrichalcumHilt": {
+					"Name": "{{ModId}}_OrichalcumHilt",
+					"DisplayName": "{{i18n: Glassworks_OrichalcumHilt_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumHilt_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 2200,
+					"Texture": "{{InternalAssetKey: Assets/Hilts/Orichalcum.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_hilt_item",
+						"color_gold"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AdamantiteHilt": {
+					"Name": "{{ModId}}_AdamantiteHilt",
+					"DisplayName": "{{i18n: Glassworks_AdamantiteHilt_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteHilt_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 2750,
+					"Texture": "{{InternalAssetKey: Assets/Hilts/Adamantite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_hilt_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		//Blades
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NethiciteBlade": {
+					"Name": "{{ModId}}_NethiciteBlade",
+					"DisplayName": "{{i18n: Glassworks_NethiciteBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 1500,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladeBlack.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AuraciteBlade": {
+					"Name": "{{ModId}}_AuraciteBlade",
+					"DisplayName": "{{i18n: Glassworks_AuraciteBlade_Name}}",
+					"Description": "{{i18n: Glassworks_GlassworksBlade_Description}}",
+					"Type": "Basic",
+					"Category": -8,
+					"Price": 1860,
+					"Texture": "{{InternalAssetKey: Assets/Blade/BladePink.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_blade_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		//Mythril Swords
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AeriniteMythrilSword": {
+					"Name": "{{ModId}}_AeriniteMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_AeriniteMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 5550,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/Aerinite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AlamiteMythrilSword": {
+					"Name": "{{ModId}}_AlamiteMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_AlamiteMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 5325,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/Alamite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_BaryteMythrilSword": {
+					"Name": "{{ModId}}_BaryteMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_BaryteMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6225,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/Baryte.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_BixiteMythrilSword": {
+					"Name": "{{ModId}}_BixiteMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_BixiteMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 7800,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/Bixite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_CelestineMythrilSword": {
+					"Name": "{{ModId}}_CelestineMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_CelestineMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6000,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/Celestine.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_DolomiteMythrilSword": {
+					"Name": "{{ModId}}_DolomiteMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_DolomiteMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8025,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/Dolomite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_EsperiteMythrilSword": {
+					"Name": "{{ModId}}_EsperiteMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_EsperiteMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 5775,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/Esperite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FairyStoneMythrilSword": {
+					"Name": "{{ModId}}_FairyStoneMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_FairyStoneMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6675,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/FairyStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FireOpalMythrilSword": {
+					"Name": "{{ModId}}_FireOpalMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_FireOpalMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8250,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/FireOpal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FluorapatiteMythrilSword": {
+					"Name": "{{ModId}}_FluorapatiteMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_FluorapatiteMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6450,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/Fluorapatite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_GeminiteMythrilSword": {
+					"Name": "{{ModId}}_GeminiteMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_GeminiteMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 5775,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/Geminite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_GhostCrystalMythrilSword": {
+					"Name": "{{ModId}}_GhostCrystalMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_GhostCrystalMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6450,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/GhostCrystal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_HelviteMythrilSword": {
+					"Name": "{{ModId}}_HelviteMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_HelviteMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 9150,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/Helvite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_HematiteMythrilSword": {
+					"Name": "{{ModId}}_HematiteMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_HematiteMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 5775,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/Hematite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_JamboriteMythrilSword": {
+					"Name": "{{ModId}}_JamboriteMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_JamboriteMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 5325,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/Jamborite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_JasperMythrilSword": {
+					"Name": "{{ModId}}_JasperMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_JasperMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6450,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/Jasper.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_KyaniteMythrilSword": {
+					"Name": "{{ModId}}_KyaniteMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_KyaniteMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 7125,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/Kyanite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_LemonStoneMythrilSword": {
+					"Name": "{{ModId}}_LemonStoneMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_LemonStoneMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6900,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/LemonStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_MalachiteMythrilSword": {
+					"Name": "{{ModId}}_MalachiteMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_MalachiteMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 5325,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/Malachite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NekoiteMythrilSword": {
+					"Name": "{{ModId}}_NekoiteMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_NekoiteMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 4695,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/Nekoite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NeptuniteMythrilSword": {
+					"Name": "{{ModId}}_NeptuniteMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_NeptuniteMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8700,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/Neptunite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_ObsidianMythrilSword": {
+					"Name": "{{ModId}}_ObsidianMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_ObsidianMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6900,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/Obsidian.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OceanStoneMythrilSword": {
+					"Name": "{{ModId}}_OceanStoneMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_OceanStoneMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6405,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/OceanStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OpalMythrilSword": {
+					"Name": "{{ModId}}_OpalMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_OpalMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6000,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/Opal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OrpimentMythrilSword": {
+					"Name": "{{ModId}}_OrpimentMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_OrpimentMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 5055,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/Orpiment.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_PetrifiedSlimeMythrilSword": {
+					"Name": "{{ModId}}_PetrifiedSlimeMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_PetrifiedSlimeMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 5055,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/PetrifiedSlime.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_PyriteMythrilSword": {
+					"Name": "{{ModId}}_PyriteMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_PyriteMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 5505,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/Pyrite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_StarShardsMythrilSword": {
+					"Name": "{{ModId}}_StarShardsMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_StarShardsMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 9600,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/StarShards.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_ThunderEggMythrilSword": {
+					"Name": "{{ModId}}_ThunderEggMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_ThunderEggMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 4875,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/ThunderEgg.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_brown"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_TigerseyeMythrilSword": {
+					"Name": "{{ModId}}_TigerseyeMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_TigerseyeMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 7575,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/Tigerseye.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		//Orichalcum Swords
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AeriniteOrichalcumSword": {
+					"Name": "{{ModId}}_AeriniteOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_AeriniteOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 7080,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/Aerinite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AlamiteOrichalcumSword": {
+					"Name": "{{ModId}}_AlamiteOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_AlamiteOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6810,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/Alamite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_BaryteOrichalcumSword": {
+					"Name": "{{ModId}}_BaryteOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_BaryteOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 7890,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/Baryte.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_BixiteOrichalcumSword": {
+					"Name": "{{ModId}}_BixiteOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_BixiteOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 9780,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/Bixite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_CelestineOrichalcumSword": {
+					"Name": "{{ModId}}_CelestineOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_CelestineOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 7620,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/Celestine.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_DolomiteOrichalcumSword": {
+					"Name": "{{ModId}}_DolomiteOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_DolomiteOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 10050,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/Dolomite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_EsperiteOrichalcumSword": {
+					"Name": "{{ModId}}_EsperiteOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_EsperiteOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 7350,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/Esperite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FairyStoneOrichalcumSword": {
+					"Name": "{{ModId}}_FairyStoneOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_FairyStoneOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8430,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/FairyStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FireOpalOrichalcumSword": {
+					"Name": "{{ModId}}_FireOpalOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_FireOpalOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 10320,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/FireOpal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FluorapatiteOrichalcumSword": {
+					"Name": "{{ModId}}_FluorapatiteOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_FluorapatiteOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8160,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/Fluorapatite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_GeminiteOrichalcumSword": {
+					"Name": "{{ModId}}_GeminiteOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_GeminiteOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 7350,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/Geminite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_GhostCrystalOrichalcumSword": {
+					"Name": "{{ModId}}_GhostCrystalOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_GhostCrystalOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8160,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/GhostCrystal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_HelviteOrichalcumSword": {
+					"Name": "{{ModId}}_HelviteOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_HelviteOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 11400,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/Helvite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_HematiteOrichalcumSword": {
+					"Name": "{{ModId}}_HematiteOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_HematiteOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 7350,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/Hematite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_JamboriteOrichalcumSword": {
+					"Name": "{{ModId}}_JamboriteOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_JamboriteOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6810,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/Jamborite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_JasperOrichalcumSword": {
+					"Name": "{{ModId}}_JasperOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_JasperOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8160,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/Jasper.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_KyaniteOrichalcumSword": {
+					"Name": "{{ModId}}_KyaniteOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_KyaniteOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8970,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/Kyanite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_LemonStoneOrichalcumSword": {
+					"Name": "{{ModId}}_LemonStoneOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_LemonStoneOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8700,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/LemonStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_MalachiteOrichalcumSword": {
+					"Name": "{{ModId}}_MalachiteOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_MalachiteOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6810,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/Malachite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NekoiteOrichalcumSword": {
+					"Name": "{{ModId}}_NekoiteOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_NekoiteOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6054,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/Nekoite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NeptuniteOrichalcumSword": {
+					"Name": "{{ModId}}_NeptuniteOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_NeptuniteOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 10860,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/Neptunite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_ObsidianOrichalcumSword": {
+					"Name": "{{ModId}}_ObsidianOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_ObsidianOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8700,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/Obsidian.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OceanStoneOrichalcumSword": {
+					"Name": "{{ModId}}_OceanStoneOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_OceanStoneOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8106,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/OceanStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OpalOrichalcumSword": {
+					"Name": "{{ModId}}_OpalOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_OpalOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 7620,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/Opal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OrpimentOrichalcumSword": {
+					"Name": "{{ModId}}_OrpimentOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_OrpimentOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6486,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/Orpiment.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_PetrifiedSlimeOrichalcumSword": {
+					"Name": "{{ModId}}_PetrifiedSlimeOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_PetrifiedSlimeOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6486,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/PetrifiedSlime.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_PyriteOrichalcumSword": {
+					"Name": "{{ModId}}_PyriteOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_PyriteOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 7026,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/Pyrite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_StarShardsOrichalcumSword": {
+					"Name": "{{ModId}}_StarShardsOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_StarShardsOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 11940,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/StarShards.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_ThunderEggOrichalcumSword": {
+					"Name": "{{ModId}}_ThunderEggOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_ThunderEggOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6270,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/ThunderEgg.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_brown"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_TigerseyeOrichalcumSword": {
+					"Name": "{{ModId}}_TigerseyeOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_TigerseyeOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 9510,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/Tigerseye.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		//Adamantite Swords
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AeriniteAdamantiteSword": {
+					"Name": "{{ModId}}_AeriniteAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_AeriniteAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 9776,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/Aerinite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AlamiteAdamantiteSword": {
+					"Name": "{{ModId}}_AlamiteAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_AlamiteAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 9392,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/Alamite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_BaryteAdamantiteSword": {
+					"Name": "{{ModId}}_BaryteAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_BaryteAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 10928,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/Baryte.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_BixiteAdamantiteSword": {
+					"Name": "{{ModId}}_BixiteAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_BixiteAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 13616,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/Bixite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_CelestineAdamantiteSword": {
+					"Name": "{{ModId}}_CelestineAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_CelestineAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 10544,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/Celestine.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_DolomiteAdamantiteSword": {
+					"Name": "{{ModId}}_DolomiteAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_DolomiteAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 14000,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/Dolomite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_EsperiteAdamantiteSword": {
+					"Name": "{{ModId}}_EsperiteAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_EsperiteAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 10160,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/Esperite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FairyStoneAdamantiteSword": {
+					"Name": "{{ModId}}_FairyStoneAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_FairyStoneAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 11696,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/FairyStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FireOpalAdamantiteSword": {
+					"Name": "{{ModId}}_FireOpalAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_FireOpalAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 14384,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/FireOpal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FluorapatiteAdamantiteSword": {
+					"Name": "{{ModId}}_FluorapatiteAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_FluorapatiteAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 11312,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/Fluorapatite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_GeminiteAdamantiteSword": {
+					"Name": "{{ModId}}_GeminiteAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_GeminiteAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 10160,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/Geminite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_GhostCrystalAdamantiteSword": {
+					"Name": "{{ModId}}_GhostCrystalAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_GhostCrystalAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 11312,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/GhostCrystal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_HelviteAdamantiteSword": {
+					"Name": "{{ModId}}_HelviteAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_HelviteAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 15920,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/Helvite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_HematiteAdamantiteSword": {
+					"Name": "{{ModId}}_HematiteAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_HematiteAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 10160,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/Hematite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_JamboriteAdamantiteSword": {
+					"Name": "{{ModId}}_JamboriteAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_JamboriteAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 9392,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/Jamborite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_JasperAdamantiteSword": {
+					"Name": "{{ModId}}_JasperAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_JasperAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 11312,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/Jasper.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_red"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_KyaniteAdamantiteSword": {
+					"Name": "{{ModId}}_KyaniteAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_KyaniteAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 12464,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/Kyanite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_LemonStoneAdamantiteSword": {
+					"Name": "{{ModId}}_LemonStoneAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_LemonStoneAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 12080,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/LemonStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_MalachiteAdamantiteSword": {
+					"Name": "{{ModId}}_MalachiteAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_MalachiteAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 11236,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/Malachite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NekoiteAdamantiteSword": {
+					"Name": "{{ModId}}_NekoiteAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_NekoiteAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8317,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/Nekoite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NeptuniteAdamantiteSword": {
+					"Name": "{{ModId}}_NeptuniteAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_NeptuniteAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 15152,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/Neptunite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_ObsidianAdamantiteSword": {
+					"Name": "{{ModId}}_ObsidianAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_ObsidianAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 12080,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/Obsidian.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OceanStoneAdamantiteSword": {
+					"Name": "{{ModId}}_OceanStoneAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_OceanStoneAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 11236,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/OceanStone.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OpalAdamantiteSword": {
+					"Name": "{{ModId}}_OpalAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_OpalAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 10544,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/Opal.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_blue"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_OrpimentAdamantiteSword": {
+					"Name": "{{ModId}}_OrpimentAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_OrpimentAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8932,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/Orpiment.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_PetrifiedSlimeAdamantiteSword": {
+					"Name": "{{ModId}}_PetrifiedSlimeAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_PetrifiedSlimeAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8932,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/PetrifiedSlime.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_green"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_PyriteAdamantiteSword": {
+					"Name": "{{ModId}}_PyriteAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_PyriteAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 9700,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/Pyrite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_yellow"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_StarShardsAdamantiteSword": {
+					"Name": "{{ModId}}_StarShardsAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_StarShardsAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 16688,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/StarShards.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_ThunderEggAdamantiteSword": {
+					"Name": "{{ModId}}_ThunderEggAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_ThunderEggAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8624,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/ThunderEgg.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_brown"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_TigerseyeAdamantiteSword": {
+					"Name": "{{ModId}}_TigerseyeAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_TigerseyeAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 13232,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/Tigerseye.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_orange"
+					]
+				}
+			}
+		},
+		//Iron Swords
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NethiciteIronSword": {
+					"Name": "{{ModId}}_NethiciteIronSword",
+					"DisplayName": "{{i18n: Glassworks_NethiciteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2380,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Nethicite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AuraciteIronSword": {
+					"Name": "{{ModId}}_AuraciteIronSword",
+					"DisplayName": "{{i18n: Glassworks_AuraciteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 2884,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Auracite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		//Gilded Iron Swords
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NethiciteIronSwordGilded": {
+					"Name": "{{ModId}}_NethiciteIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_NethiciteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 3360,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/Nethicite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AuraciteIronSwordGilded": {
+					"Name": "{{ModId}}_AuraciteIronSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_AuraciteIronSword_Name}}",
+					"Description": "{{i18n: Glassworks_IronSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 3936,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iron/Gilded/Auracite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		//Iridium Swords
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NethiciteIridiumSword": {
+					"Name": "{{ModId}}_NethiciteIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_NethiciteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 6930,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Nethicite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AuraciteIridiumSword": {
+					"Name": "{{ModId}}_AuraciteIridiumSword",
+					"DisplayName": "{{i18n: Glassworks_AuraciteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8190,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Auracite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		//Gilded Iridium Swords
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NethiciteIridiumSwordGilded": {
+					"Name": "{{ModId}}_NethiciteIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_NethiciteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8880,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/Nethicite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AuraciteIridiumSwordGilded": {
+					"Name": "{{ModId}}_AuraciteIridiumSwordGilded",
+					"DisplayName": "{{i18n: Glassworks_AuraciteIridiumSword_Name}}",
+					"Description": "{{i18n: Glassworks_IridiumSwordGilded_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 10320,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Iridium/Gilded/Auracite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		//Radioactive Swords
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NethiciteRadioactiveSword": {
+					"Name": "{{ModId}}_NethiciteRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_NethiciteRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 13020,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/Nethicite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AuraciteRadioactiveSword": {
+					"Name": "{{ModId}}_AuraciteRadioactiveSword",
+					"DisplayName": "{{i18n: Glassworks_AuraciteRadioactiveSword_Name}}",
+					"Description": "{{i18n: Glassworks_RadioactiveSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 15036,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Radioactive/Auracite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		//Nethicite and Auracite Mythril Swords
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NethiciteMythrilSword": {
+					"Name": "{{ModId}}_NethiciteMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_NethiciteMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 8025,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/Nethicite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AuraciteMythrilSword": {
+					"Name": "{{ModId}}_AuraciteMythrilSword",
+					"DisplayName": "{{i18n: Glassworks_AuraciteMythrilSword_Name}}",
+					"Description": "{{i18n: Glassworks_MythrilSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 9375,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Mythril/Auracite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		//Nethicite and Auracite Orichalcum Swords
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NethiciteOrichalcumSword": {
+					"Name": "{{ModId}}_NethiciteOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_NethiciteOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 10050,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/Nethicite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AuraciteOrichalcumSword": {
+					"Name": "{{ModId}}_AuraciteOrichalcumSword",
+					"DisplayName": "{{i18n: Glassworks_AuraciteOrichalcumSword_Name}}",
+					"Description": "{{i18n: Glassworks_OrichalcumSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 11670,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Orichalcum/Auracite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		},
+		//Nethicite and Auracite Adamantite Swords
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NethiciteAdamantiteSword": {
+					"Name": "{{ModId}}_NethiciteAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_NethiciteAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 14000,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/Nethicite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_black"
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AuraciteAdamantiteSword": {
+					"Name": "{{ModId}}_AuraciteAdamantiteSword",
+					"DisplayName": "{{i18n: Glassworks_AuraciteAdamantiteSword_Name}}",
+					"Description": "{{i18n: Glassworks_AdamantiteSword_Description}}",
+					"Type": "Basic",
+					"Category": -26,
+					"Price": 16034,
+					"Texture": "{{InternalAssetKey: Assets/Swords/Adamantite/Auracite.png}}",
+					"ExcludeFromShippingCollection": true,
+					"ContextTags": [
+						"glassworks_sword_item",
+						"color_pink"
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,1217 @@
+{
+  "Changes": [
+        {
+            "Action": "Load",
+            "Target": "{{ModId}}/KilnTextures",
+            "FromFile": "assets/machines/Kiln.png"
+        },
+	{	
+	    "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries":	{
+			  "{{ModId}}_Kiln": {
+				"Name": "{{ModId}}_Kiln",
+				"DisplayName": "{{i18n:Glassworks_Kiln_Name}}",
+				"Description": "{{i18n:Glassworks_Kiln_Description}}",
+				"Fragility": 0,
+				"CanBePlacedOutdoors": true,
+				"CanBePlacedIndoors": true,
+				"IsLamp": false,
+				"Texture": "{{ModId}}/KilnTextures",
+				"SpriteIndex": 0,
+				"CustomFields": null
+			  }
+              }
+	},
+	{
+    	  "Action": "EditData",
+    	  "Target": "Data/Machines",
+    	  "Entries":   {
+        		"(BC){{ModId}}_Kiln": {
+            			"OutputRules": [
+				{
+                    			"Id": "{{ModId}}_AeriniteBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "541",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AeriniteBlade",
+                            		"ItemId": "{{ModId}}_AeriniteBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_AeriniteArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "541",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AeriniteArt",
+                            		"ItemId": "{{ModId}}_AeriniteArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_AlamiteBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "538",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AlamiteBlade",
+                            		"ItemId": "{{ModId}}_AlamiteBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_AlamiteArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "538",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_AlamiteArt",
+                            		"ItemId": "{{ModId}}_AlamiteArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_BaryteBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "540",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_BaryteBlade",
+                            		"ItemId": "{{ModId}}_BaryteBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_BaryteArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "540",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_BaryteArt",
+                            		"ItemId": "{{ModId}}_BaryteArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_BixiteBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "539",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_BixiteBlade",
+                            		"ItemId": "{{ModId}}_BixiteBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_BixiteArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "539",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_BixiteArt",
+                            		"ItemId": "{{ModId}}_BixiteArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_CelestineBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "566",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_CelestineBlade",
+                            		"ItemId": "{{ModId}}_CelestineBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_CelestineArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "566",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_CelestineArt",
+                            		"ItemId": "{{ModId}}_CelestineArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_DolomiteBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "543",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_DolomiteBlade",
+                            		"ItemId": "{{ModId}}_DolomiteBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_DolomiteArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "543",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_DolomiteArt",
+                            		"ItemId": "{{ModId}}_DolomiteArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_EsperiteBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "544",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_EsperiteBlade",
+                            		"ItemId": "{{ModId}}_EsperiteBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_EsperiteArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "544",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_EsperiteArt",
+                            		"ItemId": "{{ModId}}_EsperiteArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_FairyStoneBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "577",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FairyStoneBlade",
+                            		"ItemId": "{{ModId}}_FairyStoneBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_FairyStoneArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "577",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FairyStoneArt",
+                            		"ItemId": "{{ModId}}_FairyStoneArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_FireOpalBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "565",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FireOpalBlade",
+                            		"ItemId": "{{ModId}}_FireOpalBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_FireOpalArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "565",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FireOpalArt",
+                            		"ItemId": "{{ModId}}_FireOpalArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_FluorapatiteBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "545",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FluorapatiteBlade",
+                            		"ItemId": "{{ModId}}_FluorapatiteBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_FluorapatiteArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "545",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_FluorapatiteArt",
+                            		"ItemId": "{{ModId}}_FluorapatiteArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_GeminiteBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "546",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_GeminiteBlade",
+                            		"ItemId": "{{ModId}}_GeminiteBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_GeminiteArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "546",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_GeminiteArt",
+                            		"ItemId": "{{ModId}}_GeminiteArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_GhostCrystalBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "561",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_GhostCrystalBlade",
+                            		"ItemId": "{{ModId}}_GhostCrystalBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_GhostCrystalArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "561",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_GhostCrystalArt",
+                            		"ItemId": "{{ModId}}_GhostCrystalArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_HelviteBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "547",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_HelviteBlade",
+                            		"ItemId": "{{ModId}}_HelviteBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_HelviteArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "547",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_HelviteArt",
+                            		"ItemId": "{{ModId}}_HelviteArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_HematiteBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "573",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_HematiteBlade",
+                            		"ItemId": "{{ModId}}_HematiteBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_HematiteArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "573",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_HematiteArt",
+                            		"ItemId": "{{ModId}}_HematiteArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_JamboriteBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "548",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_JamboriteBlade",
+                            		"ItemId": "{{ModId}}_JamboriteBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_JamboriteArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "548",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_JamboriteArt",
+                            		"ItemId": "{{ModId}}_JamboriteArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_JasperBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "563",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_JasperBlade",
+                            		"ItemId": "{{ModId}}_JasperBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_JasperArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "563",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_JasperArt",
+                            		"ItemId": "{{ModId}}_JasperArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_KyaniteBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "550",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_KyaniteBlade",
+                            		"ItemId": "{{ModId}}_KyaniteBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_KyaniteArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "550",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_KyaniteArt",
+                            		"ItemId": "{{ModId}}_KyaniteArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_LemonStoneBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "554",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_LemonStoneBlade",
+                            		"ItemId": "{{ModId}}_LemonStoneBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_LemonStoneArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "554",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_LemonStoneArt",
+                            		"ItemId": "{{ModId}}_LemonStoneArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_MalachiteBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "552",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_MalachiteBlade",
+                            		"ItemId": "{{ModId}}_MalachiteBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_MalachiteArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "552",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_MalachiteArt",
+                            		"ItemId": "{{ModId}}_MalachiteArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_NekoiteBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "555",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NekoiteBlade",
+                            		"ItemId": "{{ModId}}_NekoiteBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_NekoiteArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "555",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NekoiteArt",
+                            		"ItemId": "{{ModId}}_NekoiteArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_NeptuniteBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "553",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NeptuniteBlade",
+                            		"ItemId": "{{ModId}}_NeptuniteBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_NeptuniteArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "553",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_NeptuniteArt",
+                            		"ItemId": "{{ModId}}_NeptuniteArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_ObsidianBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "575",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_ObsidianBlade",
+                            		"ItemId": "{{ModId}}_ObsidianBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_ObsidianArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "575",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_ObsidianArt",
+                            		"ItemId": "{{ModId}}_ObsidianArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_OceanStoneBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "560",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OceanStoneBlade",
+                            		"ItemId": "{{ModId}}_OceanStoneBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_OceanStoneArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "560",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OceanStoneArt",
+                            		"ItemId": "{{ModId}}_OceanStoneArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_OpalBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "564",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OpalBlade",
+                            		"ItemId": "{{ModId}}_OpalBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_OpalArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "564",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OpalArt",
+                            		"ItemId": "{{ModId}}_OpalArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_OrpimentBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "556",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OrpimentBlade",
+                            		"ItemId": "{{ModId}}_OrpimentBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_OrpimentArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "556",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_OrpimentArt",
+                            		"ItemId": "{{ModId}}_OrpimentArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_PetrifiedSlimeBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "557",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_PetrifiedSlimeBlade",
+                            		"ItemId": "{{ModId}}_PetrifiedSlimeBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_PetrifiedSlimeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "557",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_PetrifiedSlimeArt",
+                            		"ItemId": "{{ModId}}_PetrifiedSlimeArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_PyriteBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "559",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_PyriteBlade",
+                            		"ItemId": "{{ModId}}_PyriteBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_PyriteArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "559",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_PyriteArt",
+                            		"ItemId": "{{ModId}}_PyriteArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_StarShardsBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "578",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_StarShardsBlade",
+                            		"ItemId": "{{ModId}}_StarShardsBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_StarShardsArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "578",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_StarShardsArt",
+                            		"ItemId": "{{ModId}}_StarShardsArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_ThunderEggBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "558",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_ThunderEggBlade",
+                            		"ItemId": "{{ModId}}_ThunderEggBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_ThunderEggArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "558",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_ThunderEggArt",
+                            		"ItemId": "{{ModId}}_ThunderEggArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		},
+
+				{
+                    			"Id": "{{ModId}}_TigerseyeBlade",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "562",
+                            			"RequiredCount": 2
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_TigerseyeBlade",
+                            		"ItemId": "{{ModId}}_TigerseyeBlade",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"DaysUntilReady": 1
+                		},
+				{
+                    			"Id": "{{ModId}}_TigerseyeArt",
+                    			"Triggers": [
+                        		{
+                            			"Trigger": "ItemPlacedInMachine",
+                            			"RequiredItemId": "562",
+                            			"RequiredCount": 1
+                        		}
+                   				],
+                    		"OutputItem": [
+                       			{
+                            		"Id": "{{ModId}}_TigerseyeArt",
+                            		"ItemId": "{{ModId}}_TigerseyeArt",
+                            		"CopyQuality":false
+                        		}
+                   		],
+				"UseFirstValidOutput": true,
+                    		"MinutesUntilReady": 360
+                		}
+            			],
+            			"AdditionalConsumedItems":[
+                			{
+                    			"ItemId":"118",
+                    			"RequiredCount":5,
+                    			"InvalidCountMessage":"{{i18n:Glassworks_Kiln_Fuel}}"
+                			}
+           			],
+            			"InvalidItemMessage":"{{i18n:Glassworks_Kiln_WrongIngredient}}",
+            			"ShowNextIndexWhileWorking":true,
+            			"ShowNextIndexWhenReady":false,
+            			"WobbleWhileWorking":false
+        		}
+	}
+    }
+  ]
+}

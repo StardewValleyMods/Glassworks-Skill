@@ -1,0 +1,13 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "{{ModId}}_Leah_Kiln_Mail": "{{i18n:Leah_Kiln_Mail_Greeting}}^^{{i18n:Leah_Kiln_Mail_Text}}^{{i18n:Leah_Kiln_Mail_Text2}}^{{i18n:Leah_Kiln_Mail_Text3}}^^{{i18n:Leah_Kiln_Mail_End}} %item id (BC){{ModId}}_Kiln %% [#]{{i18n:Leah_Kiln_Mail_Title}}",
+                "{{ModId}}_Wizard_Artificer_Mail": "[letterbg 2] {{i18n:Wizard_Artificer_Mail_Greeting}}^^{{i18n:Wizard_Artificer_Mail_Text}}^{{i18n:Wizard_Artificer_Mail_Text2}}^^{{i18n:Wizard_Artificer_Mail_End}} %item id (BC){{ModId}}_Artificer %%  [#]{{i18n:Wizard_Artificer_Mail_Title}}"
+
+            }
+        }
+    ]
+}

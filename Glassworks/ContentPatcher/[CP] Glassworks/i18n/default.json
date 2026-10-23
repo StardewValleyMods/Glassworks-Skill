@@ -1,0 +1,354 @@
+{
+	//Objects
+
+	//Art
+
+	"Glassworks_GlassworksArt_Name": "Glass Art",
+	"Glassworks_GlassworksArt_Description": "A piece of art made of glass",
+
+	"Glassworks_MixedMediaSupplies_Name": "Mixed Media Supplies",
+	"Glassworks_MixedMediaSupplies_Description": "A collection of materials used to take glasswork art to the next level.",
+
+	"Glassworks_GlassworksDeluxeArt_Name": "Deluxe Glass Art",
+	"Glassworks_GlassworksDeluxeArt_Description": "A piece of art made of glass and other materials",		
+
+	//Hilts
+
+	"Glassworks_IronHilt_Name": "Iron Hilt",
+	"Glassworks_IronHilt_Description": "A decorative hilt made of iron",
+
+	"Glassworks_GildedIronHilt_Name": "Gilded Iron Hilt",
+	"Glassworks_GildedIronHilt_Description": "A decorative hilt made of iron and accentuated with gold",
+
+	"Glassworks_IridiumHilt_Name": "Iridium Hilt",
+	"Glassworks_IridiumHilt_Description": "A decorative hilt made of iridium",
+
+	"Glassworks_GildedIridiumHilt_Name": "Gilded Iridium Hilt",
+	"Glassworks_GildedIridiumHilt_Description": "A decorative hilt made of iridium and accentuated with gold",
+
+	"Glassworks_RadioactiveHilt_Name": "Radioactive Handle",
+	"Glassworks_RadioactiveHilt_Description": "The radiation given off by this handle is absorbed by the blade attached to it. This can cause strange effects on the finished weapon.",
+
+	//Blades
+
+	"Glassworks_GlassworksBlade_Description": "An unfinished decorative blade made of glass",
+
+	"Glassworks_AeriniteBlade_Name": "Aerinite Blade",
+	"Glassworks_AlamiteBlade_Name": "Alamite Blade",
+	"Glassworks_BaryteBlade_Name": "Baryte Blade",
+	"Glassworks_BixiteBlade_Name": "Bixite Blade",
+	"Glassworks_CelestineBlade_Name": "Celestine Blade",
+	"Glassworks_DolomiteBlade_Name": "Dolomite Blade",
+	"Glassworks_EsperiteBlade_Name": "Esperite Blade",
+	"Glassworks_FairyStoneBlade_Name": "Fairy Stone Blade",
+	"Glassworks_FireOpalBlade_Name": "Fire Opal Blade",
+	"Glassworks_FluorapatiteBlade_Name": "Fluorapatite Blade",
+	"Glassworks_GeminiteBlade_Name": "Geminite Blade",
+	"Glassworks_GhostCrystalBlade_Name": "Ghost Crystal Blade",
+	"Glassworks_HelviteBlade_Name": "Helvite Blade",
+	"Glassworks_HematiteBlade_Name": "Hematite Blade",
+	"Glassworks_JamboriteBlade_Name": "Jamborite Blade",
+	"Glassworks_JasperBlade_Name": "Jasper Blade",
+	"Glassworks_KyaniteBlade_Name": "Kyanite Blade",
+	"Glassworks_LemonStoneBlade_Name": "Lemon Stone Blade",
+	"Glassworks_MalachiteBlade_Name": "Malachite Blade",
+	"Glassworks_NekoiteBlade_Name": "Nekoite Blade",
+	"Glassworks_NeptuniteBlade_Name": "Neptunite Blade",
+	"Glassworks_ObsidianBlade_Name": "Obsidian Blade",
+	"Glassworks_OceanStoneBlade_Name": "Ocean Stone Blade",
+	"Glassworks_OpalBlade_Name": "Opal Blade",
+	"Glassworks_OrpimentBlade_Name": "Orpiment Blade",
+	"Glassworks_PetrifiedSlimeBlade_Name": "Petrified Slime Blade",
+	"Glassworks_PyriteBlade_Name": "Pyrite Blade",
+	"Glassworks_StarShardsBlade_Name": "Star Shards Blade",
+	"Glassworks_ThunderEggBlade_Name": "Thunder Egg Blade",
+	"Glassworks_TigerseyeBlade_Name": "Tigerseye Blade",
+
+	//Iron Swords
+
+	"Glassworks_IronSword_Description": "A decorative replica of a famous sword. Not useful as an actual weapon.",
+	"Glassworks_IronSwordGilded_Description": "A decorative replica of a famous sword with a hilt adorned with gold.",
+
+	"Glassworks_AeriniteIronSword_Name": "Aerinite IronSword",
+	"Glassworks_AlamiteIronSword_Name": "Alamite IronSword",
+	"Glassworks_BaryteIronSword_Name": "Baryte IronSword",
+	"Glassworks_BixiteIronSword_Name": "Bixite IronSword",
+	"Glassworks_CelestineIronSword_Name": "Celestine IronSword",
+	"Glassworks_DolomiteIronSword_Name": "Dolomite IronSword",
+	"Glassworks_EsperiteIronSword_Name": "Esperite IronSword",
+	"Glassworks_FairyStoneIronSword_Name": "Fairy Stone IronSword",
+	"Glassworks_FireOpalIronSword_Name": "Fire Opal IronSword",
+	"Glassworks_FluorapatiteIronSword_Name": "Fluorapatite IronSword",
+	"Glassworks_GeminiteIronSword_Name": "Geminite IronSword",
+	"Glassworks_GhostCrystalIronSword_Name": "Ghost Crystal IronSword",
+	"Glassworks_HelviteIronSword_Name": "Helvite IronSword",
+	"Glassworks_HematiteIronSword_Name": "Hematite IronSword",
+	"Glassworks_JamboriteIronSword_Name": "Jamborite IronSword",
+	"Glassworks_JasperIronSword_Name": "Jasper IronSword",
+	"Glassworks_KyaniteIronSword_Name": "Kyanite IronSword",
+	"Glassworks_LemonStoneIronSword_Name": "Lemon Stone IronSword",
+	"Glassworks_MalachiteIronSword_Name": "Malachite IronSword",
+	"Glassworks_NekoiteIronSword_Name": "Nekoite IronSword",
+	"Glassworks_NeptuniteIronSword_Name": "Neptunite IronSword",
+	"Glassworks_ObsidianIronSword_Name": "Obsidian IronSword",
+	"Glassworks_OceanStoneIronSword_Name": "Ocean Stone IronSword",
+	"Glassworks_OpalIronSword_Name": "Opal IronSword",
+	"Glassworks_OrpimentIronSword_Name": "Orpiment IronSword",
+	"Glassworks_PetrifiedSlimeIronSword_Name": "Petrified Slime IronSword",
+	"Glassworks_PyriteIronSword_Name": "Pyrite IronSword",
+	"Glassworks_StarShardsIronSword_Name": "Star Shards IronSword",
+	"Glassworks_ThunderEggIronSword_Name": "Thunder Egg IronSword",
+	"Glassworks_TigerseyeIronSword_Name": "Tigerseye IronSword",
+
+	//Iridium Swords
+
+	"Glassworks_IridiumSword_Description": "A glass replica of a legendary sword. It has all of the beauty but none of the power.",
+	"Glassworks_IridiumSwordGilded_Description": "A glass replica of a legendary sword. The gold ornamentation is breathtaking.",
+
+	"Glassworks_AeriniteIridiumSword_Name": "Aerinite IridiumSword",
+	"Glassworks_AlamiteIridiumSword_Name": "Alamite IridiumSword",
+	"Glassworks_BaryteIridiumSword_Name": "Baryte IridiumSword",
+	"Glassworks_BixiteIridiumSword_Name": "Bixite IridiumSword",
+	"Glassworks_CelestineIridiumSword_Name": "Celestine IridiumSword",
+	"Glassworks_DolomiteIridiumSword_Name": "Dolomite IridiumSword",
+	"Glassworks_EsperiteIridiumSword_Name": "Esperite IridiumSword",
+	"Glassworks_FairyStoneIridiumSword_Name": "Fairy Stone IridiumSword",
+	"Glassworks_FireOpalIridiumSword_Name": "Fire Opal IridiumSword",
+	"Glassworks_FluorapatiteIridiumSword_Name": "Fluorapatite IridiumSword",
+	"Glassworks_GeminiteIridiumSword_Name": "Geminite IridiumSword",
+	"Glassworks_GhostCrystalIridiumSword_Name": "Ghost Crystal IridiumSword",
+	"Glassworks_HelviteIridiumSword_Name": "Helvite IridiumSword",
+	"Glassworks_HematiteIridiumSword_Name": "Hematite IridiumSword",
+	"Glassworks_JamboriteIridiumSword_Name": "Jamborite IridiumSword",
+	"Glassworks_JasperIridiumSword_Name": "Jasper IridiumSword",
+	"Glassworks_KyaniteIridiumSword_Name": "Kyanite IridiumSword",
+	"Glassworks_LemonStoneIridiumSword_Name": "Lemon Stone IridiumSword",
+	"Glassworks_MalachiteIridiumSword_Name": "Malachite IridiumSword",
+	"Glassworks_NekoiteIridiumSword_Name": "Nekoite IridiumSword",
+	"Glassworks_NeptuniteIridiumSword_Name": "Neptunite IridiumSword",
+	"Glassworks_ObsidianIridiumSword_Name": "Obsidian IridiumSword",
+	"Glassworks_OceanStoneIridiumSword_Name": "Ocean Stone IridiumSword",
+	"Glassworks_OpalIridiumSword_Name": "Opal IridiumSword",
+	"Glassworks_OrpimentIridiumSword_Name": "Orpiment IridiumSword",
+	"Glassworks_PetrifiedSlimeIridiumSword_Name": "Petrified Slime IridiumSword",
+	"Glassworks_PyriteIridiumSword_Name": "Pyrite IridiumSword",
+	"Glassworks_StarShardsIridiumSword_Name": "Star Shards IridiumSword",
+	"Glassworks_ThunderEggIridiumSword_Name": "Thunder Egg IridiumSword",
+	"Glassworks_TigerseyeIridiumSword_Name": "Tigerseye IridiumSword",
+
+	//Radioactive Swords
+
+	"Glassworks_RadioactiveSword_Description": "A glass replica of a weapon. The blade absorbed all of the radiation from the hilt and transformed into something new.",
+
+	"Glassworks_AeriniteRadioactiveSword_Name": "Aerinite RadioactiveSword",
+	"Glassworks_AlamiteRadioactiveSword_Name": "Alamite RadioactiveSword",
+	"Glassworks_BaryteRadioactiveSword_Name": "Baryte RadioactiveSword",
+	"Glassworks_BixiteRadioactiveSword_Name": "Bixite RadioactiveSword",
+	"Glassworks_CelestineRadioactiveSword_Name": "Celestine RadioactiveSword",
+	"Glassworks_DolomiteRadioactiveSword_Name": "Dolomite RadioactiveSword",
+	"Glassworks_EsperiteRadioactiveSword_Name": "Esperite RadioactiveSword",
+	"Glassworks_FairyStoneRadioactiveSword_Name": "Fairy Stone RadioactiveSword",
+	"Glassworks_FireOpalRadioactiveSword_Name": "Fire Opal RadioactiveSword",
+	"Glassworks_FluorapatiteRadioactiveSword_Name": "Fluorapatite RadioactiveSword",
+	"Glassworks_GeminiteRadioactiveSword_Name": "Geminite RadioactiveSword",
+	"Glassworks_GhostCrystalRadioactiveSword_Name": "Ghost Crystal RadioactiveSword",
+	"Glassworks_HelviteRadioactiveSword_Name": "Helvite RadioactiveSword",
+	"Glassworks_HematiteRadioactiveSword_Name": "Hematite RadioactiveSword",
+	"Glassworks_JamboriteRadioactiveSword_Name": "Jamborite RadioactiveSword",
+	"Glassworks_JasperRadioactiveSword_Name": "Jasper RadioactiveSword",
+	"Glassworks_KyaniteRadioactiveSword_Name": "Kyanite RadioactiveSword",
+	"Glassworks_LemonStoneRadioactiveSword_Name": "Lemon Stone RadioactiveSword",
+	"Glassworks_MalachiteRadioactiveSword_Name": "Malachite RadioactiveSword",
+	"Glassworks_NekoiteRadioactiveSword_Name": "Nekoite RadioactiveSword",
+	"Glassworks_NeptuniteRadioactiveSword_Name": "Neptunite RadioactiveSword",
+	"Glassworks_ObsidianRadioactiveSword_Name": "Obsidian RadioactiveSword",
+	"Glassworks_OceanStoneRadioactiveSword_Name": "Ocean Stone RadioactiveSword",
+	"Glassworks_OpalRadioactiveSword_Name": "Opal RadioactiveSword",
+	"Glassworks_OrpimentRadioactiveSword_Name": "Orpiment RadioactiveSword",
+	"Glassworks_PetrifiedSlimeRadioactiveSword_Name": "Petrified Slime RadioactiveSword",
+	"Glassworks_PyriteRadioactiveSword_Name": "Pyrite RadioactiveSword",
+	"Glassworks_StarShardsRadioactiveSword_Name": "Star Shards RadioactiveSword",
+	"Glassworks_ThunderEggRadioactiveSword_Name": "Thunder Egg RadioactiveSword",
+	"Glassworks_TigerseyeRadioactiveSword_Name": "Tigerseye RadioactiveSword",
+
+
+	//Machines
+
+	//Artificer
+
+	"Glassworks_Artificer_Name": "Artificer",
+	"Glassworks_Artificer_Description": "A machine that creates hilts from metal bars and replica weapons from handles and blades",
+	"Glassworks.InvalidSword": "Replica Weapons require a blade, a handle, solar essence and void essence",
+	"Glassworks.InvalidGildedIridiumHilt": "Gilded iridium hilts require an iridium hilt, solar essence and a gold bar",
+	"Glassworks.InvalidGildedIronHilt": "Gilded iron hilts require an iron hilt, solar essence and a gold bar",
+	"Glassworks_Artificer_Fuel": "The Artificer requires solar essence for fuel",
+	"Glassworks_Artificer_WrongIngredient": "Use a metal bar to make a handle, a hilt and a gold bar to gild a hilt or a blade to create a replica sword",
+
+	//Kiln
+
+	"Glassworks_Kiln_Name": "Kiln",
+	"Glassworks_Kiln_Description": "A machine that creates glass art or glass blades from glass shards and most non-gem minerals",
+	"Glassworks_Kiln_Fuel": "The kiln requires 5 glass shards",
+	"Glassworks_Kiln_WrongIngredient": "Use two of the same vaild non-gem, non-stone mineral to make a glass blade or one to make a piece of glass art",
+
+	//Artisan Kiln
+
+	"Glassworks_Deluxe_Kiln_Name": "Artisan Kiln",
+	"Glassworks_Deluxe_Kiln_Description": "A machine that specializes in making mixed media glass art",
+	"Glassworks_Deluxe_Kiln_Fuel": "The artisan kiln requires mixed media supplies.",
+	"Glassworks_Deluxe_Kiln_WrongIngredient": "Use a vaild non-gem, non-stone mineral and mixed media supplies to make a piece of deluxe glass art",
+
+	//Mail
+
+	"Leah_Kiln_Mail_Title": "A Gift From Leah",
+	"Leah_Kiln_Mail_Greeting": "Hi there!",
+	"Leah_Kiln_Mail_Text": "I've heard that you are exploring the mines. While you are down there you may come across geodes that contain all sorts of minerals inside. Did you know that if you mix one of those minerals with glass shards in a kiln you can make art out of glass? It's really fun!",
+	"Leah_Kiln_Mail_Text2": "To get lots of glass shards, you need to grind up quartz, refined quartz or other foraged minerals. Doing it by hand isn't reccomended, so try it with a mill or watermill!",
+	"Leah_Kiln_Mail_Text3": "I have sent over a Kiln to get you started! I can't wait to see your art!",
+	"Leah_Kiln_Mail_End": "-Leah",
+
+	"Wizard_Artificer_Mail_Title": "Artificer",
+	"Wizard_Artificer_Mail_Greeting": "Greetings",
+	"Wizard_Artificer_Mail_Text": "I had been working on a machine to automate blacksmithing, but it seems there is no replacing the hands of a skilled craftsman.",
+	"Wizard_Artificer_Mail_Text2": "The machine I have sent to you is called an Artificer. It can create weapon handles from metal bars and create weaponry when given a handle and blade. Sadly the weapons produced are never any better than showpieces. Maybe you can find a use for it where I could not.",
+	"Wizard_Artificer_Mail_End": "-M. Rasmodius, Wizard",
+	"Rasmodia_Artificer_Mail_End": "-M. Rasmodia, Wizard",
+
+	//Chocobo Valley Remixed Compatibility
+
+	//Hilts and Blades
+
+	"Glassworks_MythrilHilt_Name": "Mythril Handle",
+	"Glassworks_MythrilHilt_Description": "A decorative handle made of Mythril",
+
+	"Glassworks_OrichalcumHilt_Name": "Orichalcum Handle",
+	"Glassworks_OrichalcumHilt_Description": "A decorative handle made of Orichalcum",
+
+	"Glassworks_AdamantiteHilt_Name": "Adamantite Handle",
+	"Glassworks_AdamantiteHilt_Description": "A decorative handle made of Adamantite",
+
+	"Glassworks_AuraciteBlade_Name": "Auracite Blade",
+	"Glassworks_NethiciteBlade_Name": "Nethicite Blade",
+
+	//New Base Swords
+
+	"Glassworks_NethiciteIronSword_Name": "Nethicite IronSword",
+	"Glassworks_NethiciteIridiumSword_Name": "Nethicite IridiumSword",
+	"Glassworks_NethiciteRadioactiveSword_Name": "Nethicite RadioactiveSword",
+	"Glassworks_NethiciteMythrilSword_Name": "Nethicite MythrilSword",
+	"Glassworks_NethiciteAdamantiteSword_Name": "Nethicite AdamantiteSword",
+
+	"Glassworks_AuraciteIronSword_Name": "Auracite IronSword",
+	"Glassworks_AuraciteIridiumSword_Name": "Auracite IridiumSword",
+	"Glassworks_AuraciteRadioactiveSword_Name": "Auracite RadioactiveSword",
+	"Glassworks_AuraciteMythrilSword_Name": "Auracite MythrilSword",
+	"Glassworks_AuraciteAdamantiteSword_Name": "Auracite AdamantiteSword",
+
+	//Mythril Swords
+
+	"Glassworks_MythrilSword_Description": "A glass replica of a weapon. The mythril handle shines with a soft glow.",
+
+	"Glassworks_AeriniteMythrilSword_Name": "Aerinite MythrilSword",
+	"Glassworks_AlamiteMythrilSword_Name": "Alamite MythrilSword",
+	"Glassworks_BaryteMythrilSword_Name": "Baryte MythrilSword",
+	"Glassworks_BixiteMythrilSword_Name": "Bixite MythrilSword",
+	"Glassworks_CelestineMythrilSword_Name": "Celestine MythrilSword",
+	"Glassworks_DolomiteMythrilSword_Name": "Dolomite MythrilSword",
+	"Glassworks_EsperiteMythrilSword_Name": "Esperite MythrilSword",
+	"Glassworks_FairyStoneMythrilSword_Name": "Fairy Stone MythrilSword",
+	"Glassworks_FireOpalMythrilSword_Name": "Fire Opal MythrilSword",
+	"Glassworks_FluorapatiteMythrilSword_Name": "Fluorapatite MythrilSword",
+	"Glassworks_GeminiteMythrilSword_Name": "Geminite MythrilSword",
+	"Glassworks_GhostCrystalMythrilSword_Name": "Ghost Crystal MythrilSword",
+	"Glassworks_HelviteMythrilSword_Name": "Helvite MythrilSword",
+	"Glassworks_HematiteMythrilSword_Name": "Hematite MythrilSword",
+	"Glassworks_JamboriteMythrilSword_Name": "Jamborite MythrilSword",
+	"Glassworks_JasperMythrilSword_Name": "Jasper MythrilSword",
+	"Glassworks_KyaniteMythrilSword_Name": "Kyanite MythrilSword",
+	"Glassworks_LemonStoneMythrilSword_Name": "Lemon Stone MythrilSword",
+	"Glassworks_MalachiteMythrilSword_Name": "Malachite MythrilSword",
+	"Glassworks_NekoiteMythrilSword_Name": "Nekoite MythrilSword",
+	"Glassworks_NeptuniteMythrilSword_Name": "Neptunite MythrilSword",
+	"Glassworks_ObsidianMythrilSword_Name": "Obsidian MythrilSword",
+	"Glassworks_OceanStoneMythrilSword_Name": "Ocean Stone MythrilSword",
+	"Glassworks_OpalMythrilSword_Name": "Opal MythrilSword",
+	"Glassworks_OrpimentMythrilSword_Name": "Orpiment MythrilSword",
+	"Glassworks_PetrifiedSlimeMythrilSword_Name": "Petrified Slime MythrilSword",
+	"Glassworks_PyriteMythrilSword_Name": "Pyrite MythrilSword",
+	"Glassworks_StarShardsMythrilSword_Name": "Star Shards MythrilSword",
+	"Glassworks_ThunderEggMythrilSword_Name": "Thunder Egg MythrilSword",
+	"Glassworks_TigerseyeMythrilSword_Name": "Tigerseye MythrilSword",
+
+
+	//Orichalcum Swords
+
+	"Glassworks_OrichalcumSword_Description": "A glass replica of a weapon. The orichalcum of the handle has an almost eerie shine.",
+
+	"Glassworks_AeriniteOrichalcumSword_Name": "Aerinite OrichalcumSword",
+	"Glassworks_AlamiteOrichalcumSword_Name": "Alamite OrichalcumSword",
+	"Glassworks_BaryteOrichalcumSword_Name": "Baryte OrichalcumSword",
+	"Glassworks_BixiteOrichalcumSword_Name": "Bixite OrichalcumSword",
+	"Glassworks_CelestineOrichalcumSword_Name": "Celestine OrichalcumSword",
+	"Glassworks_DolomiteOrichalcumSword_Name": "Dolomite OrichalcumSword",
+	"Glassworks_EsperiteOrichalcumSword_Name": "Esperite OrichalcumSword",
+	"Glassworks_FairyStoneOrichalcumSword_Name": "Fairy Stone OrichalcumSword",
+	"Glassworks_FireOpalOrichalcumSword_Name": "Fire Opal OrichalcumSword",
+	"Glassworks_FluorapatiteOrichalcumSword_Name": "Fluorapatite OrichalcumSword",
+	"Glassworks_GeminiteOrichalcumSword_Name": "Geminite OrichalcumSword",
+	"Glassworks_GhostCrystalOrichalcumSword_Name": "Ghost Crystal OrichalcumSword",
+	"Glassworks_HelviteOrichalcumSword_Name": "Helvite OrichalcumSword",
+	"Glassworks_HematiteOrichalcumSword_Name": "Hematite OrichalcumSword",
+	"Glassworks_JamboriteOrichalcumSword_Name": "Jamborite OrichalcumSword",
+	"Glassworks_JasperOrichalcumSword_Name": "Jasper OrichalcumSword",
+	"Glassworks_KyaniteOrichalcumSword_Name": "Kyanite OrichalcumSword",
+	"Glassworks_LemonStoneOrichalcumSword_Name": "Lemon Stone OrichalcumSword",
+	"Glassworks_MalachiteOrichalcumSword_Name": "Malachite OrichalcumSword",
+	"Glassworks_NekoiteOrichalcumSword_Name": "Nekoite OrichalcumSword",
+	"Glassworks_NeptuniteOrichalcumSword_Name": "Neptunite OrichalcumSword",
+	"Glassworks_ObsidianOrichalcumSword_Name": "Obsidian OrichalcumSword",
+	"Glassworks_OceanStoneOrichalcumSword_Name": "Ocean Stone OrichalcumSword",
+	"Glassworks_OpalOrichalcumSword_Name": "Opal OrichalcumSword",
+	"Glassworks_OrpimentOrichalcumSword_Name": "Orpiment OrichalcumSword",
+	"Glassworks_PetrifiedSlimeOrichalcumSword_Name": "Petrified Slime OrichalcumSword",
+	"Glassworks_PyriteOrichalcumSword_Name": "Pyrite OrichalcumSword",
+	"Glassworks_StarShardsOrichalcumSword_Name": "Star Shards OrichalcumSword",
+	"Glassworks_ThunderEggOrichalcumSword_Name": "Thunder Egg OrichalcumSword",
+	"Glassworks_TigerseyeOrichalcumSword_Name": "Tigerseye OrichalcumSword",
+
+	//Adamantite Swords
+
+	"Glassworks_AdamantiteSword_Description": "A glass replica of a weapon. The adamantite handle seems to be drawing in all of the light that comes near it.",
+
+	"Glassworks_AeriniteAdamantiteSword_Name": "Aerinite AdamantiteSword",
+	"Glassworks_AlamiteAdamantiteSword_Name": "Alamite AdamantiteSword",
+	"Glassworks_BaryteAdamantiteSword_Name": "Baryte AdamantiteSword",
+	"Glassworks_BixiteAdamantiteSword_Name": "Bixite AdamantiteSword",
+	"Glassworks_CelestineAdamantiteSword_Name": "Celestine AdamantiteSword",
+	"Glassworks_DolomiteAdamantiteSword_Name": "Dolomite AdamantiteSword",
+	"Glassworks_EsperiteAdamantiteSword_Name": "Esperite AdamantiteSword",
+	"Glassworks_FairyStoneAdamantiteSword_Name": "Fairy Stone AdamantiteSword",
+	"Glassworks_FireOpalAdamantiteSword_Name": "Fire Opal AdamantiteSword",
+	"Glassworks_FluorapatiteAdamantiteSword_Name": "Fluorapatite AdamantiteSword",
+	"Glassworks_GeminiteAdamantiteSword_Name": "Geminite AdamantiteSword",
+	"Glassworks_GhostCrystalAdamantiteSword_Name": "Ghost Crystal AdamantiteSword",
+	"Glassworks_HelviteAdamantiteSword_Name": "Helvite AdamantiteSword",
+	"Glassworks_HematiteAdamantiteSword_Name": "Hematite AdamantiteSword",
+	"Glassworks_JamboriteAdamantiteSword_Name": "Jamborite AdamantiteSword",
+	"Glassworks_JasperAdamantiteSword_Name": "Jasper AdamantiteSword",
+	"Glassworks_KyaniteAdamantiteSword_Name": "Kyanite AdamantiteSword",
+	"Glassworks_LemonStoneAdamantiteSword_Name": "Lemon Stone AdamantiteSword",
+	"Glassworks_MalachiteAdamantiteSword_Name": "Malachite AdamantiteSword",
+	"Glassworks_NekoiteAdamantiteSword_Name": "Nekoite AdamantiteSword",
+	"Glassworks_NeptuniteAdamantiteSword_Name": "Neptunite AdamantiteSword",
+	"Glassworks_ObsidianAdamantiteSword_Name": "Obsidian AdamantiteSword",
+	"Glassworks_OceanStoneAdamantiteSword_Name": "Ocean Stone AdamantiteSword",
+	"Glassworks_OpalAdamantiteSword_Name": "Opal AdamantiteSword",
+	"Glassworks_OrpimentAdamantiteSword_Name": "Orpiment AdamantiteSword",
+	"Glassworks_PetrifiedSlimeAdamantiteSword_Name": "Petrified Slime AdamantiteSword",
+	"Glassworks_PyriteAdamantiteSword_Name": "Pyrite AdamantiteSword",
+	"Glassworks_StarShardsAdamantiteSword_Name": "Star Shards AdamantiteSword",
+	"Glassworks_ThunderEggAdamantiteSword_Name": "Thunder Egg AdamantiteSword",
+	"Glassworks_TigerseyeAdamantiteSword_Name": "Tigerseye AdamantiteSword"
+
+	
+}

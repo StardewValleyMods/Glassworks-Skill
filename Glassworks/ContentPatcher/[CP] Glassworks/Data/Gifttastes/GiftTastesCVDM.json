@@ -1,0 +1,36 @@
+{
+  "Changes":
+    [
+      {
+	"Action": "EditData", 
+	"Target": "Data/NPCGiftTastes", 
+	"TextOperations":
+	  [
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Daulton", 3], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_MythrilBar Kitsutsune.Chocobovalley_OrichalcumBar Kitsutsune.Chocobovalley_AdamantiteBar"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Daulton", 7], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_ChocoboMayonnaiseCommon Kitsutsune.Chocobovalley_ChocoboMayonnaiseUncommon Kitsutsune.Chocobovalley_ChocoboMayonnaiseRare"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Maple", 1], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_Wyrmtwig Kitsutsune.Chocobovalley_PepioNuts Kitsutsune.Chocobovalley_Flutegrass Kitsutsune.Chocobovalley_Goldcap Kitsutsune.Chocobovalley_Goldcap Kitsutsune.Chocobovalley_KrakkaRoot Kitsutsune.Chocobovalley_CurielRoot Kitsutsune.Chocobovalley_SylkisBulb Kitsutsune.Chocobovalley_DriedGoldcap Kitsutsune.Chocobovalley_GysahlGreens Kitsutsune.Chocobovalley_Tantalplant"
+	    },
+	    {
+	      "Operation": "Append", 
+	      "Target": ["Fields", "Maple", 7], 
+	      "Delimiter": " ",
+	      "Value": "Kitsutsune.Chocobovalley_MythrilBar Kitsutsune.Chocobovalley_OrichalcumBar Kitsutsune.Chocobovalley_AdamantiteBar Kitsutsune.Chocobovalley_TomestonePoetics Kitsutsune.Chocobovalley_TomestoneLore Kitsutsune.Chocobovalley_AetheryteShards Kitsutsune.Chocobovalley_Nethicite Kitsutsune.Chocobovalley_Auracite"
+	    }
+	  ]
+      }
+    ]
+}

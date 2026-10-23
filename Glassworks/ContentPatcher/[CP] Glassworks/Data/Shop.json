@@ -1,0 +1,98 @@
+{
+  "Changes": [
+	//Dwarf Shop Data
+		{
+	"LogName": "Glassworks Geodes and Gadget in Dwarf Shop",
+	"Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [ "Dwarf", "Items" ],
+	"Entries": {
+		"{{ModId}}_DwarvenGadget": {
+                    "Id": "{{ModId}}_DwarvenGadget",
+                    "ItemId": "122",
+		    "TradeItemId": "749",
+		    "TradeItemAmount": 5
+			},
+		"{{ModId}}_Calcite": {
+                    "Id": "{{ModId}}_Calcite",
+                    "ItemId": "536",
+		    "TradeItemId": "542",
+		    "TradeItemAmount": 2
+			},
+		"{{ModId}}_Jagoite": {
+                    "Id": "{{ModId}}_Jagoite",
+                    "ItemId": "536",
+		    "TradeItemId": "549",
+		    "TradeItemAmount": 2
+			},
+		"{{ModId}}_Sandstone": {
+                    "Id": "{{ModId}}_Sandstone",
+                    "ItemId": "536",
+		    "TradeItemId": "568",
+		    "TradeItemAmount": 2
+			},
+		"{{ModId}}_Granite": {
+                    "Id": "{{ModId}}_Granite",
+                    "ItemId": "536",
+		    "TradeItemId": "569",
+		    "TradeItemAmount": 2
+			},
+		"{{ModId}}_Limestone": {
+                    "Id": "{{ModId}}_Limestone",
+                    "ItemId": "536",
+		    "TradeItemId": "571",
+		    "TradeItemAmount": 2
+			},
+		"{{ModId}}_Mudstone": {
+                    "Id": "{{ModId}}_Mudstone",
+                    "ItemId": "536",
+		    "TradeItemId": "574",
+		    "TradeItemAmount": 2
+			},
+		"{{ModId}}_Slate": {
+                    "Id": "{{ModId}}_Slate",
+                    "ItemId": "536",
+		    "TradeItemId": "576",
+		    "TradeItemAmount": 2
+			},
+		"{{ModId}}_Lunarite": {
+                    "Id": "{{ModId}}_Lunarite",
+                    "ItemId": "537",
+		    "TradeItemId": "551",
+		    "TradeItemAmount": 2
+			},
+		"{{ModId}}_Marble": {
+                    "Id": "{{ModId}}_Marble",
+                    "ItemId": "537",
+		    "TradeItemId": "567",
+		    "TradeItemAmount": 2
+			},
+		"{{ModId}}_Soapstone": {
+                    "Id": "{{ModId}}_Soapstone",
+                    "ItemId": "537",
+		    "TradeItemId": "572",
+		    "TradeItemAmount": 2
+			},
+		"{{ModId}}_Basalt": {
+                    "Id": "{{ModId}}_Basalt",
+                    "ItemId": "537",
+		    "TradeItemId": "570",
+		    "TradeItemAmount": 2
+			},
+		  },
+		},
+		{
+	"LogName": "Glassworks Artificer in Casino",
+	"Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [ "Casino", "Items" ],
+	"Entries": {
+		"{{ModId}}_Artificer": {
+                    "Id": "{{ModId}}_Artificer",
+                    "ItemId": "{{ModId}}_Artificer",
+                    "Price": 10000
+			},
+		  },
+		},
+  ]
+}

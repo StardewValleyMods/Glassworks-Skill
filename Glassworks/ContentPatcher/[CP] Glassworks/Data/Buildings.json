@@ -1,0 +1,122 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Buildings",
+      			"TargetField": ["Mill", "ItemConversions"],
+			"Entries": {
+       				"{{ModId}}_QuartztoShards": {
+          			"Id": "{{ModId}}_QuartztoShards",
+          			"RequiredTags": [
+            				"id_o_80"
+          				],
+         			"RequiredCount": 1,
+          			"MaxDailyConversions": -1,
+          			"SourceChest": "Input",
+          			"DestinationChest": "Output",
+          			"ProducedItems": [
+            		{
+             		 	"Id": "(O)118",
+              			"ItemId": "(O)118",
+           			}
+          			],
+        		},
+       				"{{ModId}}_EarthtoShards": {
+          			"Id": "{{ModId}}_EarthtoShards",
+          			"RequiredTags": [
+            				"id_o_86"
+          				],
+         			"RequiredCount": 1,
+          			"MaxDailyConversions": -1,
+          			"SourceChest": "Input",
+          			"DestinationChest": "Output",
+          			"ProducedItems": [
+            		{
+             		 	"Id": "(O)118",
+              			"ItemId": "(O)118",
+				"MinStack": 2,
+           			}
+          			],
+        		},
+       				"{{ModId}}_TeartoShards": {
+          			"Id": "{{ModId}}_TeartoShards",
+          			"RequiredTags": [
+            				"id_o_84"
+          				],
+         			"RequiredCount": 1,
+          			"MaxDailyConversions": -1,
+          			"SourceChest": "Input",
+          			"DestinationChest": "Output",
+          			"ProducedItems": [
+            		{
+             		 	"Id": "(O)118",
+              			"ItemId": "(O)118",
+				"MinStack": 3,
+           			}
+          			],
+        		},
+       				"{{ModId}}_FiretoShards": {
+          			"Id": "{{ModId}}_FiretoShards",
+          			"RequiredTags": [
+            				"id_o_82"
+          				],
+         			"RequiredCount": 1,
+          			"MaxDailyConversions": -1,
+          			"SourceChest": "Input",
+          			"DestinationChest": "Output",
+          			"ProducedItems": [
+            		{
+             		 	"Id": "(O)118",
+              			"ItemId": "(O)118",
+				"MinStack": 5,
+           			}
+          			],
+        		},
+       				"{{ModId}}_RefinedtoShards": {
+          			"Id": "{{ModId}}_RefinedtoShards",
+          			"RequiredTags": [
+            				"id_o_338"
+          				],
+         			"RequiredCount": 1,
+          			"MaxDailyConversions": -1,
+          			"SourceChest": "Input",
+          			"DestinationChest": "Output",
+          			"ProducedItems": [
+            		{
+             		 	"Id": "(O)118",
+              			"ItemId": "(O)118",
+				"MinStack": 3,
+           			}
+          			],
+        		},
+		},
+	},
+		{
+			"Action": "EditData",
+			"Target": "Data/Buildings",
+      			"TargetField": ["Mill", "ItemConversions"],
+	    		"When": {
+		    		"HasMod|contains=Ex0dus.CVRemixed": true
+		   		},
+			"Entries": {
+       				"{{ModId}}_AetherytetoShards": {
+          			"Id": "{{ModId}}_AetherytetoShards",
+          			"RequiredTags": [
+            				"id_o_Kitsutsune.Chocobovalley_AetheryteShards"
+          				],
+         			"RequiredCount": 1,
+          			"MaxDailyConversions": -1,
+          			"SourceChest": "Input",
+          			"DestinationChest": "Output",
+          			"ProducedItems": [
+            		{
+             		 	"Id": "(O)118",
+              			"ItemId": "(O)118",
+				"MinStack": 15,
+           			}
+          			],
+        		},
+		},
+	},
+	]
+}
