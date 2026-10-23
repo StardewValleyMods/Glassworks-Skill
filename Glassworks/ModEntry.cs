@@ -8,11 +8,8 @@ namespace Glassworks;
 
 public class ModEntry : Mod
 {
-    public static ModEntry Instance { get; private set; } = null!;
-
     public override void Entry(IModHelper helper)
     {
-        Instance = this;
         I18n.Init(helper.Translation);
 
         helper.Events.GameLoop.GameLaunched += OnGameLaunched;
@@ -36,7 +33,7 @@ public class ModEntry : Mod
 
     private void OnGameLaunched(object? sender, GameLaunchedEventArgs e)
     {
-        SpaceCore.Skills.RegisterSkill(new GlassworksSkill());
+        SpaceCore.Skills.RegisterSkill(new GlassworksSkill(Helper));
         Monitor.Log("Registered Glassworking skill.");
     }
 }
