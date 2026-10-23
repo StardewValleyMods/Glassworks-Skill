@@ -64,6 +64,12 @@
 	    "When": {
 		    "HasMod|contains=Nom0ri.RomRas": true
 		    }
+	},
+	{
+		"LogName": "Load Auracite icon for Glassworks Skill",
+		"Action": "Load",
+		"Target": "Mods/Ex0dus.Glassworks/Auracite",
+		"FromFile": "Assets/Art/Auracite.png"
 	}
     ]
 }

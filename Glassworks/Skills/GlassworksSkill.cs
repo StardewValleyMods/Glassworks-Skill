@@ -1,5 +1,5 @@
 using Microsoft.Xna.Framework;
-using StardewValley;
+using StardewModdingAPI.Events;
 
 namespace Glassworks.Skills;
 
@@ -7,12 +7,18 @@ public class GlassworksSkill : SpaceCore.Skills.Skill
 {
     public GlassworksSkill() : base("Ex0dus.GlassworksSkill")
     {
-        // Temporary placeholder icons until dedicated assets are added.
-        Icon = Game1.staminaRect;
-        SkillsPageIcon = Game1.staminaRect;
+        ModEntry.Instance.Helper.Events.GameLoop.DayStarted += GameLoopOnDayStarted;
 
         ExperienceBarColor = new Color(120, 180, 220);
         ExperienceCurve = new[] { 100, 380, 770, 1300, 2150, 3300, 4000, 6900, 10000, 15000 };
+    }
+
+    private void GameLoopOnDayStarted(object? sender, DayStartedEventArgs e)
+    {
+        Icon = Assets.AuraciteIcon;
+        SkillsPageIcon = Assets.AuraciteIconSmall;
+
+        ModEntry.Instance.Helper.Events.GameLoop.DayStarted -= GameLoopOnDayStarted;
     }
 
     public override string GetName()
