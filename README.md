@@ -1,0 +1,1 @@
+# stardew_com_minerals
