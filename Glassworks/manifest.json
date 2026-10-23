@@ -1,0 +1,30 @@
+{
+  "$schema": "https://smapi.io/schemas/manifest.json",
+  "Name": "Glassworks Skill",
+  "Author": "Ex0dus",
+  "Version": "1.0.0",
+  "Description": "Adds a Glassworking skill for the Glassworks mod, with perks that affect kilns, glass art, and replica weapons.",
+  "UniqueID": "Ex0dus.GlassworksSkill",
+  "EntryDll": "Glassworks.dll",
+  "MinimumApiVersion": "4.1.0",
+  "MinimumGameVersion": "1.6.0",
+  "Dependencies": [
+    {
+      "UniqueID": "spacechase0.SpaceCore",
+      "MinimumVersion": "1.28.0"
+    },
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "2.8.0"
+    },
+    {
+      "UniqueID": "Ex0dus.Glassworks",
+      "MinimumVersion": "1.0.0"
+    },
+    {
+      "UniqueID": "spacechase0.GenericModConfigMenu",
+      "IsRequired": false
+    }
+  ],
+  "UpdateKeys": []
+}
