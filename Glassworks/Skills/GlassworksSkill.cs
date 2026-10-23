@@ -22,7 +22,7 @@ public class GlassworksSkill : SpaceCore.Skills.Skill
         _helper.Events.GameLoop.DayStarted += GameLoopOnDayStarted;
 
         ExperienceBarColor = new Color(120, 180, 220);
-        ExperienceCurve = new[] { 100, 380, 770, 1300, 2150, 3300, 4000, 6900, 10000, 15000 };
+        ExperienceCurve = new[] { 100, 380, 770, 1300, 2150, 3300, 4800, 6900, 10000, 15000 };
 
         Artist = new ArtistProfession(this);
         Glassmith = new GlassmithProfession(this);
