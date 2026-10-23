@@ -6,7 +6,7 @@ public class GlassmithProfession : SpaceCore.Skills.Skill.Profession
 {
     public GlassmithProfession(SpaceCore.Skills.Skill skill) : base(skill, "Glassmith")
     {
-        Icon = Game1.staminaRect;
+        Icon = Assets.GlassmithIcon;
     }
 
     public override string GetName()

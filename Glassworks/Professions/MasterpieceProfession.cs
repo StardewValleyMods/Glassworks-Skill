@@ -6,7 +6,7 @@ public class MasterpieceProfession : SpaceCore.Skills.Skill.Profession
 {
     public MasterpieceProfession(SpaceCore.Skills.Skill skill) : base(skill, "Masterpiece")
     {
-        Icon = Game1.staminaRect;
+        Icon = Assets.MasterpieceIcon;
     }
 
     public override string GetName()

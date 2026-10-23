@@ -46,8 +46,8 @@ public class GlassworksSkill : SpaceCore.Skills.Skill
 
     private void GameLoopOnDayStarted(object? sender, DayStartedEventArgs e)
     {
-        Icon = Assets.AuraciteIcon;
-        SkillsPageIcon = Assets.AuraciteIconSmall;
+        Icon = Assets.GlassworksIcon;
+        SkillsPageIcon = Assets.GlassworksIconSmall;
 
         _helper.Events.GameLoop.DayStarted -= GameLoopOnDayStarted;
     }

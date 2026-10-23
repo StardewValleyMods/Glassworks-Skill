@@ -6,7 +6,7 @@ public class ProficientProfession : SpaceCore.Skills.Skill.Profession
 {
     public ProficientProfession(SpaceCore.Skills.Skill skill) : base(skill, "Proficient")
     {
-        Icon = Game1.staminaRect;
+        Icon = Assets.ProficientIcon;
     }
 
     public override string GetName()

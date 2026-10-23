@@ -6,7 +6,7 @@ public class ArtistProfession : SpaceCore.Skills.Skill.Profession
 {
     public ArtistProfession(SpaceCore.Skills.Skill skill) : base(skill, "Artist")
     {
-        Icon = Game1.staminaRect;
+        Icon = Assets.ArtistIcon;
     }
 
     public override string GetName()

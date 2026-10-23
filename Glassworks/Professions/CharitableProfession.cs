@@ -6,7 +6,7 @@ public class CharitableProfession : SpaceCore.Skills.Skill.Profession
 {
     public CharitableProfession(SpaceCore.Skills.Skill skill) : base(skill, "Charitable")
     {
-        Icon = Game1.staminaRect;
+        Icon = Assets.CharitableIcon;
     }
 
     public override string GetName()

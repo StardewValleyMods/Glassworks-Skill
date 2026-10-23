@@ -6,7 +6,7 @@ public class ResourcefulProfession : SpaceCore.Skills.Skill.Profession
 {
     public ResourcefulProfession(SpaceCore.Skills.Skill skill) : base(skill, "Resourceful")
     {
-        Icon = Game1.staminaRect;
+        Icon = Assets.ResourcefulIcon;
     }
 
     public override string GetName()

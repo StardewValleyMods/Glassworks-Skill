@@ -13,6 +13,7 @@ public class ModEntry : Mod
     public override void Entry(IModHelper helper)
     {
         I18n.Init(helper.Translation);
+        Assets.Init(helper);
 
         Harmony harmony = new(ModManifest.UniqueID);
         XpPatches.Apply(harmony);
