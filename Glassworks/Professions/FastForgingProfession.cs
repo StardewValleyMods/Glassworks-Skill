@@ -4,7 +4,7 @@ namespace Glassworks.Professions;
 
 public class FastForgingProfession : SpaceCore.Skills.Skill.Profession
 {
-    public FastForgingProfession(SpaceCore.Skills.Skill skill) : base(skill, "GlassworksGlassmithCapstoneB")
+    public FastForgingProfession(SpaceCore.Skills.Skill skill) : base(skill, "FastForging")
     {
         Icon = Game1.staminaRect;
     }

@@ -4,7 +4,7 @@ namespace Glassworks.Professions;
 
 public class GlassmithProfession : SpaceCore.Skills.Skill.Profession
 {
-    public GlassmithProfession(SpaceCore.Skills.Skill skill) : base(skill, "GlassworksGlassmith")
+    public GlassmithProfession(SpaceCore.Skills.Skill skill) : base(skill, "Glassmith")
     {
         Icon = Game1.staminaRect;
     }

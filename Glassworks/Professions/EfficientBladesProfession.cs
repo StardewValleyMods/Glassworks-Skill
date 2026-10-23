@@ -4,7 +4,7 @@ namespace Glassworks.Professions;
 
 public class EfficientBladesProfession : SpaceCore.Skills.Skill.Profession
 {
-    public EfficientBladesProfession(SpaceCore.Skills.Skill skill) : base(skill, "GlassworksGlassmithCapstoneA")
+    public EfficientBladesProfession(SpaceCore.Skills.Skill skill) : base(skill, "EfficientBlades")
     {
         Icon = Game1.staminaRect;
     }
