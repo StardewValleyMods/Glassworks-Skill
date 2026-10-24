@@ -17,6 +17,7 @@ public class ModEntry : Mod
 
         Harmony harmony = new(ModManifest.UniqueID);
         XpPatches.Apply(harmony);
+        PricePatches.Apply(harmony);
 
         helper.Events.GameLoop.GameLaunched += OnGameLaunched;
 
