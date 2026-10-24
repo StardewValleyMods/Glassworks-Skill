@@ -1,5 +1,3 @@
-using StardewValley;
-
 namespace Glassworks.Professions;
 
 public class CharitableProfession : SpaceCore.Skills.Skill.Profession

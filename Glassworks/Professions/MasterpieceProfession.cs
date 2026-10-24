@@ -1,5 +1,3 @@
-using StardewValley;
-
 namespace Glassworks.Professions;
 
 public class MasterpieceProfession : SpaceCore.Skills.Skill.Profession
