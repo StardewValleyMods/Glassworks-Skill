@@ -2,6 +2,7 @@ using Glassworks.Skills;
 using HarmonyLib;
 using SpaceCore;
 using StardewValley;
+using SDVObject = StardewValley.Object;
 
 namespace Glassworks.Patches;
 
@@ -12,13 +13,13 @@ public static class PricePatches
     public static void Apply(Harmony harmony)
     {
         harmony.Patch(
-            AccessTools.Method(typeof(StardewValley.Object), "getPriceAfterMultipliers"),
+            AccessTools.Method(typeof(SDVObject), "getPriceAfterMultipliers"),
             postfix: new HarmonyMethod(typeof(PricePatches), nameof(PricePostfix))
         );
     }
 
     public static void PricePostfix(
-        StardewValley.Object __instance,
+        SDVObject __instance,
         ref float __result,
         long specificPlayerID)
     {
