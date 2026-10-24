@@ -40,7 +40,7 @@ public static class XpPatches
         Game1.player?.AddCustomSkillExperience(SkillId, GeodeXp);
     }
 
-    private static void MachineHarvestPostfix(SDVObject __instance, Farmer who, bool __result, string? __state)
+    private static void MachineHarvestPostfix(SDVObject __instance, Farmer who, bool __result, SDVObject? __state)
     {
         if (!__result
             || __instance.readyForHarvest.Value
@@ -66,13 +66,12 @@ public static class XpPatches
         }
     }
 
-    private static void CaptureReadyOutput(SDVObject __instance, out string? __state)
+    private static void CaptureReadyOutput(SDVObject __instance, out SDVObject? __state)
     {
-        if (__instance.QualifiedItemId is KilnId or DeluxeKilnId or ArtificerId
-            && __instance.readyForHarvest.Value
-            && __instance.heldObject.Value is Item output)
+        if (__instance.QualifiedItemId is GeodeCrusherId or KilnId or DeluxeKilnId or ArtificerId
+            && __instance.readyForHarvest.Value)
         {
-            __state = output.ItemId;
+            __state = __instance.heldObject.Value;
         }
         else
         {

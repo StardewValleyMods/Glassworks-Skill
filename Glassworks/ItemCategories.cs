@@ -1,3 +1,5 @@
+using SDVObject = StardewValley.Object;
+
 namespace Glassworks;
 
 public static class ItemCategories
@@ -267,13 +269,13 @@ public static class ItemCategories
         "Ex0dus.Glassworks_TigerseyeIronSword",
     };
 
-    public static bool IsGlassBlade(string? item) => item is not null && Enumerable.Contains(BladeIds, item, StringComparer.OrdinalIgnoreCase);
+    public static bool IsGlassBlade(SDVObject item) => item.HasContextTag("glassworks_blade_item");
 
-    public static bool IsGlassArt(string? item) => item is not null && Enumerable.Contains(ArtIds, item, StringComparer.OrdinalIgnoreCase);
+    public static bool IsGlassArt(SDVObject item) => item.HasContextTag("glassworks_art_item");
 
-    public static bool IsDeluxeArt(string? item) => item is not null && Enumerable.Contains(DeluxeArtIds, item, StringComparer.OrdinalIgnoreCase);
+    public static bool IsDeluxeArt(SDVObject item) => item.HasContextTag("glassworks_deluxe_art_item");
 
-    public static bool IsHilt(string? item) => item is not null && Enumerable.Contains(HiltIds, item, StringComparer.OrdinalIgnoreCase);
+    public static bool IsHilt(SDVObject item) => item.HasContextTag("glassworks_hilt_item");
 
-    public static bool IsReplicaSword(string? item) => item is not null && Enumerable.Contains(SwordIds, item, StringComparer.OrdinalIgnoreCase);
+    public static bool IsReplicaSword(SDVObject item) => item.HasContextTag("glassworks_sword_item");
 }
