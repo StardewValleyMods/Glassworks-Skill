@@ -9,12 +9,12 @@ public class GlassworksSkill : SpaceCore.Skills.Skill
 {
     private readonly IModHelper _helper;
 
-    private ArtistProfession Artist { get; set; }
-    private GlassmithProfession Glassmith { get; set; }
-    private CharitableProfession Charitable { get; set; }
-    private MasterpieceProfession Masterpiece { get; set; }
-    private ResourcefulProfession Resourceful { get; set; }
-    private ProficientProfession Proficient { get; set; }
+    public static ArtistProfession Artist { get; private set; } = null!;
+    public static GlassmithProfession Glassmith { get; private set; } = null!;
+    public static CharitableProfession Charitable { get; private set; } = null!;
+    public static MasterpieceProfession Masterpiece { get; private set; } = null!;
+    public static ResourcefulProfession Resourceful { get; private set; } = null!;
+    public static ProficientProfession Proficient { get; private set; } = null!;
 
     public GlassworksSkill(IModHelper helper) : base("Ex0dus.GlassworksSkill")
     {

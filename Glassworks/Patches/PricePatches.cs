@@ -1,3 +1,4 @@
+using Glassworks.Skills;
 using HarmonyLib;
 using SpaceCore;
 using StardewValley;
@@ -27,9 +28,17 @@ public static class PricePatches
             return;
         }
 
-        if (Game1.player.GetCustomSkillLevel(SkillId) >= 9 && ItemCategories.IsMachineProduct(__instance))
+        if (ItemCategories.IsMachineProduct(__instance))
         {
-            __result *= 1.25f;
+            int level = Game1.player.GetCustomSkillLevel(SkillId);
+            if (level >= 10 && Game1.player.HasCustomProfession(GlassworksSkill.Masterpiece))
+            {
+                __result  *= 1.50f;
+            }
+            else if (level >= 9)
+            {
+                __result *= 1.25f;
+            }
         }
     }
 }
