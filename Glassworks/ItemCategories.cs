@@ -16,4 +16,6 @@ public static class ItemCategories
 
     public static bool IsMachineProduct(SDVObject item) => IsGlassBlade(item) || IsGlassArt(item) ||
                                                            IsDeluxeArt(item) || IsHilt(item) || IsReplicaSword(item);
+
+    public static bool IsArtItem(SDVObject item) => IsGlassArt(item) || IsDeluxeArt(item);
 }
