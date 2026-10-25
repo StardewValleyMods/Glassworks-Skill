@@ -2,7 +2,7 @@ using HarmonyLib;
 using Microsoft.Xna.Framework;
 using SpaceCore;
 using StardewValley;
-using MineShaft = StardewValley.Locations.MineShaft;
+using StardewValley.Locations;
 
 namespace Glassworks.Patches;
 
