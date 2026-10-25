@@ -1209,7 +1209,17 @@
             			"InvalidItemMessage":"{{i18n:Glassworks_Kiln_WrongIngredient}}",
             			"ShowNextIndexWhileWorking":true,
             			"ShowNextIndexWhenReady":false,
-            			"WobbleWhileWorking":false
+            			"WobbleWhileWorking":false,
+"ReadyTimeModifiers": [
+  {
+    "Id": "GlassworksLevel4",
+    "Condition": "PLAYER_EX0DUS.GLASSWORKSSKILL_LEVEL Current 4",
+    "Modification": "Multiply",
+    "Amount": 0.85,
+    "RandomAmount": null
+  }
+],
+"ReadyTimeModifierMode": "Stack"
         		}
 	}
     }
