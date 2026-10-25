@@ -8,7 +8,7 @@
                 "{{ModId}}_Kiln": "330 10 343 50 335 2/Field/{{ModId}}_Kiln 1/false/Ex0dus.GlassworksSkill 1/{{i18n: Glassworks_Kiln_Name}}",
                 "{{ModId}}_Deluxe_Kiln": "{{ModId}}_Kiln 1 335 8/Field/{{ModId}}_Deluxe_Kiln 1/false/Ex0dus.GlassworksSkill 7/{{i18n: Glassworks_Deluxe_Kiln_Name}}",
                 "{{ModId}}_MixedMediaSupplies": "118 5 388 10 336 1/Field/{{ModId}}_MixedMediaSupplies 1/false/Ex0dus.GlassworksSkill 7/{{i18n: Glassworks_MixedMediaSupplies_Name}}",
-                "{{ModId}}_Artificer": "787 1 122 1 536 1 335 10/Field/{{ModId}}_Artificer 1/false/Ex0dus.GlassworksSkill 4/{{i18n: Glassworks_Artificer_Name}}"
+                "{{ModId}}_Artificer": "787 1 122 1 536 1 335 10/Field/{{ModId}}_Artificer 1/false/Ex0dus.GlassworksSkill 3/{{i18n: Glassworks_Artificer_Name}}"
             }
         }
     ]
