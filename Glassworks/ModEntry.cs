@@ -14,6 +14,8 @@ public class ModEntry : Mod
         I18n.Init(helper.Translation);
         Assets.Init(helper);
 
+        ModConfig.Instance = helper.ReadConfig<ModConfig>();
+
         Harmony harmony = new(ModManifest.UniqueID);
         MachinePatches.Apply(harmony);
         PricePatches.Apply(harmony);
@@ -43,6 +45,8 @@ public class ModEntry : Mod
     private void OnGameLaunched(object? sender, GameLaunchedEventArgs e)
     {
         SpaceCore.Skills.RegisterSkill(new GlassworksSkill(Helper));
+        ModConfig.RegisterMenu(Helper, ModManifest);
+
         Monitor.Log("Registered Glassworking skill.");
     }
 }

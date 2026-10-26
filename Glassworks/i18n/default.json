@@ -1,6 +1,7 @@
 {
   "skill.Glassworks.name": "Glassworking",
   "skill.Glassworks.hover": "Gain experience by using the glassworking machines.",
+
   "profession.Glassworks.Artist.name": "Artist",
   "profession.Glassworks.Artist.description": "Chance to make 2 art items with one input.",
   "profession.Glassworks.Glassmith.name": "Glassmith",
@@ -12,5 +13,29 @@
   "profession.Glassworks.Resourceful.name": "Resourceful",
   "profession.Glassworks.Resourceful.description": "Blade recipes will only consume 1 mineral.",
   "profession.Glassworks.Proficient.name": "Proficient",
-  "profession.Glassworks.Proficient.description": "Weapons take 1 day less to create, with a minimum of 12 hours."
+  "profession.Glassworks.Proficient.description": "Weapons take 1 day less to create, with a minimum of 12 hours.",
+
+  "config.experience.title": "Experience per item",
+  "config.geode_xp.name": "Geode cracked",
+  "config.geode_xp.tooltip": "Experience gained each time you crack a geode.",
+  "config.glass_art_xp.name": "Glass art",
+  "config.glass_art_xp.tooltip": "Experience gained for each glass art item produced by a kiln.",
+  "config.glass_deluxe_art_xp.name": "Deluxe glass art",
+  "config.glass_deluxe_art_xp.tooltip": "Experience gained for each deluxe glass art item produced by a deluxe kiln.",
+  "config.glass_blade_xp.name": "Glass blade",
+  "config.glass_blade_xp.tooltip": "Experience gained for each glass blade produced.",
+  "config.glass_hilt_xp.name": "Glass hilt",
+  "config.glass_hilt_xp.tooltip": "Experience gained for each glass hilt produced.",
+  "config.replica_sword_xp.name": "Replica weapon",
+  "config.replica_sword_xp.tooltip": "Experience gained for each replica weapon produced by the Artificer.",
+  "config.chances.title": "Chances",
+  "config.artist_glassmith_double_chance.name": "Double output chance",
+  "config.artist_glassmith_double_chance.tooltip": "Chance for the Artist and Glassmith professions to produce a second item.",
+  "config.double_geode_chance.name": "Level 8 geode chance",
+  "config.double_geode_chance.tooltip": "Chance for the level 8 perk to duplicate the geodes found in the mines.",
+  "config.prices.title": "Price bonuses",
+  "config.masterpiece_price_boost.name": "Masterpiece price boost",
+  "config.masterpiece_price_boost.tooltip": "Price multiplier applied to art while the Masterpiece profession is active.",
+  "config.level9_price_boost.name": "Level 9 price boost",
+  "config.level9_price_boost.tooltip": "Price multiplier applied to glassworking products from level 9 onward."
 }
