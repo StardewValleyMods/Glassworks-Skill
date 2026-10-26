@@ -1,4 +1,3 @@
-using Glassworks.Skills;
 using HarmonyLib;
 using SpaceCore;
 using StardewValley;
@@ -119,7 +118,7 @@ public static class ProfessionPatches
             return;
         }
 
-        int level = who.GetCustomSkillLevel("Ex0dus.GlassworksSkill");
+        int level = who.GetCustomSkillLevel(GlassworksSkill.SkillId);
         if (level < 6)
         {
             return;

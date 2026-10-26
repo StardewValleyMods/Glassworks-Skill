@@ -1,12 +1,15 @@
 using Glassworks.Professions;
 using Microsoft.Xna.Framework;
+using SpaceCore;
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
 
-namespace Glassworks.Skills;
+namespace Glassworks;
 
-public class GlassworksSkill : SpaceCore.Skills.Skill
+public class GlassworksSkill : Skills.Skill
 {
+    public const string SkillId = "Ex0dus.GlassworksSkill";
+
     private readonly IModHelper _helper;
 
     public static ArtistProfession Artist { get; private set; } = null!;
@@ -16,7 +19,7 @@ public class GlassworksSkill : SpaceCore.Skills.Skill
     public static ResourcefulProfession Resourceful { get; private set; } = null!;
     public static ProficientProfession Proficient { get; private set; } = null!;
 
-    public GlassworksSkill(IModHelper helper) : base("Ex0dus.GlassworksSkill")
+    public GlassworksSkill(IModHelper helper) : base(SkillId)
     {
         _helper = helper;
         _helper.Events.GameLoop.DayStarted += GameLoopOnDayStarted;

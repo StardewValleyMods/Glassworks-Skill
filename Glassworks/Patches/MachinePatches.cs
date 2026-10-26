@@ -1,4 +1,3 @@
-using Glassworks.Skills;
 using HarmonyLib;
 using SpaceCore;
 using StardewValley;
@@ -8,8 +7,6 @@ namespace Glassworks.Patches;
 
 public static class MachinePatches
 {
-    private const string SkillId = "Ex0dus.GlassworksSkill";
-
     private const string GeodeCrusherId = "(BC)182";
 
     private const int GeodeXp = 10;
@@ -37,7 +34,7 @@ public static class MachinePatches
 
     private static void GeodePostfix()
     {
-        Game1.player?.AddCustomSkillExperience(SkillId, GeodeXp);
+        Game1.player?.AddCustomSkillExperience(GlassworksSkill.SkillId, GeodeXp);
     }
 
     private static void CaptureReadyOutput(SDVObject __instance, out SDVObject? __state, bool justCheckingForActivity)
@@ -79,7 +76,7 @@ public static class MachinePatches
 
         if (xp is { } amount)
         {
-            who.AddCustomSkillExperience(SkillId, amount);
+            who.AddCustomSkillExperience(GlassworksSkill.SkillId, amount);
         }
     }
 

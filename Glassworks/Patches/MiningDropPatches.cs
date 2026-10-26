@@ -8,8 +8,6 @@ namespace Glassworks.Patches;
 
 public static class MiningDropPatches
 {
-    private const string SkillId = "Ex0dus.GlassworksSkill";
-
     private const int RequiredLevel = 8;
     private const double DoubleChance = 0.25;
 
@@ -36,7 +34,7 @@ public static class MiningDropPatches
 
     private static void DoubleDroppedGeodes(MineShaft __instance, Snapshot __state, int x, int y, Farmer who)
     {
-        if (who.GetCustomSkillLevel(SkillId) < RequiredLevel)
+        if (who.GetCustomSkillLevel(GlassworksSkill.SkillId) < RequiredLevel)
         {
             return;
         }

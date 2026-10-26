@@ -1,5 +1,4 @@
 ﻿using Glassworks.Patches;
-using Glassworks.Skills;
 using HarmonyLib;
 using SpaceCore;
 using StardewModdingAPI;
@@ -36,7 +35,7 @@ public class ModEntry : Mod
                     return;
                 }
 
-                Game1.player.AddCustomSkillExperience("Ex0dus.GlassworksSkill", amount);
+                Game1.player.AddCustomSkillExperience(GlassworksSkill.SkillId, amount);
                 Monitor.Log($"Added {amount} Glassworking XP.", LogLevel.Info);
             });
     }

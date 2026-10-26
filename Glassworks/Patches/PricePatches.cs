@@ -1,4 +1,3 @@
-using Glassworks.Skills;
 using HarmonyLib;
 using SpaceCore;
 using StardewValley;
@@ -8,8 +7,6 @@ namespace Glassworks.Patches;
 
 public static class PricePatches
 {
-    private const string SkillId = "Ex0dus.GlassworksSkill";
-
     public static void Apply(Harmony harmony)
     {
         harmony.Patch(
@@ -29,7 +26,7 @@ public static class PricePatches
             return;
         }
 
-        int level = Game1.player.GetCustomSkillLevel(SkillId);
+        int level = Game1.player.GetCustomSkillLevel(GlassworksSkill.SkillId);
 
         if (level >= 10 && Game1.player.HasCustomProfession(GlassworksSkill.Masterpiece) && ItemCategories.IsArtItem(__instance))
         {
