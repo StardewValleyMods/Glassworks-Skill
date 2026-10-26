@@ -11,9 +11,6 @@ public static class MachinePatches
     private const string SkillId = "Ex0dus.GlassworksSkill";
 
     private const string GeodeCrusherId = "(BC)182";
-    private const string KilnId = "(BC)Ex0dus.Glassworks_Kiln";
-    private const string DeluxeKilnId = "(BC)Ex0dus.Glassworks_Deluxe_Kiln";
-    private const string ArtificerId = "(BC)Ex0dus.Glassworks_Artificer";
 
     private const int GeodeXp = 10;
     private const int GlassArtXp = 10;
@@ -45,7 +42,7 @@ public static class MachinePatches
 
     private static void CaptureReadyOutput(SDVObject __instance, out SDVObject? __state, bool justCheckingForActivity)
     {
-        if (!justCheckingForActivity && __instance.readyForHarvest.Value && __instance.QualifiedItemId is GeodeCrusherId or KilnId or DeluxeKilnId or ArtificerId)
+        if (!justCheckingForActivity && __instance.readyForHarvest.Value && (__instance.QualifiedItemId == GeodeCrusherId || ItemCategories.IsGlassworksMachine(__instance)))
         {
             __state = __instance.heldObject.Value;
         }
@@ -69,16 +66,16 @@ public static class MachinePatches
     private static void AwardMachineXp(SDVObject instance, Farmer who, SDVObject output)
     {
 
-        int? xp = instance.QualifiedItemId switch
-        {
-            GeodeCrusherId => GeodeXp,
-            KilnId when ItemCategories.IsGlassBlade(output) => GlassBladeXp,
-            KilnId when ItemCategories.IsGlassArt(output) => GlassArtXp,
-            DeluxeKilnId when ItemCategories.IsDeluxeArt(output) => GlassDeluxeArtXp,
-            ArtificerId when ItemCategories.IsReplicaSword(output) => ReplicaSwordXp,
-            ArtificerId when ItemCategories.IsHilt(output) => GlassHiltXp,
-            _ => null,
-        };
+        int? xp = instance.QualifiedItemId == GeodeCrusherId
+            ? GeodeXp
+            : ItemCategories.IsGlassworksMachine(instance)
+                ? ItemCategories.IsGlassBlade(output) ? GlassBladeXp
+                : ItemCategories.IsGlassArt(output) ? GlassArtXp
+                : ItemCategories.IsDeluxeArt(output) ? GlassDeluxeArtXp
+                : ItemCategories.IsReplicaSword(output) ? ReplicaSwordXp
+                : ItemCategories.IsHilt(output) ? GlassHiltXp
+                : null
+            : null;
 
         if (xp is { } amount)
         {

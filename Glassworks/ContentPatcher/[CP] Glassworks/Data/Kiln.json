@@ -19,7 +19,10 @@
 				"IsLamp": false,
 				"Texture": "{{ModId}}/KilnTextures",
 				"SpriteIndex": 0,
-				"CustomFields": null
+				"CustomFields": null,
+				"ContextTags": [
+					"glassworks_machine"
+				]
 			  }
               }
 	},

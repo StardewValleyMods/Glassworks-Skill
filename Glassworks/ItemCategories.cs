@@ -6,6 +6,8 @@ namespace Glassworks;
 
 public static class ItemCategories
 {
+    public static bool IsGlassworksMachine(SDVObject machine) => machine.HasContextTag("glassworks_machine");
+
     public static bool IsGlassBlade(SDVObject item) => item.HasContextTag("glassworks_blade_item");
     public static bool IsGlassBlade(MachineOutputRule rule) => RuleProducesContextTag(rule, "glassworks_blade_item");
 

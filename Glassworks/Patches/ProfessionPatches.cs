@@ -9,10 +9,6 @@ namespace Glassworks.Patches;
 
 public static class ProfessionPatches
 {
-    private const string KilnId = "(BC)Ex0dus.Glassworks_Kiln";
-    private const string DeluxeKilnId = "(BC)Ex0dus.Glassworks_Deluxe_Kiln";
-    private const string ArtificerId = "(BC)Ex0dus.Glassworks_Artificer";
-
     public static void Apply(Harmony harmony)
     {
         harmony.Patch(
@@ -39,7 +35,7 @@ public static class ProfessionPatches
             return;
         }
 
-        if (machine.QualifiedItemId != KilnId || rule == null)
+        if (rule == null || !ItemCategories.IsGlassworksMachine(machine))
         {
             return;
         }
@@ -77,7 +73,7 @@ public static class ProfessionPatches
             return;
         }
 
-        if (__instance.QualifiedItemId != ArtificerId)
+        if (!ItemCategories.IsGlassworksMachine(__instance))
         {
             return;
         }
@@ -118,9 +114,7 @@ public static class ProfessionPatches
             return;
         }
 
-        if (__instance.QualifiedItemId != KilnId
-            && __instance.QualifiedItemId != DeluxeKilnId
-            && __instance.QualifiedItemId != ArtificerId)
+        if (!ItemCategories.IsGlassworksMachine(__instance))
         {
             return;
         }
