@@ -9,15 +9,6 @@ public static class MachinePatches
 {
     private const string GeodeCrusherId = "(BC)182";
 
-    private const int GeodeXp = 10;
-    private const int GlassArtXp = 10;
-    private const int GlassDeluxeArtXp = 15;
-    private const int GlassBladeXp = 25;
-    private const int GlassHiltXp = 10;
-    private const int ReplicaSwordXp = 40;
-
-    private const double DoubleChance = 0.4;
-
     public static void Apply(Harmony harmony)
     {
         harmony.Patch(
@@ -34,7 +25,7 @@ public static class MachinePatches
 
     private static void GeodePostfix()
     {
-        Game1.player?.AddCustomSkillExperience(GlassworksSkill.SkillId, GeodeXp);
+        Game1.player?.AddCustomSkillExperience(GlassworksSkill.SkillId, ModConfig.Instance.GeodeXp);
     }
 
     private static void CaptureReadyOutput(SDVObject __instance, out SDVObject? __state, bool justCheckingForActivity)
@@ -64,13 +55,13 @@ public static class MachinePatches
     {
 
         int? xp = instance.QualifiedItemId == GeodeCrusherId
-            ? GeodeXp
+            ? ModConfig.Instance.GeodeXp
             : ItemCategories.IsGlassworksMachine(instance)
-                ? ItemCategories.IsGlassBlade(output) ? GlassBladeXp
-                : ItemCategories.IsGlassArt(output) ? GlassArtXp
-                : ItemCategories.IsDeluxeArt(output) ? GlassDeluxeArtXp
-                : ItemCategories.IsReplicaSword(output) ? ReplicaSwordXp
-                : ItemCategories.IsHilt(output) ? GlassHiltXp
+                ? ItemCategories.IsGlassBlade(output) ? ModConfig.Instance.GlassBladeXp
+                : ItemCategories.IsGlassArt(output) ? ModConfig.Instance.GlassArtXp
+                : ItemCategories.IsDeluxeArt(output) ? ModConfig.Instance.GlassDeluxeArtXp
+                : ItemCategories.IsReplicaSword(output) ? ModConfig.Instance.ReplicaSwordXp
+                : ItemCategories.IsHilt(output) ? ModConfig.Instance.GlassHiltXp
                 : null
             : null;
 
@@ -85,7 +76,7 @@ public static class MachinePatches
         bool artistExtra = who.HasCustomProfession(GlassworksSkill.Artist) && ItemCategories.IsArtItem(output);
         bool glassmithExtra = who.HasCustomProfession(GlassworksSkill.Glassmith) && ItemCategories.IsHilt(output);
 
-        if ((artistExtra || glassmithExtra) && Game1.random.NextDouble() < DoubleChance)
+        if ((artistExtra || glassmithExtra) && Game1.random.NextDouble() < ModConfig.Instance.ArtistGlassmithDoubleChance)
         {
             SDVObject duplicate = (SDVObject)output.getOne();
             duplicate.Stack = output.Stack;

@@ -24,8 +24,8 @@ public class GlassworksSkill : Skills.Skill
         _helper = helper;
         _helper.Events.GameLoop.DayStarted += GameLoopOnDayStarted;
 
-        ExperienceBarColor = new Color(120, 180, 220);
-        ExperienceCurve = new[] { 100, 380, 770, 1300, 2150, 3300, 4800, 6900, 10000, 15000 };
+        ExperienceBarColor = ModConfig.Instance.ExperienceBarColor;
+        ExperienceCurve = ModConfig.Instance.ExperienceCurve;
 
         Artist = new ArtistProfession(this);
         Glassmith = new GlassmithProfession(this);

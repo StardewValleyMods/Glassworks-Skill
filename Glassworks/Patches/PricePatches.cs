@@ -30,11 +30,11 @@ public static class PricePatches
 
         if (level >= 10 && Game1.player.HasCustomProfession(GlassworksSkill.Masterpiece) && ItemCategories.IsArtItem(__instance))
         {
-            __result *= 1.50f;
+            __result *= ModConfig.Instance.MasterpiecePriceBoost;
         }
         else if (level >= 9 && ItemCategories.IsMachineProduct(__instance))
         {
-            __result *= 1.25f;
+            __result *= ModConfig.Instance.Level9PriceBoost;
         }
     }
 }

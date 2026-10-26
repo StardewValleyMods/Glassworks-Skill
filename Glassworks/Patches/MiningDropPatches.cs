@@ -8,9 +8,6 @@ namespace Glassworks.Patches;
 
 public static class MiningDropPatches
 {
-    private const int RequiredLevel = 8;
-    private const double DoubleChance = 0.25;
-
     public static void Apply(Harmony harmony)
     {
         harmony.Patch(
@@ -34,7 +31,7 @@ public static class MiningDropPatches
 
     private static void DoubleDroppedGeodes(MineShaft __instance, Snapshot __state, int x, int y, Farmer who)
     {
-        if (who.GetCustomSkillLevel(GlassworksSkill.SkillId) < RequiredLevel)
+        if (who.GetCustomSkillLevel(GlassworksSkill.SkillId) < 8)
         {
             return;
         }
@@ -51,7 +48,7 @@ public static class MiningDropPatches
             return;
         }
 
-        if (Game1.random.NextDouble() >= DoubleChance)
+        if (Game1.random.NextDouble() >= ModConfig.Instance.DoubleGeodeChance)
         {
             return;
         }
