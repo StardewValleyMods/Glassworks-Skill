@@ -20,6 +20,7 @@ public class ModEntry : Mod
         PricePatches.Apply(harmony);
         MiningDropPatches.Apply(harmony);
         CharitablePatches.Apply(harmony);
+        ProfessionPatches.Apply(harmony);
 
         helper.Events.GameLoop.GameLaunched += OnGameLaunched;
 
