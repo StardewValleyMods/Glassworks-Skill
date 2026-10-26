@@ -1,16 +1,16 @@
 {
   "skill.Glassworks.name": "Glassworking",
-  "skill.Glassworks.hover": "Gain experience by using the Kiln and Artificer machines.",
+  "skill.Glassworks.hover": "Gain experience by using the glassworking machines.",
   "profession.Glassworks.Artist.name": "Artist",
-  "profession.Glassworks.Artist.description": "Chance to make 2 art objects with one input.",
+  "profession.Glassworks.Artist.description": "Chance to make 2 art items with one input.",
   "profession.Glassworks.Glassmith.name": "Glassmith",
-  "profession.Glassworks.Glassmith.description": "Chance to make 2 weapon handles with one input.",
+  "profession.Glassworks.Glassmith.description": "Chance to make 2 hilts with one input.",
   "profession.Glassworks.Charitable.name": "Charitable",
   "profession.Glassworks.Charitable.description": "Art given as a gift increases friendship by 250 friendship points.",
   "profession.Glassworks.Masterpiece.name": "Masterpiece",
-  "profession.Glassworks.Masterpiece.description": "All art is either gold star quality or has a 50% price boost.",
+  "profession.Glassworks.Masterpiece.description": "All art has a 50% price boost.",
   "profession.Glassworks.Resourceful.name": "Resourceful",
-  "profession.Glassworks.Resourceful.description": "Blades only cost 1 mineral.",
+  "profession.Glassworks.Resourceful.description": "Blade recipes will only consume 1 mineral.",
   "profession.Glassworks.Proficient.name": "Proficient",
   "profession.Glassworks.Proficient.description": "Weapons take 1 day less to create, with a minimum of 12 hours."
 }
