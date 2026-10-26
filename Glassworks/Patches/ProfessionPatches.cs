@@ -10,6 +10,7 @@ namespace Glassworks.Patches;
 public static class ProfessionPatches
 {
     private const string KilnId = "(BC)Ex0dus.Glassworks_Kiln";
+    private const string DeluxeKilnId = "(BC)Ex0dus.Glassworks_Deluxe_Kiln";
     private const string ArtificerId = "(BC)Ex0dus.Glassworks_Artificer";
 
     public static void Apply(Harmony harmony)
@@ -21,7 +22,8 @@ public static class ProfessionPatches
 
         harmony.Patch(
             AccessTools.Method(typeof(SDVObject), nameof(SDVObject.OutputMachine)),
-            prefix: new HarmonyMethod(typeof(ProfessionPatches), nameof(OutputMachine_Prefix))
+            prefix: new HarmonyMethod(typeof(ProfessionPatches), nameof(OutputMachine_Prefix)),
+            postfix: new HarmonyMethod(typeof(ProfessionPatches), nameof(OutputMachine_Postfix))
         );
     }
 
@@ -106,6 +108,52 @@ public static class ProfessionPatches
         else if (outputRule.MinutesUntilReady >= 1440)
         {
             outputRule.MinutesUntilReady = Math.Max(720, outputRule.MinutesUntilReady - 1440);
+        }
+    }
+
+    private static void OutputMachine_Postfix(SDVObject __instance, Farmer? who, bool probe, bool __result)
+    {
+        if (probe || !__result || who == null || !who.IsLocalPlayer)
+        {
+            return;
+        }
+
+        if (__instance.QualifiedItemId != KilnId
+            && __instance.QualifiedItemId != DeluxeKilnId
+            && __instance.QualifiedItemId != ArtificerId)
+        {
+            return;
+        }
+
+        int level = who.GetCustomSkillLevel("Ex0dus.GlassworksSkill");
+        if (level < 6)
+        {
+            return;
+        }
+
+        SDVObject? output = __instance.heldObject.Value;
+        if (output == null)
+        {
+            return;
+        }
+
+        bool isQualityItem = ItemCategories.IsGlassArt(output)
+            || ItemCategories.IsDeluxeArt(output)
+            || ItemCategories.IsReplicaSword(output);
+
+        if (!isQualityItem)
+        {
+            return;
+        }
+
+        int roll = Game1.random.Next(100);
+        if (roll < level)
+        {
+            output.Quality = 2; // Gold
+        }
+        else if (roll < level + (level * 2))
+        {
+            output.Quality = 1; // Silver
         }
     }
 }
