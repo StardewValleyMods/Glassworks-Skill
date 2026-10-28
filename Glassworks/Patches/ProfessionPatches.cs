@@ -25,11 +25,11 @@ public static class ProfessionPatches
     private static void TryGetMachineOutputRule_Postfix(
         ref bool __result,
         SDVObject machine,
-        Farmer who,
+        Farmer? who,
         ref MachineOutputRule? rule,
         ref MachineOutputTriggerRule? triggerRule)
     {
-        if (!__result || !who.IsLocalPlayer)
+        if (!__result || who is not { IsLocalPlayer: true })
         {
             return;
         }
