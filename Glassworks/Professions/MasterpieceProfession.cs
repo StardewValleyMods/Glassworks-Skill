@@ -14,6 +14,6 @@ public class MasterpieceProfession : SpaceCore.Skills.Skill.Profession
 
     public override string GetDescription()
     {
-        return I18n.Profession_Glassworks_Masterpiece_Description();
+        return I18n.Profession_Glassworks_Masterpiece_Description((ModConfig.Instance.MasterpiecePriceBoost - 1f).ToString("0%"));
     }
 }

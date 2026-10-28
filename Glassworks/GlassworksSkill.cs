@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework;
 using SpaceCore;
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
+using StardewValley;
 
 namespace Glassworks;
 
@@ -62,16 +63,33 @@ public class GlassworksSkill : Skills.Skill
 
     public override List<string> GetExtraLevelUpInfo(int level)
     {
-        return new List<string>();
-    }
+        List<string> list = new();
+        if (level > 9)
+        {
+            return list;
+        }
 
+        switch (level)
+        {
+            case 4:
+                list.Add(I18n.Skill_Glassworks_LevelUp_4());
+                break;
+            case 6:
+                list.Add(I18n.Skill_Glassworks_LevelUp_6_Gold());
+                list.Add(I18n.Skill_Glassworks_LevelUp_6_Silver());
+                break;
+            case 8:
+                list.Add(I18n.Skill_Glassworks_LevelUp_8(ModConfig.Instance.DoubleGeodeChance.ToString("0%")));
+                break;
+            case 9:
+                list.Add(I18n.Skill_Glassworks_LevelUp_9((ModConfig.Instance.Level9PriceBoost - 1f).ToString("0%")));
+                break;
+        }
+
+        return list;
+    }
     public override string GetSkillPageHoverText(int level)
     {
         return I18n.Skill_Glassworks_Hover();
-    }
-
-    public override void DoLevelPerk(int level)
-    {
-        // Level effects are added in later stages.
     }
 }

@@ -14,6 +14,6 @@ public class GlassmithProfession : SpaceCore.Skills.Skill.Profession
 
     public override string GetDescription()
     {
-        return I18n.Profession_Glassworks_Glassmith_Description();
+        return I18n.Profession_Glassworks_Glassmith_Description(ModConfig.Instance.ArtistGlassmithDoubleChance.ToString("0%"));
     }
 }
