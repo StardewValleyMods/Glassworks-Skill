@@ -5,6 +5,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <EnableHarmony>true</EnableHarmony>
+        <Version>1.0.1</Version>
     </PropertyGroup>
 
     <ItemGroup>
