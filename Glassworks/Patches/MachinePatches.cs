@@ -1,6 +1,7 @@
 using HarmonyLib;
 using SpaceCore;
 using StardewValley;
+using StardewValley.Menus;
 using SDVObject = StardewValley.Object;
 
 namespace Glassworks.Patches;
@@ -12,7 +13,8 @@ public static class MachinePatches
     public static void Apply(Harmony harmony)
     {
         harmony.Patch(
-            AccessTools.Method(typeof(Stats), "set_GeodesCracked"),
+            AccessTools.Method(typeof(GeodeMenu), nameof(GeodeMenu.update)),
+            prefix: new HarmonyMethod(typeof(MachinePatches), nameof(GeodePrefix)),
             postfix: new HarmonyMethod(typeof(MachinePatches), nameof(GeodePostfix))
         );
 
@@ -23,9 +25,23 @@ public static class MachinePatches
         );
     }
 
-    private static void GeodePostfix()
+    private static void GeodePrefix(out uint? __state)
     {
-        Game1.player?.AddCustomSkillExperience(GlassworksSkill.SkillId, ModConfig.Instance.GeodeXp);
+        __state = Game1.stats?.GeodesCracked;
+    }
+
+    private static void GeodePostfix(uint? __state)
+    {
+        if (__state is null || Game1.stats is null || Game1.player is null)
+        {
+            return;
+        }
+
+        uint now = Game1.stats.GeodesCracked;
+        if (now > __state.Value)
+        {
+            Game1.player.AddCustomSkillExperience(GlassworksSkill.SkillId, (int)(now - __state.Value) * ModConfig.Instance.GeodeXp);
+        }
     }
 
     private static void CaptureReadyOutput(SDVObject __instance, out SDVObject? __state, bool justCheckingForActivity)
