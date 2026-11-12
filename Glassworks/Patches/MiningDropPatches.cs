@@ -29,9 +29,9 @@ public static class MiningDropPatches
         );
     }
 
-    private static void DoubleDroppedGeodes(MineShaft __instance, Snapshot __state, int x, int y, Farmer who)
+    private static void DoubleDroppedGeodes(MineShaft __instance, Snapshot __state, int x, int y, Farmer? who)
     {
-        if (who.GetCustomSkillLevel(GlassworksSkill.SkillId) < 8)
+        if (who is null || who.GetCustomSkillLevel(GlassworksSkill.SkillId) < 8)
         {
             return;
         }
